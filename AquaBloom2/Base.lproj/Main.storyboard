@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="EAc-IO-5vg">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="LUE-xN-0vr">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
@@ -149,7 +149,7 @@
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="918" y="-2"/>
+            <point key="canvasLocation" x="749" y="-2"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="GQT-Z7-Bcy">
@@ -661,6 +661,95 @@ Get as close to the water as possible without compromising your safety.</string>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FdQ-wD-CQ0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-886" y="-2"/>
+        </scene>
+        <!--About View Controller-->
+        <scene sceneID="Ctd-v8-c7T">
+            <objects>
+                <viewController id="LUE-xN-0vr" customClass="AboutViewController" customModule="AquaBloom2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Rdv-CW-Jbz">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="About AquaBloom" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tnD-Jy-fbJ">
+                                <rect key="frame" x="128" y="85" width="137.33333333333337" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="Arrow" translatesAutoresizingMaskIntoConstraints="NO" id="GW1-rl-SkL">
+                                <rect key="frame" x="19.333333333333332" y="85" width="12.999999999999996" height="21"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" lineBreakMode="tailTruncation" numberOfLines="45" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gkf-pl-UJ5">
+                                <rect key="frame" x="16" y="149" width="361" height="598"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="598" id="4c9-RT-Qtz"/>
+                                </constraints>
+                                <string key="text">This Autonomous Biomonitoring Mobile App is a citizen science project designed to monitor water quality using Auto-X real-time water evaluation technology and AI tools. Climate change and extreme weather conditions are causing the warming of lake waters, which results in harmful algal blooms (HABs), fish kills, habitat alteration, and food poisoning, all of which threaten human and animal health and well-being. This is often caused by nutrient runoff from agriculture, exacerbated by increasingly intense rainfall events due to climate change, resulting in nutrient overload and low oxygen levels in affected water bodies. Once lakes experience low oxygen levels, it becomes a challenge to restore them to a healthy state. HABs, caused by toxic cyanobacteria, can pose significant health risks to humans, ranging from skin rashes to cancer associated with long-term exposure. The toxins released by these algae into the water can affect public health, causing symptoms from rashes and numbness to more severe issues, including cancer over prolonged exposure. The Germany-based startup Hydroguard UG, supported by funding from Federal Ministry of Education and Research (BMBF: DATIpilot Project 03DPS1068A AUTO-X) has developed innovative bio-monitors capable of assessing water quality in real time using custom sensor technologies. Our interdisciplinary citizen science app additionally engages the public in water preservation and protection by offering free tools to estimate algal growth in local waters using Auto-X sensor technology, report water conditions, and learn about toxic algal blooms. Together, we can ensure that our natural water resources remain safe, clean, and accessible for generations to come.
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="40" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sNd-w5-DIl">
+                                <rect key="frame" x="16" y="755" width="361" height="418"/>
+                                <string key="text">Project collaborators
+Ostfalia University Germany
+University of Wisconsin Parkside
+University of Illinois Chicago (UIC)
+
+Project authors
+Ostfalia University:
+Dr. Hedda Sander, Center for Scientific Interdisciplinary Risk and Sustainability Management
+(ZWIRN), Germany, h.sander@ostfalia.de
+Dr. Reinhard Gerndt, Faculty of Informatics, Human-Centered Robotics Lab, r.gerndt@ostfalia.de
+
+Hydroguard UG:
+https://hydroguard-iot.de/ , CEO: Lorenzo Pugulisi, Tobias Apenzeller, Contact:
+info@hydroguard-iot.de
+
+Designers
+Sam Aiello
+Tanisha Boekstaaf
+Kristina Campbell
+Anna Chiaradonna
+Alexandra Costello
+Amelia Tjioe</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" misplaced="YES" image="Top menu" translatesAutoresizingMaskIntoConstraints="NO" id="jFA-Mb-J9a">
+                                <rect key="frame" x="-20" y="-7" width="432.33333333333326" height="140"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="9CD-Db-413"/>
+                        <color key="backgroundColor" red="0.090196078430000007" green="0.57254901960000004" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="Gkf-pl-UJ5" firstAttribute="centerX" secondItem="tnD-Jy-fbJ" secondAttribute="centerX" id="1l9-Fq-dLu"/>
+                            <constraint firstItem="9CD-Db-413" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Gkf-pl-UJ5" secondAttribute="trailing" id="4qa-4u-tJL"/>
+                            <constraint firstItem="Gkf-pl-UJ5" firstAttribute="top" secondItem="jFA-Mb-J9a" secondAttribute="bottom" constant="8" id="9Iz-Ty-yb2"/>
+                            <constraint firstItem="tnD-Jy-fbJ" firstAttribute="centerX" secondItem="Rdv-CW-Jbz" secondAttribute="centerX" id="Hyo-GX-KB3"/>
+                            <constraint firstItem="Gkf-pl-UJ5" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="9CD-Db-413" secondAttribute="leading" id="I27-Df-vjV"/>
+                            <constraint firstItem="9CD-Db-413" firstAttribute="bottom" secondItem="tnD-Jy-fbJ" secondAttribute="bottom" constant="712" id="JEb-G1-HoH"/>
+                            <constraint firstItem="Gkf-pl-UJ5" firstAttribute="leading" secondItem="sNd-w5-DIl" secondAttribute="leading" id="OcP-PW-fQ5"/>
+                            <constraint firstItem="tnD-Jy-fbJ" firstAttribute="centerY" secondItem="GW1-rl-SkL" secondAttribute="centerY" id="WOK-2p-9Dm"/>
+                            <constraint firstItem="tnD-Jy-fbJ" firstAttribute="centerX" secondItem="jFA-Mb-J9a" secondAttribute="centerX" id="Wyy-5u-TZp"/>
+                            <constraint firstItem="tnD-Jy-fbJ" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="9CD-Db-413" secondAttribute="leading" id="XrQ-oG-2dT"/>
+                            <constraint firstItem="tnD-Jy-fbJ" firstAttribute="leading" secondItem="GW1-rl-SkL" secondAttribute="trailing" constant="95.666666666666686" id="cZ7-Jb-dw7"/>
+                            <constraint firstItem="tnD-Jy-fbJ" firstAttribute="top" secondItem="9CD-Db-413" secondAttribute="top" constant="26" id="jWv-9B-RIp"/>
+                            <constraint firstItem="sNd-w5-DIl" firstAttribute="top" secondItem="Gkf-pl-UJ5" secondAttribute="bottom" constant="8" id="kUS-jJ-Yyf"/>
+                            <constraint firstItem="9CD-Db-413" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="tnD-Jy-fbJ" secondAttribute="trailing" id="oXD-vG-Ake"/>
+                            <constraint firstItem="9CD-Db-413" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="sNd-w5-DIl" secondAttribute="trailing" constant="-9" id="omj-ZF-0NT"/>
+                            <constraint firstItem="tnD-Jy-fbJ" firstAttribute="top" secondItem="GW1-rl-SkL" secondAttribute="top" id="pWf-8n-l2z"/>
+                            <constraint firstItem="sNd-w5-DIl" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="9CD-Db-413" secondAttribute="leading" id="qPO-FK-JKq"/>
+                            <constraint firstItem="Gkf-pl-UJ5" firstAttribute="top" secondItem="Rdv-CW-Jbz" secondAttribute="top" constant="149" id="rWg-ou-XV7"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7yO-kr-SGj" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1589" y="-2"/>
         </scene>
     </scenes>
     <resources>
