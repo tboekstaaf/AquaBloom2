@@ -151,10 +151,121 @@
             </objects>
             <point key="canvasLocation" x="918" y="-2"/>
         </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="GQT-Z7-Bcy">
+            <objects>
+                <tabBarController id="fhZ-LG-NnX" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="J0Z-U8-AUs">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="7UT-ZL-qNA" kind="relationship" relationship="viewControllers" id="xAF-Za-3rV"/>
+                        <segue destination="f97-kt-BlM" kind="relationship" relationship="viewControllers" id="frO-Qr-QFH"/>
+                        <segue destination="qDt-9j-A78" kind="relationship" relationship="viewControllers" id="3Am-I3-0JK"/>
+                        <segue destination="ymg-B2-5wN" kind="relationship" relationship="viewControllers" id="rTW-U8-Bvc"/>
+                        <segue destination="Z0C-FR-DsL" kind="relationship" relationship="viewControllers" id="eOD-SL-YmY"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2nD-z2-cc7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-201" y="-1416"/>
+        </scene>
+        <!--Add-->
+        <scene sceneID="2Bf-qO-0Ec">
+            <objects>
+                <viewController id="qDt-9j-A78" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gql-6q-l24">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="9Xn-Bg-b6c"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Add" image="Add" selectedImage="Add" id="Haj-CI-c3h">
+                        <color key="badgeColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="enm-yQ-Te4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-91" y="-682"/>
+        </scene>
+        <!--Map-->
+        <scene sceneID="1hk-wF-UPO">
+            <objects>
+                <viewController id="f97-kt-BlM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jqC-bc-Kuv">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="F1J-w2-fZ5"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Map" image="Map" landscapeImage="Map" largeContentSizeImage="Map" selectedImage="Map" id="Geu-96-F6b">
+                        <color key="badgeColor" red="0.027450980390000001" green="0.66274509800000003" blue="0.61568627450000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UxZ-CY-ecQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-912" y="-682"/>
+        </scene>
+        <!--Lab-->
+        <scene sceneID="Gfc-RQ-QHF">
+            <objects>
+                <viewController id="ymg-B2-5wN" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="FFM-n4-IZf">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="un3-RZ-n9x"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Lab" image="Brain" selectedImage="Brain" id="lRY-Gp-HRA"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yt1-Wp-KFP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="749" y="-682"/>
+        </scene>
+        <!--Collection-->
+        <scene sceneID="KP3-Nw-l9N">
+            <objects>
+                <viewController id="Z0C-FR-DsL" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Oar-Ld-yjg">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="sib-W3-Q9d"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Collection" image="Fish" selectedImage="Fish" id="ZI8-5k-K1C"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="03g-SE-su9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1500" y="-682"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="a7h-jC-IOc">
+            <objects>
+                <viewController id="7UT-ZL-qNA" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3RR-x9-rvJ">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Dp8-JW-NdW"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Home" image="Home" selectedImage="Home" id="GPu-Z8-tQB"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DE1-aC-ila" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1669" y="-682"/>
+        </scene>
     </scenes>
     <resources>
+        <image name="Add" width="73" height="73"/>
+        <image name="Brain" width="36.666667938232422" height="38"/>
+        <image name="Fish" width="45.666667938232422" height="45.666667938232422"/>
+        <image name="Home" width="29" height="31.666666030883789"/>
         <image name="Icon" width="173" height="170"/>
         <image name="Loginbox" width="342" height="55"/>
+        <image name="Map" width="35.666667938232422" height="34"/>
         <image name="textbox" width="342" height="55"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
