@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		B24A48832D7C954D00546447 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B24A48642D7C954B00546447 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B24A486B2D7C954B00546447;
+			remoteInfo = AquaBloom2;
+		};
+		B24A488D2D7C954D00546447 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B24A48642D7C954B00546447 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B24A486B2D7C954B00546447;
+			remoteInfo = AquaBloom2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B24A486C2D7C954B00546447 /* AquaBloom2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AquaBloom2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B24A48822D7C954D00546447 /* AquaBloom2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AquaBloom2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B24A488C2D7C954D00546447 /* AquaBloom2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AquaBloom2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		B24A48942D7C954D00546447 /* Exceptions for "AquaBloom2" folder in "AquaBloom2" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = B24A486B2D7C954B00546447 /* AquaBloom2 */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		B24A486E2D7C954B00546447 /* AquaBloom2 */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				B24A48942D7C954D00546447 /* Exceptions for "AquaBloom2" folder in "AquaBloom2" target */,
+			);
+			path = AquaBloom2;
+			sourceTree = "<group>";
+		};
+		B24A48852D7C954D00546447 /* AquaBloom2Tests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AquaBloom2Tests;
+			sourceTree = "<group>";
+		};
+		B24A488F2D7C954D00546447 /* AquaBloom2UITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AquaBloom2UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B24A48692D7C954B00546447 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B24A487F2D7C954D00546447 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B24A48892D7C954D00546447 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B24A48632D7C954B00546447 = {
+			isa = PBXGroup;
+			children = (
+				B24A486E2D7C954B00546447 /* AquaBloom2 */,
+				B24A48852D7C954D00546447 /* AquaBloom2Tests */,
+				B24A488F2D7C954D00546447 /* AquaBloom2UITests */,
+				B24A486D2D7C954B00546447 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B24A486D2D7C954B00546447 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B24A486C2D7C954B00546447 /* AquaBloom2.app */,
+				B24A48822D7C954D00546447 /* AquaBloom2Tests.xctest */,
+				B24A488C2D7C954D00546447 /* AquaBloom2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B24A486B2D7C954B00546447 /* AquaBloom2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B24A48952D7C954D00546447 /* Build configuration list for PBXNativeTarget "AquaBloom2" */;
+			buildPhases = (
+				B24A48682D7C954B00546447 /* Sources */,
+				B24A48692D7C954B00546447 /* Frameworks */,
+				B24A486A2D7C954B00546447 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				B24A486E2D7C954B00546447 /* AquaBloom2 */,
+			);
+			name = AquaBloom2;
+			packageProductDependencies = (
+			);
+			productName = AquaBloom2;
+			productReference = B24A486C2D7C954B00546447 /* AquaBloom2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B24A48812D7C954D00546447 /* AquaBloom2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B24A489A2D7C954D00546447 /* Build configuration list for PBXNativeTarget "AquaBloom2Tests" */;
+			buildPhases = (
+				B24A487E2D7C954D00546447 /* Sources */,
+				B24A487F2D7C954D00546447 /* Frameworks */,
+				B24A48802D7C954D00546447 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B24A48842D7C954D00546447 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B24A48852D7C954D00546447 /* AquaBloom2Tests */,
+			);
+			name = AquaBloom2Tests;
+			packageProductDependencies = (
+			);
+			productName = AquaBloom2Tests;
+			productReference = B24A48822D7C954D00546447 /* AquaBloom2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B24A488B2D7C954D00546447 /* AquaBloom2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B24A489D2D7C954D00546447 /* Build configuration list for PBXNativeTarget "AquaBloom2UITests" */;
+			buildPhases = (
+				B24A48882D7C954D00546447 /* Sources */,
+				B24A48892D7C954D00546447 /* Frameworks */,
+				B24A488A2D7C954D00546447 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B24A488E2D7C954D00546447 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B24A488F2D7C954D00546447 /* AquaBloom2UITests */,
+			);
+			name = AquaBloom2UITests;
+			packageProductDependencies = (
+			);
+			productName = AquaBloom2UITests;
+			productReference = B24A488C2D7C954D00546447 /* AquaBloom2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B24A48642D7C954B00546447 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					B24A486B2D7C954B00546447 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					B24A48812D7C954D00546447 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = B24A486B2D7C954B00546447;
+					};
+					B24A488B2D7C954D00546447 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = B24A486B2D7C954B00546447;
+					};
+				};
+			};
+			buildConfigurationList = B24A48672D7C954B00546447 /* Build configuration list for PBXProject "AquaBloom2" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B24A48632D7C954B00546447;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = B24A486D2D7C954B00546447 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B24A486B2D7C954B00546447 /* AquaBloom2 */,
+				B24A48812D7C954D00546447 /* AquaBloom2Tests */,
+				B24A488B2D7C954D00546447 /* AquaBloom2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B24A486A2D7C954B00546447 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B24A48802D7C954D00546447 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B24A488A2D7C954D00546447 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B24A48682D7C954B00546447 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B24A487E2D7C954D00546447 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B24A48882D7C954D00546447 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B24A48842D7C954D00546447 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B24A486B2D7C954B00546447 /* AquaBloom2 */;
+			targetProxy = B24A48832D7C954D00546447 /* PBXContainerItemProxy */;
+		};
+		B24A488E2D7C954D00546447 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B24A486B2D7C954B00546447 /* AquaBloom2 */;
+			targetProxy = B24A488D2D7C954D00546447 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B24A48962D7C954D00546447 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C6227DKQL7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AquaBloom2/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AquaBloom.AquaBloom2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B24A48972D7C954D00546447 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C6227DKQL7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AquaBloom2/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AquaBloom.AquaBloom2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B24A48982D7C954D00546447 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B24A48992D7C954D00546447 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B24A489B2D7C954D00546447 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C6227DKQL7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AquaBloom.AquaBloom2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AquaBloom2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AquaBloom2";
+			};
+			name = Debug;
+		};
+		B24A489C2D7C954D00546447 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C6227DKQL7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AquaBloom.AquaBloom2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AquaBloom2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AquaBloom2";
+			};
+			name = Release;
+		};
+		B24A489E2D7C954D00546447 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C6227DKQL7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AquaBloom.AquaBloom2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AquaBloom2;
+			};
+			name = Debug;
+		};
+		B24A489F2D7C954D00546447 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C6227DKQL7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AquaBloom.AquaBloom2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AquaBloom2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B24A48672D7C954B00546447 /* Build configuration list for PBXProject "AquaBloom2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B24A48982D7C954D00546447 /* Debug */,
+				B24A48992D7C954D00546447 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B24A48952D7C954D00546447 /* Build configuration list for PBXNativeTarget "AquaBloom2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B24A48962D7C954D00546447 /* Debug */,
+				B24A48972D7C954D00546447 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B24A489A2D7C954D00546447 /* Build configuration list for PBXNativeTarget "AquaBloom2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B24A489B2D7C954D00546447 /* Debug */,
+				B24A489C2D7C954D00546447 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B24A489D2D7C954D00546447 /* Build configuration list for PBXNativeTarget "AquaBloom2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B24A489E2D7C954D00546447 /* Debug */,
+				B24A489F2D7C954D00546447 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B24A48642D7C954B00546447 /* Project object */;
+}
