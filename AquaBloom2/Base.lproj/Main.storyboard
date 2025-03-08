@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="yCD-3F-d5j">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="MHE-BY-lA0">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
@@ -670,18 +670,20 @@ Get as close to the water as possible without compromising your safety.</string>
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" misplaced="YES" image="Top menu" translatesAutoresizingMaskIntoConstraints="NO" id="jFA-Mb-J9a">
+                                <rect key="frame" x="-20" y="-7" width="432.33333333333326" height="140"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="Arrow" translatesAutoresizingMaskIntoConstraints="NO" id="GW1-rl-SkL">
+                                <rect key="frame" x="19.333333333333332" y="85" width="12.999999999999996" height="21"/>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="About AquaBloom" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tnD-Jy-fbJ">
                                 <rect key="frame" x="128" y="85" width="137.33333333333337" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="Arrow" translatesAutoresizingMaskIntoConstraints="NO" id="GW1-rl-SkL">
-                                <rect key="frame" x="19.333333333333332" y="85" width="12.999999999999996" height="21"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" lineBreakMode="tailTruncation" numberOfLines="45" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gkf-pl-UJ5">
-                                <rect key="frame" x="16" y="149" width="361" height="598"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <rect key="frame" x="23" y="161" width="361" height="563"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="598" id="4c9-RT-Qtz"/>
                                 </constraints>
@@ -719,8 +721,9 @@ Amelia Tjioe</string>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" misplaced="YES" image="Top menu" translatesAutoresizingMaskIntoConstraints="NO" id="jFA-Mb-J9a">
-                                <rect key="frame" x="-20" y="-7" width="432.33333333333326" height="140"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="About box" translatesAutoresizingMaskIntoConstraints="NO" id="Zg8-lA-6hV">
+                                <rect key="frame" x="5" y="149" width="384" height="600"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="9CD-Db-413"/>
@@ -749,7 +752,7 @@ Amelia Tjioe</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7yO-kr-SGj" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1589" y="-2"/>
+            <point key="canvasLocation" x="1588.5496183206105" y="-2.1126760563380285"/>
         </scene>
         <!--Quiz Options-->
         <scene sceneID="p7K-b3-po2">
@@ -1177,6 +1180,7 @@ plants are usually green, yellow, or brown. </string>
         </scene>
     </scenes>
     <resources>
+        <image name="About box" width="384" height="600"/>
         <image name="Add" width="73" height="73"/>
         <image name="Arrow" width="13" height="24"/>
         <image name="Back arrow box" width="59" height="61"/>
