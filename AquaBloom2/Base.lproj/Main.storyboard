@@ -676,6 +676,10 @@ Get as close to the water as possible without compromising your safety.</string>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="Arrow" translatesAutoresizingMaskIntoConstraints="NO" id="GW1-rl-SkL">
                                 <rect key="frame" x="19.333333333333332" y="85" width="12.999999999999996" height="21"/>
                             </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="About box" translatesAutoresizingMaskIntoConstraints="NO" id="Zg8-lA-6hV">
+                                <rect key="frame" x="5" y="149" width="384" height="600"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="About AquaBloom" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tnD-Jy-fbJ">
                                 <rect key="frame" x="128" y="85" width="137.33333333333337" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -721,10 +725,6 @@ Amelia Tjioe</string>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="About box" translatesAutoresizingMaskIntoConstraints="NO" id="Zg8-lA-6hV">
-                                <rect key="frame" x="5" y="149" width="384" height="600"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="9CD-Db-413"/>
                         <color key="backgroundColor" red="0.090196078430000007" green="0.57254901960000004" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
