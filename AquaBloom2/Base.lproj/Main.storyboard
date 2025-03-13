@@ -30,7 +30,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="46.564885496183201" y="-2.1126760563380285"/>
+            <point key="canvasLocation" x="-2784" y="-2"/>
         </scene>
         <!--Login Controller-->
         <scene sceneID="6xa-5r-lyn">
@@ -147,7 +147,7 @@
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="749" y="-2"/>
+            <point key="canvasLocation" x="-482" y="-2"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="GQT-Z7-Bcy">
@@ -425,7 +425,7 @@ Get as close to the water as possible without compromising your safety.</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ekq-H9-UgR" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2316.7938931297708" y="-2.1126760563380285"/>
+            <point key="canvasLocation" x="1756" y="-2"/>
         </scene>
         <!--Account View Controller-->
         <scene sceneID="5vZ-C1-h48">
@@ -518,7 +518,7 @@ Get as close to the water as possible without compromising your safety.</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="l9t-VA-xkF" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3161" y="-2"/>
+            <point key="canvasLocation" x="-483" y="655"/>
         </scene>
         <!--FAQS-->
         <scene sceneID="ebs-Nu-IKf">
@@ -670,7 +670,7 @@ Get as close to the water as possible without compromising your safety.</string>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FdQ-wD-CQ0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-886" y="-2"/>
+            <point key="canvasLocation" x="1011" y="-2"/>
         </scene>
         <!--About View Controller-->
         <scene sceneID="Ctd-v8-c7T">
@@ -762,7 +762,7 @@ Amelia Tjioe</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7yO-kr-SGj" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1588.5496183206105" y="-2.1126760563380285"/>
+            <point key="canvasLocation" x="314" y="-2"/>
         </scene>
         <!--Quiz Options-->
         <scene sceneID="p7K-b3-po2">
@@ -995,20 +995,6 @@ Amelia Tjioe</string>
                                 <rect key="frame" x="21" y="247" width="350" height="432"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IOG-x8-liY">
-                                <rect key="frame" x="114" y="429" width="164" height="69"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <attributedString key="attributedText">
-                                    <fragment content="What color are algae blooms?">
-                                        <attributes>
-                                            <color key="NSColor" red="0.0039215686269999999" green="0.29411764709999999" blue="0.36078431370000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="24" name="Nunito-SemiBold"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xeo-gl-XkR">
                                 <rect key="frame" x="96" y="738" width="271" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1041,6 +1027,20 @@ Amelia Tjioe</string>
                                 <rect key="frame" x="47" y="758" width="13" height="16"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IOG-x8-liY">
+                                <rect key="frame" x="114" y="424" width="164" height="79"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="What color are algae blooms?">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0039215686269999999" green="0.29411764709999999" blue="0.36078431370000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="24" name="Nunito-SemiBold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="N7q-yd-5Dn"/>
                         <color key="backgroundColor" red="0.027450980390000001" green="0.66274509800000003" blue="0.61568627450000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1049,7 +1049,7 @@ Amelia Tjioe</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wP6-fF-vC8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1060" y="712"/>
+            <point key="canvasLocation" x="1058.7786259541983" y="711.97183098591552"/>
         </scene>
         <!--Quiz Menu-->
         <scene sceneID="Ad3-Rc-ftR">
@@ -1157,22 +1157,6 @@ Amelia Tjioe</string>
                                 <rect key="frame" x="47" y="758" width="13" height="16"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xrt-pL-ihJ">
-                                <rect key="frame" x="96" y="398" width="202" height="131"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <attributedString key="attributedText">
-                                    <fragment>
-                                        <string key="content">Algae and aquatic
-plants are usually green, yellow, or brown. </string>
-                                        <attributes>
-                                            <color key="NSColor" red="0.0039215686269999999" green="0.29411764709999999" blue="0.36078431370000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="24" name="Nunito-SemiBold"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xFc-fv-S4A">
                                 <rect key="frame" x="93" y="73" width="207" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1182,6 +1166,29 @@ plants are usually green, yellow, or brown. </string>
                                             <color key="NSColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <font key="NSFont" size="20" name="Nunito-Bold"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xrt-pL-ihJ">
+                                <rect key="frame" x="96" y="398" width="202" height="131"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">Algae and aquatic
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.0039215686269999999" green="0.29411764709999999" blue="0.36078431370000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="24" name="Nunito-SemiBold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="plants are usually green, yellow, or brown. ">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0039215686269999999" green="0.29411764709999999" blue="0.36078431370000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="24" name="Nunito-SemiBold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
                                 </attributedString>
