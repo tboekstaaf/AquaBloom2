@@ -721,7 +721,7 @@ Kristina Campbell
 Anna Chiaradonna
 Alexandra Costello
 Amelia Tjioe</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -1034,7 +1034,7 @@ Amelia Tjioe</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wP6-fF-vC8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1148.854961832061" y="711.97183098591552"/>
+            <point key="canvasLocation" x="1060" y="712"/>
         </scene>
         <!--Quiz Menu-->
         <scene sceneID="Ad3-Rc-ftR">
