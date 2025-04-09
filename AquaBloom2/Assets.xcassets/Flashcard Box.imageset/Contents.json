@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "Fish.png",
+      "filename" : "Flashcard Box.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "Fish@2x.png",
+      "filename" : "Flashcard Box@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "Fish@3x.png",
+      "filename" : "Flashcard Box@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
