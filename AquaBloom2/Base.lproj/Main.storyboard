@@ -415,9 +415,6 @@ Get as close to the water as possible without compromising your safety.</string>
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" ambiguous="YES" misplaced="YES" image="Arrow" translatesAutoresizingMaskIntoConstraints="NO" id="de5-zh-AHp">
-                                <rect key="frame" x="16" y="31" width="10" height="115"/>
-                            </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="31" translatesAutoresizingMaskIntoConstraints="NO" id="EKD-8r-eEv">
                                 <rect key="frame" x="30" y="161.66666666666663" width="333" height="333"/>
                                 <subviews>
@@ -463,15 +460,19 @@ Get as close to the water as possible without compromising your safety.</string>
                                     <constraint firstItem="zmm-mS-l0r" firstAttribute="centerX" secondItem="EKD-8r-eEv" secondAttribute="centerX" id="3Cy-ms-mMz"/>
                                 </constraints>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Create Account" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5w1-bO-dgv">
-                                <rect key="frame" x="126" y="76.666666666666671" width="141" height="24"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cyt-lH-C8U">
+                                <rect key="frame" x="0.0" y="47" width="393" height="44"/>
+                                <textAttributes key="titleTextAttributes">
+                                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                </textAttributes>
+                                <items>
+                                    <navigationItem title="Create Account" id="rBo-4U-Uzc"/>
+                                </items>
+                            </navigationBar>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qoL-ok-lzB">
-                                <rect key="frame" x="37" y="735" width="319" height="59"/>
+                                <rect key="frame" x="37" y="735" width="333" height="59"/>
                                 <constraints>
+                                    <constraint firstAttribute="width" constant="333" id="D5p-Zc-lF7"/>
                                     <constraint firstAttribute="height" constant="59" id="xD1-8g-zuP"/>
                                 </constraints>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -496,16 +497,16 @@ Get as close to the water as possible without compromising your safety.</string>
                         <viewLayoutGuide key="safeArea" id="Bt9-Sm-FMS"/>
                         <color key="backgroundColor" red="0.0039215686269999999" green="0.29411764709999999" blue="0.36078431370000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="5w1-bO-dgv" firstAttribute="centerX" secondItem="Bt9-Sm-FMS" secondAttribute="centerX" id="385-MA-3zh"/>
-                            <constraint firstItem="5w1-bO-dgv" firstAttribute="top" secondItem="Bt9-Sm-FMS" secondAttribute="top" constant="76.666666666666671" id="6Bu-SK-mme"/>
-                            <constraint firstItem="Bt9-Sm-FMS" firstAttribute="trailing" secondItem="5w1-bO-dgv" secondAttribute="trailing" constant="126" id="GKI-fh-7DB"/>
+                            <constraint firstItem="EKD-8r-eEv" firstAttribute="top" secondItem="sZr-zR-Gae" secondAttribute="top" constant="161.66666666666663" id="0lg-K5-H9s"/>
+                            <constraint firstItem="qoL-ok-lzB" firstAttribute="centerX" secondItem="sZr-zR-Gae" secondAttribute="centerX" id="CkF-ex-cEp"/>
                             <constraint firstItem="qoL-ok-lzB" firstAttribute="leading" secondItem="Bt9-Sm-FMS" secondAttribute="leading" constant="37" id="MQE-cN-pEI"/>
                             <constraint firstItem="Bt9-Sm-FMS" firstAttribute="bottom" secondItem="qoL-ok-lzB" secondAttribute="bottom" constant="58" id="Pv6-9f-sQ8"/>
-                            <constraint firstItem="EKD-8r-eEv" firstAttribute="top" secondItem="5w1-bO-dgv" secondAttribute="bottom" constant="60.999999999999957" id="WML-1D-XtJ"/>
+                            <constraint firstItem="qoL-ok-lzB" firstAttribute="centerX" secondItem="sZr-zR-Gae" secondAttribute="centerX" id="SbM-Lz-u4q"/>
+                            <constraint firstItem="cyt-lH-C8U" firstAttribute="leading" secondItem="Bt9-Sm-FMS" secondAttribute="leading" id="cwf-DI-JqU"/>
                             <constraint firstItem="Bt9-Sm-FMS" firstAttribute="trailing" secondItem="EKD-8r-eEv" secondAttribute="trailing" constant="30" id="fyO-H2-cFE"/>
+                            <constraint firstItem="EKD-8r-eEv" firstAttribute="top" secondItem="cyt-lH-C8U" secondAttribute="bottom" constant="70.666666666666629" id="gKY-UA-9MV"/>
                             <constraint firstItem="EKD-8r-eEv" firstAttribute="leading" secondItem="Bt9-Sm-FMS" secondAttribute="leading" constant="30" id="hn2-wB-LwQ"/>
-                            <constraint firstItem="5w1-bO-dgv" firstAttribute="centerY" secondItem="de5-zh-AHp" secondAttribute="centerY" id="xvU-5z-vec"/>
-                            <constraint firstItem="5w1-bO-dgv" firstAttribute="centerX" secondItem="qoL-ok-lzB" secondAttribute="centerX" id="zjb-ra-1lY"/>
+                            <constraint firstItem="EKD-8r-eEv" firstAttribute="centerX" secondItem="cyt-lH-C8U" secondAttribute="centerX" id="xAl-s8-Pup"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="KIg-Jy-EAN"/>
@@ -1521,9 +1522,8 @@ to complete your account.</string>
                                     <color key="baseBackgroundColor" red="0.054901964960000001" green="0.1686274707" blue="0.25098040700000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qCa-he-jES">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qCa-he-jES">
                                 <rect key="frame" x="61" y="336" width="301" height="90"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Account Confirmed!" cornerStyle="large">
@@ -1536,6 +1536,7 @@ to complete your account.</string>
                         <viewLayoutGuide key="safeArea" id="8aE-uW-6cz"/>
                         <color key="backgroundColor" red="0.0039215686269999999" green="0.29411764709999999" blue="0.36078431370000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="qCa-he-jES" firstAttribute="top" secondItem="8aE-uW-6cz" secondAttribute="top" constant="334" id="3pc-k2-CVe"/>
                             <constraint firstItem="8aE-uW-6cz" firstAttribute="trailing" secondItem="FUA-Ux-FVv" secondAttribute="trailing" constant="31" id="CBp-8s-Pgi"/>
                             <constraint firstItem="8aE-uW-6cz" firstAttribute="bottom" secondItem="FUA-Ux-FVv" secondAttribute="bottom" constant="60" id="JsD-OS-DIt"/>
                             <constraint firstItem="FUA-Ux-FVv" firstAttribute="leading" secondItem="8aE-uW-6cz" secondAttribute="leading" constant="43" id="yHv-jh-OIJ"/>
@@ -3407,7 +3408,7 @@ Algae Blooms</string>
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="rOM-Ht-yuS"/>
-        <segue reference="edT-Bv-NEI"/>
+        <segue reference="dpl-8Y-UBg"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="About box" width="384" height="600"/>
