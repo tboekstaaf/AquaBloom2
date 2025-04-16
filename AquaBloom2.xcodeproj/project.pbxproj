@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		B229B2D82D833479007BF749 /* Nunito-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B229B2D72D833479007BF749 /* Nunito-VariableFont_wght.ttf */; };
-		B2B2472C2DA6A3C600D873DC /* MapSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B2472B2DA6A3C600D873DC /* MapSearchViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,7 +32,6 @@
 		B24A486C2D7C954B00546447 /* AquaBloom2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AquaBloom2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B24A48822D7C954D00546447 /* AquaBloom2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AquaBloom2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B24A488C2D7C954D00546447 /* AquaBloom2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AquaBloom2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B2B2472B2DA6A3C600D873DC /* MapSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapSearchViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -103,7 +101,6 @@
 		B24A48632D7C954B00546447 = {
 			isa = PBXGroup;
 			children = (
-				B2B2472B2DA6A3C600D873DC /* MapSearchViewController.swift */,
 				B229B2D62D833452007BF749 /* Font */,
 				B24A486E2D7C954B00546447 /* AquaBloom2 */,
 				B24A48852D7C954D00546447 /* AquaBloom2Tests */,
@@ -267,7 +264,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B2B2472C2DA6A3C600D873DC /* MapSearchViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
