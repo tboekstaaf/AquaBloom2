@@ -37,7 +37,7 @@ class LaunchViewController: UIViewController {
         
         NotificationCenter.default.addObserver(self, selector: #selector(playerDidFinishPlaying), name: NSNotification.Name.AVPlayerItemDidPlayToEndTime, object: playerController.player?.currentItem)
         
-        present(playerController, animated: true) {
+        present(playerController, animated: false) {
             player.play()
         }
     }
@@ -45,7 +45,7 @@ class LaunchViewController: UIViewController {
         
         print( "Method, video is finished *")
         
-        playerController.dismiss(animated: true) {
+        playerController.dismiss(animated: false) {
             let storyboard = UIStoryboard(name: "Main", bundle: nil)
             
             // Only cast if you need access to custom properties/methods
