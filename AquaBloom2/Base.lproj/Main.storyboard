@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="DwG-4r-9Zb">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="avA-u6-J5a">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
@@ -1275,10 +1275,25 @@ Amelia Tjioe</string>
             </objects>
             <point key="canvasLocation" x="-3773.2824427480914" y="1957.7464788732395"/>
         </scene>
+        <!--Launch Screen-->
+        <scene sceneID="W4N-M9-1kT">
+            <objects>
+                <viewController storyboardIdentifier="LaunchViewController" id="avA-u6-J5a" userLabel="Launch Screen" customClass="LaunchViewController" customModule="AquaBloom2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="14k-p8-h4N">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="4nM-ym-Zv6"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="C6f-P9-egY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3105" y="-2280"/>
+        </scene>
         <!--Opening-->
         <scene sceneID="gBE-zi-Wqb">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="xam-me-X9x" userLabel="Opening" customClass="OpeningViewController" customModule="AquaBloom2" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LandingViewController" modalPresentationStyle="fullScreen" id="xam-me-X9x" userLabel="Opening" customClass="OpeningViewController" customModule="AquaBloom2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fFd-Pl-Pou">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
