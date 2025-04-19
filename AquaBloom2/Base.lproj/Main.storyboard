@@ -470,7 +470,7 @@ Get as close to the water as possible without compromising your safety.</string>
                                 </items>
                             </navigationBar>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qoL-ok-lzB">
-                                <rect key="frame" x="30" y="639" width="333" height="59"/>
+                                <rect key="frame" x="30" y="686" width="333" height="59"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="333" id="D5p-Zc-lF7"/>
                                     <constraint firstAttribute="height" constant="59" id="xD1-8g-zuP"/>
