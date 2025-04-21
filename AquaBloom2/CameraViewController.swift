@@ -1,15 +1,14 @@
 //
-//  ReportViewController.swift
+//  CameraViewController.swift
 //  AquaBloom2
 //
-//  Created by Tanisha Boekstaaf on 4/7/25.
+//  Created by Tanisha Boekstaaf on 4/20/25.
 //
 
 import UIKit
 
-class ReportViewController: UIViewController {
+class CameraViewController: UIViewController {
 
-    
     public var imagePickerController: UIImagePickerController?
     
     public var defaultImageUrl: URL?
@@ -110,7 +109,7 @@ class ReportViewController: UIViewController {
     
 }
 
-extension ReportViewController: UIImagePickerControllerDelegate, UINavigationControllerDelegate {
+extension CameraViewController: UIImagePickerControllerDelegate, UINavigationControllerDelegate {
     
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
         
@@ -135,3 +134,4 @@ extension ReportViewController: UIImagePickerControllerDelegate, UINavigationCon
     }
     
 }
+
