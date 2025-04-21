@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="avA-u6-J5a">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="7wE-3C-En6">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
@@ -1108,121 +1108,19 @@ Amelia Tjioe</string>
         <!--Report-->
         <scene sceneID="aua-KM-jP0">
             <objects>
-                <viewController modalTransitionStyle="crossDissolve" modalPresentationStyle="fullScreen" id="7wE-3C-En6" userLabel="Report" customClass="ReportViewController" customModule="AquaBloom2" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalTransitionStyle="crossDissolve" modalPresentationStyle="fullScreen" id="7wE-3C-En6" userLabel="Report" customClass="CameraViewController" customModule="AquaBloom2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hFT-FU-lrb">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mod-6g-O7Z">
-                                <rect key="frame" x="0.0" y="103" width="392" height="415"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="EP2-Qk-llN">
+                                <rect key="frame" x="0.0" y="112" width="393" height="406"/>
                             </imageView>
-                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8s0-pF-gjT">
-                                <rect key="frame" x="0.0" y="0.0" width="394" height="122"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="122" id="yS3-zw-HCw"/>
-                                </constraints>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" cornerStyle="small">
-                                    <color key="baseBackgroundColor" red="0.0039215686269999999" green="0.29411764709999999" blue="0.36078431370000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </buttonConfiguration>
-                            </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="Arrow" translatesAutoresizingMaskIntoConstraints="NO" id="w5K-BA-mJJ">
-                                <rect key="frame" x="23" y="65" width="10" height="24"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="10" id="kfX-Or-U0m"/>
-                                </constraints>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Create Account" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tgu-Dv-8BX">
-                                <rect key="frame" x="134.33333333333337" y="77" width="139.66666666666663" height="0.0"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" id="aIQ-WU-bHd"/>
-                                    <constraint firstAttribute="width" constant="139.66666666666663" id="yWC-pl-JHT"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Report" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lA4-IC-uVc">
-                                <rect key="frame" x="169" y="81" width="52" height="23"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hB0-2s-aos">
-                                <rect key="frame" x="323" y="64" width="69" height="31"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Cancel">
-                                    <fontDescription key="titleFontDescription" type="system" pointSize="14"/>
-                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </buttonConfiguration>
-                            </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" text="Lake Name" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="DZJ-bV-xlC">
-                                <rect key="frame" x="30" y="526" width="308" height="33"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="33" id="UMh-zO-AeY"/>
-                                </constraints>
-                                <color key="textColor" red="0.1058823466" green="0.26274511220000002" blue="0.31764706970000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" text="2401 N DuSable Lake Shore Dr, Chicago, IL, 60614" translatesAutoresizingMaskIntoConstraints="NO" id="QMM-5B-aD8">
-                                <rect key="frame" x="30" y="552" width="330" height="33"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="33" id="qWg-k1-Dsj"/>
-                                </constraints>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" text="September 23, 2024 17:15" translatesAutoresizingMaskIntoConstraints="NO" id="NOi-BK-FV2">
-                                <rect key="frame" x="29" y="571" width="330" height="33"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ney-2R-uNi">
-                                <rect key="frame" x="50" y="612" width="136" height="29"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="45" id="Toc-oV-mYM"/>
-                                </constraints>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" cornerStyle="capsule">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Select Image">
-                                            <attributes>
-                                                <font key="NSFont" size="12" name="Nunito-Regular"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                    <color key="baseForegroundColor" systemColor="systemBackgroundColor"/>
-                                    <color key="baseBackgroundColor" red="0.0039215686269999999" green="0.29411764709999999" blue="0.36078431370000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </buttonConfiguration>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mrh-n5-y0s">
-                                <rect key="frame" x="218" y="612" width="136" height="31"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="45" id="FVk-np-LWv"/>
-                                </constraints>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" cornerStyle="capsule">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Remove">
-                                            <attributes>
-                                                <font key="NSFont" size="12" name="Nunito-Regular"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                    <color key="baseForegroundColor" red="0.0039215686269999999" green="0.29411764709999999" blue="0.36078431370000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="removeImageButtonAction:" destination="7wE-3C-En6" eventType="touchUpInside" id="Qj0-NJ-VjP"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sry-5c-fvY">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sry-5c-fvY">
                                 <rect key="frame" x="40" y="763" width="315" height="55"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="55" id="ulr-pe-ckQ"/>
+                                </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain">
                                     <backgroundConfiguration key="background" image="Quiz box white"/>
@@ -1237,30 +1135,67 @@ Amelia Tjioe</string>
                                     </attributedString>
                                 </buttonConfiguration>
                             </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="88" translatesAutoresizingMaskIntoConstraints="NO" id="dZJ-c6-8ZE">
+                                <rect key="frame" x="58.333333333333343" y="571" width="276.33333333333326" height="28"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ney-2R-uNi">
+                                        <rect key="frame" x="0.0" y="0.0" width="94.333333333333329" height="28"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" cornerStyle="capsule">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content="Select Image">
+                                                    <attributes>
+                                                        <font key="NSFont" size="12" name="Nunito-Regular"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                            <color key="baseForegroundColor" systemColor="systemBackgroundColor"/>
+                                            <color key="baseBackgroundColor" red="0.0039215686269999999" green="0.29411764709999999" blue="0.36078431370000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="selectImageButtonAction:" destination="7wE-3C-En6" eventType="touchUpInside" id="TGz-4u-ENb"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mrh-n5-y0s">
+                                        <rect key="frame" x="182.33333333333331" y="0.0" width="94" height="28"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" cornerStyle="capsule">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content="Remove">
+                                                    <attributes>
+                                                        <font key="NSFont" size="12" name="Nunito-Regular"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                            <color key="baseForegroundColor" red="0.0039215686269999999" green="0.29411764709999999" blue="0.36078431370000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="removeImageButtonAction:" destination="7wE-3C-En6" eventType="touchUpInside" id="u88-08-aUk"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="a3Y-qZ-Fan"/>
                         <color key="backgroundColor" red="0.49803921579999999" green="0.73333334920000004" blue="0.58431375029999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
-                            <constraint firstItem="8s0-pF-gjT" firstAttribute="top" secondItem="hFT-FU-lrb" secondAttribute="top" id="286-yo-IAV"/>
-                            <constraint firstItem="w5K-BA-mJJ" firstAttribute="centerY" secondItem="lA4-IC-uVc" secondAttribute="centerY" constant="-15.5" id="7CK-se-5WA"/>
-                            <constraint firstItem="NOi-BK-FV2" firstAttribute="leading" secondItem="a3Y-qZ-Fan" secondAttribute="leading" constant="29" id="FW7-wz-iMJ"/>
-                            <constraint firstItem="w5K-BA-mJJ" firstAttribute="bottom" secondItem="lA4-IC-uVc" secondAttribute="bottom" constant="-15" id="IhN-Mb-jr0"/>
-                            <constraint firstItem="w5K-BA-mJJ" firstAttribute="top" secondItem="a3Y-qZ-Fan" secondAttribute="top" constant="6" id="Sqt-I8-1QC"/>
-                            <constraint firstItem="DZJ-bV-xlC" firstAttribute="leading" secondItem="QMM-5B-aD8" secondAttribute="leading" id="UNs-YX-2Va"/>
-                            <constraint firstItem="a3Y-qZ-Fan" firstAttribute="trailing" secondItem="NOi-BK-FV2" secondAttribute="trailing" constant="34" id="Wdc-Vp-ciG"/>
-                            <constraint firstItem="hB0-2s-aos" firstAttribute="top" secondItem="a3Y-qZ-Fan" secondAttribute="top" constant="5" id="ZmD-Jg-sC1"/>
-                            <constraint firstItem="a3Y-qZ-Fan" firstAttribute="trailing" secondItem="DZJ-bV-xlC" secondAttribute="trailing" constant="55" id="b70-zq-uCn"/>
-                            <constraint firstItem="DZJ-bV-xlC" firstAttribute="leading" secondItem="a3Y-qZ-Fan" secondAttribute="leading" constant="30" id="bZA-sV-NrK"/>
-                            <constraint firstItem="tgu-Dv-8BX" firstAttribute="centerY" secondItem="lA4-IC-uVc" secondAttribute="centerY" constant="-15.5" id="kQ0-bx-Cd9"/>
-                            <constraint firstItem="w5K-BA-mJJ" firstAttribute="leading" secondItem="a3Y-qZ-Fan" secondAttribute="leading" constant="23" id="lck-wL-WUu"/>
-                            <constraint firstItem="NOi-BK-FV2" firstAttribute="top" secondItem="DZJ-bV-xlC" secondAttribute="bottom" constant="12" id="mb5-6P-1mJ"/>
-                            <constraint firstItem="a3Y-qZ-Fan" firstAttribute="trailing" secondItem="QMM-5B-aD8" secondAttribute="trailing" constant="33" id="rpa-u7-xmw"/>
-                            <constraint firstItem="lA4-IC-uVc" firstAttribute="centerX" secondItem="QMM-5B-aD8" secondAttribute="centerX" id="s9x-vE-ujA"/>
+                            <constraint firstItem="dZJ-c6-8ZE" firstAttribute="centerX" secondItem="hFT-FU-lrb" secondAttribute="centerX" id="Daa-Gq-r3z"/>
+                            <constraint firstItem="EP2-Qk-llN" firstAttribute="leading" secondItem="a3Y-qZ-Fan" secondAttribute="leading" id="SMO-ux-lDa"/>
+                            <constraint firstItem="dZJ-c6-8ZE" firstAttribute="centerX" secondItem="EP2-Qk-llN" secondAttribute="centerX" id="Uyd-YE-qui"/>
+                            <constraint firstItem="sry-5c-fvY" firstAttribute="bottom" secondItem="a3Y-qZ-Fan" secondAttribute="bottom" id="csp-Vn-n3S"/>
+                            <constraint firstItem="dZJ-c6-8ZE" firstAttribute="top" secondItem="hFT-FU-lrb" secondAttribute="top" constant="571" id="hBV-Wd-qXR"/>
+                            <constraint firstItem="dZJ-c6-8ZE" firstAttribute="leading" secondItem="a3Y-qZ-Fan" secondAttribute="leading" constant="58.333333333333343" id="lhM-xE-rAq"/>
+                            <constraint firstItem="sry-5c-fvY" firstAttribute="leading" secondItem="a3Y-qZ-Fan" secondAttribute="leading" constant="40" id="rS3-dc-qXv"/>
+                            <constraint firstItem="dZJ-c6-8ZE" firstAttribute="centerX" secondItem="sry-5c-fvY" secondAttribute="centerX" constant="-1.0000000000000284" id="sLR-kX-d4Y"/>
+                            <constraint firstItem="dZJ-c6-8ZE" firstAttribute="top" secondItem="EP2-Qk-llN" secondAttribute="bottom" constant="53" id="tl6-rK-LId"/>
+                            <constraint firstItem="EP2-Qk-llN" firstAttribute="top" secondItem="a3Y-qZ-Fan" secondAttribute="top" constant="53" id="zID-fv-2GZ"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="urT-ho-S2Z"/>
                     <connections>
-                        <outlet property="removeImageButton" destination="Mrh-n5-y0s" id="J3h-eX-DD5"/>
+                        <outlet property="removeImageButton" destination="Mrh-n5-y0s" id="F3z-lN-BIW"/>
+                        <outlet property="selectImageButton" destination="ney-2R-uNi" id="C1d-37-ocM"/>
+                        <outlet property="selectedImageView" destination="EP2-Qk-llN" id="sVl-3c-axY"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8dI-68-7zQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -3193,9 +3128,6 @@ Algae Blooms</string>
                                                     <color key="baseForegroundColor" red="0.0039215686269999999" green="0.29411764709999999" blue="0.36078431370000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
-                                                <connections>
-                                                    <action selector="removeImageButtonAction:" destination="7wE-3C-En6" eventType="touchUpInside" id="4SL-EQ-LNW"/>
-                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nHN-ay-NR3">
                                                 <rect key="frame" x="170.33333333333331" y="0.0" width="136.33333333333331" height="45"/>
@@ -3215,9 +3147,6 @@ Algae Blooms</string>
                                                     <color key="baseForegroundColor" red="0.0039215686269999999" green="0.29411764709999999" blue="0.36078431370000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
-                                                <connections>
-                                                    <action selector="removeImageButtonAction:" destination="7wE-3C-En6" eventType="touchUpInside" id="gks-sK-1qD"/>
-                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
