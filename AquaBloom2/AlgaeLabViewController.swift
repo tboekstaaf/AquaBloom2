@@ -9,6 +9,10 @@ import UIKit
 
 class AlgaeLabViewController: UIViewController {
 
+    override func viewWillAppear(_ animated: Bool) {
+        navigationController?.navigationBar.isHidden = true
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.

@@ -9,6 +9,10 @@ import UIKit
 
 class CameraViewController: UIViewController {
 
+    override func viewWillAppear(_ animated: Bool) {
+        navigationController?.navigationBar.isHidden = true
+    }
+    
     public var imagePickerController: UIImagePickerController?
     
     public var defaultImageUrl: URL?
