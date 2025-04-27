@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="avA-u6-J5a">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="g9U-Py-sxm">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
@@ -1443,7 +1443,7 @@ to complete your account.</string>
         <!--Map-->
         <scene sceneID="BB5-gl-dQy">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="g9U-Py-sxm" userLabel="Map" customClass="ViewController" customModule="AquaBloom2" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="g9U-Py-sxm" userLabel="Map" customClass="MapController" customModule="AquaBloom2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="YTn-OL-Wdo">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1505,6 +1505,9 @@ to complete your account.</string>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="6cl-Oh-Ay1"/>
+                    <connections>
+                        <outlet property="mapView" destination="0ED-rU-c5N" id="1h9-4N-tf5"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XBF-cw-fR4" sceneMemberID="firstResponder"/>
             </objects>
