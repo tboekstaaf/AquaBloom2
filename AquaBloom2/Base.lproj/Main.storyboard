@@ -2981,7 +2981,7 @@ Algae Blooms</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QsS-Rh-PmK">
-                                <rect key="frame" x="104" y="-16" width="289" height="885"/>
+                                <rect key="frame" x="104" y="18" width="289" height="885"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K9F-nN-pVr">
                                         <rect key="frame" x="211" y="107" width="48" height="38"/>
@@ -3817,7 +3817,7 @@ Algae Blooms</string>
         <!--Report-->
         <scene sceneID="pTi-u9-04B">
             <objects>
-                <viewController id="VE7-6X-9FW" customClass="ViewController" customModule="FixedQuestionsPage" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="VE7-6X-9FW" customClass="ViewController" customModule="AquaBloom2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="DvG-6G-ICl">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -3884,10 +3884,6 @@ Algae Blooms</string>
                                     </stackView>
                                 </subviews>
                             </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5a9-wF-UvK">
-                                <rect key="frame" x="40.666666666666657" y="688" width="312" height="72"/>
-                                <state key="normal" image="QuestionPageAssets-2"/>
-                            </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="top menu" translatesAutoresizingMaskIntoConstraints="NO" id="QZj-6Y-dGf">
                                 <rect key="frame" x="-19.666666666666657" y="-19" width="432.33333333333326" height="157"/>
                             </imageView>
@@ -3901,6 +3897,25 @@ Algae Blooms</string>
                                 <rect key="frame" x="333.33333333333331" y="77" width="48" height="30"/>
                                 <state key="normal" title="Cancel"/>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gfH-uB-FrX">
+                                <rect key="frame" x="39" y="763" width="315" height="55"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="55" id="z9A-jA-AFB"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <backgroundConfiguration key="background" image="Quiz box white"/>
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Next">
+                                            <attributes>
+                                                <color key="NSColor" red="0.0039215686269999999" green="0.29411764709999999" blue="0.36078431370000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" metaFont="menuBar" size="20"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </buttonConfiguration>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Uvq-O2-jg8"/>
                         <color key="backgroundColor" red="0.43194946649999999" green="0.63741868729999995" blue="0.50194352870000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -3911,10 +3926,8 @@ Algae Blooms</string>
                             <constraint firstItem="JZ7-hi-So3" firstAttribute="top" secondItem="Uvq-O2-jg8" secondAttribute="top" constant="87" id="T2V-c5-wju"/>
                             <constraint firstItem="QZj-6Y-dGf" firstAttribute="centerX" secondItem="DvG-6G-ICl" secondAttribute="centerX" id="VeF-wk-YzZ"/>
                             <constraint firstItem="tkC-n7-xmB" firstAttribute="centerX" secondItem="DvG-6G-ICl" secondAttribute="centerX" id="df7-Vl-Zx0"/>
-                            <constraint firstItem="Uvq-O2-jg8" firstAttribute="bottom" secondItem="5a9-wF-UvK" secondAttribute="bottom" constant="58" id="ggH-rM-yRd"/>
                             <constraint firstItem="i2w-Yq-RbA" firstAttribute="top" secondItem="Uvq-O2-jg8" secondAttribute="top" constant="18" id="ifA-4d-Haj"/>
                             <constraint firstItem="i2w-Yq-RbA" firstAttribute="leading" secondItem="tkC-n7-xmB" secondAttribute="trailing" constant="106" id="jrb-vi-vsr"/>
-                            <constraint firstItem="5a9-wF-UvK" firstAttribute="centerX" secondItem="DvG-6G-ICl" secondAttribute="centerX" id="xd9-uo-UxP"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Report" id="7y7-Bj-1jf">
@@ -3932,7 +3945,7 @@ Algae Blooms</string>
         <!--Report-->
         <scene sceneID="Vb3-gt-0at">
             <objects>
-                <viewController id="obO-sA-c53" customClass="ViewController" customModule="FixedQuestionsPage" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="obO-sA-c53" customClass="ViewController" customModule="AquaBloom2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8cP-9r-k24">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -4010,10 +4023,6 @@ Algae Blooms</string>
                                     </stackView>
                                 </subviews>
                             </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qg3-xC-7iu">
-                                <rect key="frame" x="40.666666666666657" y="688" width="312" height="72"/>
-                                <state key="normal" image="QuestionPageAssets-2"/>
-                            </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="top menu" translatesAutoresizingMaskIntoConstraints="NO" id="xGb-sX-seA">
                                 <rect key="frame" x="-19.666666666666657" y="-19" width="432.33333333333326" height="157"/>
                             </imageView>
@@ -4023,6 +4032,25 @@ Algae Blooms</string>
                                 <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mQO-cm-84R">
+                                <rect key="frame" x="39" y="763" width="315" height="55"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="55" id="IlX-iy-eyd"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <backgroundConfiguration key="background" image="Quiz box white"/>
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Next">
+                                            <attributes>
+                                                <color key="NSColor" red="0.0039215686269999999" green="0.29411764709999999" blue="0.36078431370000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" metaFont="menuBar" size="20"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </buttonConfiguration>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="aXZ-el-ayX"/>
                         <color key="backgroundColor" red="0.43194946649999999" green="0.63741868729999995" blue="0.50194352870000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -4031,9 +4059,7 @@ Algae Blooms</string>
                             <constraint firstItem="Tx2-di-WD4" firstAttribute="centerX" secondItem="8cP-9r-k24" secondAttribute="centerX" id="BZq-uP-zJt"/>
                             <constraint firstItem="dlu-UP-NzR" firstAttribute="top" secondItem="aXZ-el-ayX" secondAttribute="top" constant="20" id="Kk0-42-DaT"/>
                             <constraint firstItem="dlu-UP-NzR" firstAttribute="centerX" secondItem="8cP-9r-k24" secondAttribute="centerX" id="Uq6-dV-puE"/>
-                            <constraint firstItem="aXZ-el-ayX" firstAttribute="bottom" secondItem="qg3-xC-7iu" secondAttribute="bottom" constant="58" id="eJM-24-dUr"/>
                             <constraint firstItem="Tx2-di-WD4" firstAttribute="top" secondItem="xGb-sX-seA" secondAttribute="bottom" constant="8" id="jIR-QO-JAw"/>
-                            <constraint firstItem="qg3-xC-7iu" firstAttribute="centerX" secondItem="8cP-9r-k24" secondAttribute="centerX" id="vJT-Ed-zKk"/>
                             <constraint firstItem="Tx2-di-WD4" firstAttribute="top" secondItem="aXZ-el-ayX" secondAttribute="top" constant="87" id="xZb-op-1IR"/>
                         </constraints>
                     </view>
@@ -4052,7 +4078,7 @@ Algae Blooms</string>
         <!--Report-->
         <scene sceneID="opG-eg-Dlf">
             <objects>
-                <viewController id="60W-5Q-Ndc" customClass="ViewController" customModule="FixedQuestionsPage" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="60W-5Q-Ndc" customClass="ViewController" customModule="AquaBloom2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kdB-hP-qFB">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -4106,10 +4132,6 @@ Algae Blooms</string>
                                     </stackView>
                                 </subviews>
                             </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sRD-9c-k8G">
-                                <rect key="frame" x="40.666666666666657" y="688" width="312" height="72"/>
-                                <state key="normal" image="QuestionPageAssets-2"/>
-                            </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="top menu" translatesAutoresizingMaskIntoConstraints="NO" id="R18-Xl-ffY">
                                 <rect key="frame" x="-19.666666666666657" y="-19" width="432.33333333333326" height="157"/>
                             </imageView>
@@ -4119,6 +4141,25 @@ Algae Blooms</string>
                                 <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qFA-uu-oz1">
+                                <rect key="frame" x="39" y="763" width="315" height="55"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="55" id="OcB-lx-MeY"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <backgroundConfiguration key="background" image="Quiz box white"/>
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Next">
+                                            <attributes>
+                                                <color key="NSColor" red="0.0039215686269999999" green="0.29411764709999999" blue="0.36078431370000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" metaFont="menuBar" size="20"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </buttonConfiguration>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="F9n-jG-pRu"/>
                         <color key="backgroundColor" red="0.43194946649999999" green="0.63741868729999995" blue="0.50194352870000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -4126,11 +4167,9 @@ Algae Blooms</string>
                             <constraint firstItem="FyP-el-lbb" firstAttribute="centerX" secondItem="kdB-hP-qFB" secondAttribute="centerX" id="0La-au-w8D"/>
                             <constraint firstItem="wca-1h-Urh" firstAttribute="centerX" secondItem="kdB-hP-qFB" secondAttribute="centerX" id="30g-JJ-y6z"/>
                             <constraint firstItem="R18-Xl-ffY" firstAttribute="centerX" secondItem="kdB-hP-qFB" secondAttribute="centerX" id="7TB-I8-Fjq"/>
-                            <constraint firstItem="F9n-jG-pRu" firstAttribute="bottom" secondItem="sRD-9c-k8G" secondAttribute="bottom" constant="58" id="M4J-EN-Gba"/>
                             <constraint firstItem="FyP-el-lbb" firstAttribute="top" secondItem="F9n-jG-pRu" secondAttribute="top" constant="20" id="VjW-gS-VQx"/>
                             <constraint firstItem="wca-1h-Urh" firstAttribute="top" secondItem="R18-Xl-ffY" secondAttribute="bottom" constant="8" id="dCu-5u-rDJ"/>
                             <constraint firstItem="wca-1h-Urh" firstAttribute="top" secondItem="F9n-jG-pRu" secondAttribute="top" constant="87" id="djn-5q-zgz"/>
-                            <constraint firstItem="sRD-9c-k8G" firstAttribute="centerX" secondItem="kdB-hP-qFB" secondAttribute="centerX" id="sk2-9o-yWL"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Report" id="RGT-tE-q2f">
@@ -4148,7 +4187,7 @@ Algae Blooms</string>
         <!--Report-->
         <scene sceneID="705-El-Nb8">
             <objects>
-                <viewController id="aa8-RQ-IYH" customClass="ViewController" customModule="FixedQuestionsPage" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="aa8-RQ-IYH" customClass="ViewController" customModule="AquaBloom2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="441-dD-ggG">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -4259,9 +4298,24 @@ Algae Blooms</string>
                                 <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DKS-fM-dho">
-                                <rect key="frame" x="40.666666666666657" y="688" width="312" height="72"/>
-                                <state key="normal" image="QuestionPageAssets-2"/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="edT-yL-rd7">
+                                <rect key="frame" x="50" y="763" width="315" height="55"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="55" id="e4c-IS-aAa"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <backgroundConfiguration key="background" image="Quiz box white"/>
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Next">
+                                            <attributes>
+                                                <color key="NSColor" red="0.0039215686269999999" green="0.29411764709999999" blue="0.36078431370000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" metaFont="menuBar" size="20"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </buttonConfiguration>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="IB7-LW-ogD"/>
@@ -4269,9 +4323,7 @@ Algae Blooms</string>
                         <constraints>
                             <constraint firstItem="ekC-Ny-8Jh" firstAttribute="top" secondItem="IB7-LW-ogD" secondAttribute="top" constant="87" id="0BT-W6-cmm"/>
                             <constraint firstItem="J2h-PI-jhe" firstAttribute="top" secondItem="IB7-LW-ogD" secondAttribute="top" constant="20" id="D6z-YR-T7g"/>
-                            <constraint firstItem="IB7-LW-ogD" firstAttribute="bottom" secondItem="DKS-fM-dho" secondAttribute="bottom" constant="58" id="FPJ-fC-Gcv"/>
                             <constraint firstItem="ekC-Ny-8Jh" firstAttribute="centerX" secondItem="441-dD-ggG" secondAttribute="centerX" id="Ixf-O4-pLn"/>
-                            <constraint firstItem="DKS-fM-dho" firstAttribute="centerX" secondItem="441-dD-ggG" secondAttribute="centerX" id="mHa-W8-qOt"/>
                             <constraint firstItem="J2h-PI-jhe" firstAttribute="centerX" secondItem="441-dD-ggG" secondAttribute="centerX" id="qkq-dl-kcx"/>
                         </constraints>
                     </view>
@@ -4285,11 +4337,12 @@ Algae Blooms</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dPh-QR-ada" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-793" y="1958"/>
+            <point key="canvasLocation" x="-979" y="1958"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="vIk-cF-Oft"/>
+        <segue reference="e1i-aC-oId"/>
+        <segue reference="zGr-pI-Vw9"/>
         <segue reference="ScJ-BA-9aT"/>
         <segue reference="1XU-sw-yKN"/>
         <segue reference="ykD-gV-VHW"/>
@@ -4332,7 +4385,6 @@ Algae Blooms</string>
         <image name="Popup" width="414" height="501"/>
         <image name="Proper light" width="48" height="48"/>
         <image name="Question toggle" width="76" height="6"/>
-        <image name="QuestionPageAssets-2" width="312" height="72"/>
         <image name="Quiz box" width="350" height="432"/>
         <image name="Quiz box blue" width="348" height="63"/>
         <image name="Quiz box white" width="348" height="64"/>
