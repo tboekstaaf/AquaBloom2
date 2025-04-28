@@ -1165,8 +1165,8 @@ Amelia Tjioe</string>
                                     </button>
                                 </subviews>
                             </stackView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" ambiguous="YES" image="Top menu" translatesAutoresizingMaskIntoConstraints="NO" id="vAi-j4-uGa">
-                                <rect key="frame" x="-19.666666666666657" y="-58" width="432.33333333333326" height="140"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" ambiguous="YES" misplaced="YES" image="Top menu" translatesAutoresizingMaskIntoConstraints="NO" id="vAi-j4-uGa">
+                                <rect key="frame" x="-19.666666666666515" y="-24" width="432.33333333333348" height="140"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="432.32999999999998" id="9jC-qT-Oxv"/>
                                     <constraint firstAttribute="height" constant="140" id="JRg-jK-zZ5"/>
@@ -3822,6 +3822,17 @@ Algae Blooms</string>
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kcw-VM-8Rr">
+                                <rect key="frame" x="0.0" y="-7" width="393" height="122"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="393" id="D5K-GW-Auy"/>
+                                    <constraint firstAttribute="height" constant="122" id="QQ8-X1-sTa"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" cornerStyle="small">
+                                    <color key="baseBackgroundColor" red="0.0039215686269999999" green="0.29411764709999999" blue="0.36078431370000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
+                            </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="21" translatesAutoresizingMaskIntoConstraints="NO" id="JZ7-hi-So3">
                                 <rect key="frame" x="28.666666666666657" y="146" width="336" height="125.33333333333331"/>
                                 <subviews>
@@ -3846,7 +3857,7 @@ Algae Blooms</string>
                                                     <constraint firstAttribute="width" constant="40" id="2lG-Yt-33j"/>
                                                     <constraint firstAttribute="height" constant="40" id="mdf-dX-0j2"/>
                                                 </constraints>
-                                                <state key="normal" title="Button" image="Untitled-1-1"/>
+                                                <state key="normal" title="Button" image="Unfilled"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gHW-eR-6yR">
                                                 <rect key="frame" x="74" y="0.0" width="40" height="40"/>
@@ -3854,7 +3865,7 @@ Algae Blooms</string>
                                                     <constraint firstAttribute="width" constant="40" id="e2o-4z-LuS"/>
                                                     <constraint firstAttribute="height" constant="40" id="uaY-Jt-uRY"/>
                                                 </constraints>
-                                                <state key="normal" title="Button" image="Untitled-1-1"/>
+                                                <state key="normal" title="Button" image="Unfilled"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qct-VB-OSv">
                                                 <rect key="frame" x="148" y="0.0" width="40" height="40"/>
@@ -3862,7 +3873,7 @@ Algae Blooms</string>
                                                     <constraint firstAttribute="height" constant="40" id="KSK-Pd-abW"/>
                                                     <constraint firstAttribute="width" constant="40" id="zmc-l9-1ap"/>
                                                 </constraints>
-                                                <state key="normal" title="Button" image="Untitled-1-1"/>
+                                                <state key="normal" title="Button" image="Unfilled"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FVT-cP-vnJ">
                                                 <rect key="frame" x="222" y="0.0" width="40" height="40"/>
@@ -3870,7 +3881,7 @@ Algae Blooms</string>
                                                     <constraint firstAttribute="height" constant="40" id="5ka-NW-9qB"/>
                                                     <constraint firstAttribute="width" constant="40" id="llI-ie-f4X"/>
                                                 </constraints>
-                                                <state key="normal" title="Button" image="Untitled-1-1"/>
+                                                <state key="normal" title="Button" image="Unfilled"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CmL-qf-uka">
                                                 <rect key="frame" x="296" y="0.0" width="40" height="40"/>
@@ -3878,15 +3889,12 @@ Algae Blooms</string>
                                                     <constraint firstAttribute="height" constant="40" id="0jN-UL-yNL"/>
                                                     <constraint firstAttribute="width" constant="40" id="b23-kh-zxo"/>
                                                 </constraints>
-                                                <state key="normal" title="Button" image="Untitled-1-1"/>
+                                                <state key="normal" title="Button" image="Unfilled"/>
                                             </button>
                                         </subviews>
                                     </stackView>
                                 </subviews>
                             </stackView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="top menu" translatesAutoresizingMaskIntoConstraints="NO" id="QZj-6Y-dGf">
-                                <rect key="frame" x="-19.666666666666657" y="-19" width="432.33333333333326" height="157"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Report" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tkC-n7-xmB">
                                 <rect key="frame" x="165.66666666666666" y="79" width="61.666666666666657" height="25.333333333333329"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
@@ -3921,10 +3929,8 @@ Algae Blooms</string>
                         <color key="backgroundColor" red="0.43194946649999999" green="0.63741868729999995" blue="0.50194352870000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="JZ7-hi-So3" firstAttribute="centerX" secondItem="DvG-6G-ICl" secondAttribute="centerX" id="6F5-fK-bpG"/>
-                            <constraint firstItem="JZ7-hi-So3" firstAttribute="top" secondItem="QZj-6Y-dGf" secondAttribute="bottom" constant="8" id="E4p-cn-wOu"/>
                             <constraint firstItem="tkC-n7-xmB" firstAttribute="top" secondItem="DvG-6G-ICl" secondAttribute="topMargin" constant="20" id="Hpi-98-I74"/>
                             <constraint firstItem="JZ7-hi-So3" firstAttribute="top" secondItem="Uvq-O2-jg8" secondAttribute="top" constant="87" id="T2V-c5-wju"/>
-                            <constraint firstItem="QZj-6Y-dGf" firstAttribute="centerX" secondItem="DvG-6G-ICl" secondAttribute="centerX" id="VeF-wk-YzZ"/>
                             <constraint firstItem="tkC-n7-xmB" firstAttribute="centerX" secondItem="DvG-6G-ICl" secondAttribute="centerX" id="df7-Vl-Zx0"/>
                             <constraint firstItem="i2w-Yq-RbA" firstAttribute="top" secondItem="Uvq-O2-jg8" secondAttribute="top" constant="18" id="ifA-4d-Haj"/>
                             <constraint firstItem="i2w-Yq-RbA" firstAttribute="leading" secondItem="tkC-n7-xmB" secondAttribute="trailing" constant="106" id="jrb-vi-vsr"/>
@@ -3950,6 +3956,17 @@ Algae Blooms</string>
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zpI-sK-OFl">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="122"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="122" id="BqC-tL-RsY"/>
+                                    <constraint firstAttribute="width" constant="393" id="grl-gJ-luJ"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" cornerStyle="small">
+                                    <color key="baseBackgroundColor" red="0.0039215686269999999" green="0.29411764709999999" blue="0.36078431370000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
+                            </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="21" translatesAutoresizingMaskIntoConstraints="NO" id="Tx2-di-WD4">
                                 <rect key="frame" x="28.666666666666657" y="146" width="336" height="150.33333333333337"/>
                                 <subviews>
@@ -3985,7 +4002,7 @@ Algae Blooms</string>
                                                     <constraint firstAttribute="height" constant="40" id="5Zw-mu-SpJ"/>
                                                     <constraint firstAttribute="width" constant="40" id="NEe-2a-BrG"/>
                                                 </constraints>
-                                                <state key="normal" title="Button" image="Untitled-1-1"/>
+                                                <state key="normal" title="Button" image="Unfilled"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QRQ-9b-htf">
                                                 <rect key="frame" x="74" y="0.0" width="40" height="40"/>
@@ -3993,7 +4010,7 @@ Algae Blooms</string>
                                                     <constraint firstAttribute="height" constant="40" id="8A6-Jl-Bvn"/>
                                                     <constraint firstAttribute="width" constant="40" id="r4r-bz-sgz"/>
                                                 </constraints>
-                                                <state key="normal" title="Button" image="Untitled-1-1"/>
+                                                <state key="normal" title="Button" image="Unfilled"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ltj-X3-Mx1">
                                                 <rect key="frame" x="148" y="0.0" width="40" height="40"/>
@@ -4001,7 +4018,7 @@ Algae Blooms</string>
                                                     <constraint firstAttribute="height" constant="40" id="KN7-oI-JMY"/>
                                                     <constraint firstAttribute="width" constant="40" id="vv2-Bi-88S"/>
                                                 </constraints>
-                                                <state key="normal" title="Button" image="Untitled-1-1"/>
+                                                <state key="normal" title="Button" image="Unfilled"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k9P-Qn-0HQ">
                                                 <rect key="frame" x="222" y="0.0" width="40" height="40"/>
@@ -4009,7 +4026,7 @@ Algae Blooms</string>
                                                     <constraint firstAttribute="width" constant="40" id="3Dq-hL-eeq"/>
                                                     <constraint firstAttribute="height" constant="40" id="zWV-nw-btl"/>
                                                 </constraints>
-                                                <state key="normal" title="Button" image="Untitled-1-1"/>
+                                                <state key="normal" title="Button" image="Unfilled"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NMO-ei-0lg">
                                                 <rect key="frame" x="296" y="0.0" width="40" height="40"/>
@@ -4017,15 +4034,12 @@ Algae Blooms</string>
                                                     <constraint firstAttribute="height" constant="40" id="r2r-tH-Nc4"/>
                                                     <constraint firstAttribute="width" constant="40" id="v9g-CY-F0F"/>
                                                 </constraints>
-                                                <state key="normal" title="Button" image="Untitled-1-1"/>
+                                                <state key="normal" title="Button" image="Unfilled"/>
                                             </button>
                                         </subviews>
                                     </stackView>
                                 </subviews>
                             </stackView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="top menu" translatesAutoresizingMaskIntoConstraints="NO" id="xGb-sX-seA">
-                                <rect key="frame" x="-19.666666666666657" y="-19" width="432.33333333333326" height="157"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Report" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dlu-UP-NzR">
                                 <rect key="frame" x="165.66666666666666" y="79" width="61.666666666666657" height="25.333333333333329"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
@@ -4055,11 +4069,9 @@ Algae Blooms</string>
                         <viewLayoutGuide key="safeArea" id="aXZ-el-ayX"/>
                         <color key="backgroundColor" red="0.43194946649999999" green="0.63741868729999995" blue="0.50194352870000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
-                            <constraint firstItem="xGb-sX-seA" firstAttribute="centerX" secondItem="8cP-9r-k24" secondAttribute="centerX" id="5bM-b5-VaZ"/>
                             <constraint firstItem="Tx2-di-WD4" firstAttribute="centerX" secondItem="8cP-9r-k24" secondAttribute="centerX" id="BZq-uP-zJt"/>
                             <constraint firstItem="dlu-UP-NzR" firstAttribute="top" secondItem="aXZ-el-ayX" secondAttribute="top" constant="20" id="Kk0-42-DaT"/>
                             <constraint firstItem="dlu-UP-NzR" firstAttribute="centerX" secondItem="8cP-9r-k24" secondAttribute="centerX" id="Uq6-dV-puE"/>
-                            <constraint firstItem="Tx2-di-WD4" firstAttribute="top" secondItem="xGb-sX-seA" secondAttribute="bottom" constant="8" id="jIR-QO-JAw"/>
                             <constraint firstItem="Tx2-di-WD4" firstAttribute="top" secondItem="aXZ-el-ayX" secondAttribute="top" constant="87" id="xZb-op-1IR"/>
                         </constraints>
                     </view>
@@ -4083,6 +4095,17 @@ Algae Blooms</string>
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WZH-cG-x6e">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="122"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="122" id="ECn-qa-SCh"/>
+                                    <constraint firstAttribute="width" constant="393" id="Ybz-XH-Nce"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" cornerStyle="small">
+                                    <color key="baseBackgroundColor" red="0.0039215686269999999" green="0.29411764709999999" blue="0.36078431370000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
+                            </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="21" translatesAutoresizingMaskIntoConstraints="NO" id="wca-1h-Urh">
                                 <rect key="frame" x="29.666666666666657" y="146" width="334" height="160.33333333333337"/>
                                 <subviews>
@@ -4132,9 +4155,6 @@ Algae Blooms</string>
                                     </stackView>
                                 </subviews>
                             </stackView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="top menu" translatesAutoresizingMaskIntoConstraints="NO" id="R18-Xl-ffY">
-                                <rect key="frame" x="-19.666666666666657" y="-19" width="432.33333333333326" height="157"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Report" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FyP-el-lbb">
                                 <rect key="frame" x="165.66666666666666" y="79" width="61.666666666666657" height="25.333333333333329"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
@@ -4166,9 +4186,7 @@ Algae Blooms</string>
                         <constraints>
                             <constraint firstItem="FyP-el-lbb" firstAttribute="centerX" secondItem="kdB-hP-qFB" secondAttribute="centerX" id="0La-au-w8D"/>
                             <constraint firstItem="wca-1h-Urh" firstAttribute="centerX" secondItem="kdB-hP-qFB" secondAttribute="centerX" id="30g-JJ-y6z"/>
-                            <constraint firstItem="R18-Xl-ffY" firstAttribute="centerX" secondItem="kdB-hP-qFB" secondAttribute="centerX" id="7TB-I8-Fjq"/>
                             <constraint firstItem="FyP-el-lbb" firstAttribute="top" secondItem="F9n-jG-pRu" secondAttribute="top" constant="20" id="VjW-gS-VQx"/>
-                            <constraint firstItem="wca-1h-Urh" firstAttribute="top" secondItem="R18-Xl-ffY" secondAttribute="bottom" constant="8" id="dCu-5u-rDJ"/>
                             <constraint firstItem="wca-1h-Urh" firstAttribute="top" secondItem="F9n-jG-pRu" secondAttribute="top" constant="87" id="djn-5q-zgz"/>
                         </constraints>
                     </view>
@@ -4192,6 +4210,17 @@ Algae Blooms</string>
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L5g-dk-qmr">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="122"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="393" id="cNH-lp-DCM"/>
+                                    <constraint firstAttribute="height" constant="122" id="mgG-0s-dze"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" cornerStyle="small">
+                                    <color key="baseBackgroundColor" red="0.0039215686269999999" green="0.29411764709999999" blue="0.36078431370000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
+                            </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="21" translatesAutoresizingMaskIntoConstraints="NO" id="ekC-Ny-8Jh">
                                 <rect key="frame" x="28.666666666666657" y="146" width="336" height="185.66666666666663"/>
                                 <subviews>
@@ -4227,7 +4256,7 @@ Algae Blooms</string>
                                                     <constraint firstAttribute="width" constant="40" id="3qs-yx-1Xm"/>
                                                     <constraint firstAttribute="height" constant="40" id="Uua-uz-QlJ"/>
                                                 </constraints>
-                                                <state key="normal" title="Button" image="Untitled-1-1"/>
+                                                <state key="normal" title="Button" image="Unfilled"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hzd-cX-3wI">
                                                 <rect key="frame" x="74" y="0.0" width="40" height="40"/>
@@ -4235,7 +4264,7 @@ Algae Blooms</string>
                                                     <constraint firstAttribute="width" constant="40" id="GpN-gm-iNc"/>
                                                     <constraint firstAttribute="height" constant="40" id="ZrX-Hu-gAe"/>
                                                 </constraints>
-                                                <state key="normal" title="Button" image="Untitled-1-1"/>
+                                                <state key="normal" title="Button" image="Unfilled"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fFn-VM-wZe">
                                                 <rect key="frame" x="148" y="0.0" width="40" height="40"/>
@@ -4243,7 +4272,7 @@ Algae Blooms</string>
                                                     <constraint firstAttribute="height" constant="40" id="brZ-5g-mMc"/>
                                                     <constraint firstAttribute="width" constant="40" id="u23-SZ-3ID"/>
                                                 </constraints>
-                                                <state key="normal" title="Button" image="Untitled-1-1"/>
+                                                <state key="normal" title="Button" image="Unfilled"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gz1-MO-n7H">
                                                 <rect key="frame" x="222" y="0.0" width="40" height="40"/>
@@ -4251,7 +4280,7 @@ Algae Blooms</string>
                                                     <constraint firstAttribute="height" constant="40" id="4Mk-Ev-Pnr"/>
                                                     <constraint firstAttribute="width" constant="40" id="s2y-Tk-sa8"/>
                                                 </constraints>
-                                                <state key="normal" title="Button" image="Untitled-1-1"/>
+                                                <state key="normal" title="Button" image="Unfilled"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A5Y-Ow-TXj">
                                                 <rect key="frame" x="296" y="0.0" width="40" height="40"/>
@@ -4259,7 +4288,7 @@ Algae Blooms</string>
                                                     <constraint firstAttribute="width" constant="40" id="5FJ-ca-bPO"/>
                                                     <constraint firstAttribute="height" constant="40" id="Qyk-fd-oGK"/>
                                                 </constraints>
-                                                <state key="normal" title="Button" image="Untitled-1-1"/>
+                                                <state key="normal" title="Button" image="Unfilled"/>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -4288,10 +4317,6 @@ Algae Blooms</string>
                                     </stackView>
                                 </subviews>
                             </stackView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="top menu" translatesAutoresizingMaskIntoConstraints="NO" id="dWb-4L-Cbx">
-                                <rect key="frame" x="-11" y="-45" width="436" height="168"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Report" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J2h-PI-jhe">
                                 <rect key="frame" x="165.66666666666666" y="79" width="61.666666666666657" height="25.333333333333329"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
@@ -4341,7 +4366,6 @@ Algae Blooms</string>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="e1i-aC-oId"/>
         <segue reference="zGr-pI-Vw9"/>
         <segue reference="ScJ-BA-9aT"/>
         <segue reference="1XU-sw-yKN"/>
@@ -4393,7 +4417,7 @@ Algae Blooms</string>
         <image name="Settings" width="24" height="16"/>
         <image name="Social Media" width="278.33334350585938" height="64"/>
         <image name="Top menu" width="432" height="140"/>
-        <image name="Untitled-1-1" width="194" height="194"/>
+        <image name="Unfilled" width="48" height="48"/>
         <image name="WelcomePopupButton" width="1092" height="485"/>
         <image name="Yes + No Button-3" width="312" height="72"/>
         <image name="Yes + No Button-4" width="312" height="72"/>
@@ -4418,7 +4442,6 @@ Algae Blooms</string>
         <image name="or" width="105" height="16"/>
         <image name="page5" width="62" height="6"/>
         <image name="report pop-up" width="254" height="131"/>
-        <image name="top menu" width="432" height="157"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
