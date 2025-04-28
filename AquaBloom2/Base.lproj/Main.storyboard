@@ -4247,7 +4247,7 @@ Algae Blooms</string>
                                     </stackView>
                                 </subviews>
                             </stackView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="top menu" translatesAutoresizingMaskIntoConstraints="NO" id="a29-iY-AnW">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="top menu 1" translatesAutoresizingMaskIntoConstraints="NO" id="a29-iY-AnW">
                                 <rect key="frame" x="-11" y="-45" width="436" height="168"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -4363,7 +4363,6 @@ Algae Blooms</string>
         <image name="odor pop-up" width="254" height="144"/>
         <image name="or" width="105" height="16"/>
         <image name="report pop-up" width="254" height="131"/>
-        <image name="top menu" width="432" height="157"/>
         <image name="top menu 1" width="432" height="157"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
