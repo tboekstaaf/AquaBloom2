@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="avA-u6-J5a">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="hei-sW-g14">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
@@ -1092,15 +1092,14 @@ Amelia Tjioe</string>
                                 <rect key="frame" x="124" y="235" width="145" height="145"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="EP2-Qk-llN">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EP2-Qk-llN">
                                 <rect key="frame" x="0.0" y="53" width="393" height="465"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.0039215686269999999" green="0.29411764709999999" blue="0.36078431370000003" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sry-5c-fvY">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sry-5c-fvY">
                                 <rect key="frame" x="40" y="750" width="315" height="55"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="55" id="ulr-pe-ckQ"/>
-                                </constraints>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain">
                                     <backgroundConfiguration key="background" image="Quiz box white"/>
@@ -1118,8 +1117,8 @@ Amelia Tjioe</string>
                                     <segue destination="5OB-p4-g8c" kind="showDetail" id="ZAd-Mo-Zxm"/>
                                 </connections>
                             </button>
-                            <stackView opaque="NO" contentMode="scaleToFill" spacing="88" translatesAutoresizingMaskIntoConstraints="NO" id="dZJ-c6-8ZE">
-                                <rect key="frame" x="58.333333333333343" y="571" width="276.33333333333326" height="28"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" spacing="88" translatesAutoresizingMaskIntoConstraints="NO" id="dZJ-c6-8ZE">
+                                <rect key="frame" x="58.333333333333343" y="571" width="276.66666666666663" height="28"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ney-2R-uNi">
                                         <rect key="frame" x="0.0" y="0.0" width="94.333333333333329" height="28"/>
@@ -1140,7 +1139,7 @@ Amelia Tjioe</string>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mrh-n5-y0s">
-                                        <rect key="frame" x="182.33333333333331" y="0.0" width="94" height="28"/>
+                                        <rect key="frame" x="182.33333333333334" y="0.0" width="94.333333333333343" height="28"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled" cornerStyle="capsule">
                                             <attributedString key="attributedTitle">
@@ -1159,12 +1158,9 @@ Amelia Tjioe</string>
                                     </button>
                                 </subviews>
                             </stackView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" ambiguous="YES" misplaced="YES" image="Top menu" translatesAutoresizingMaskIntoConstraints="NO" id="vAi-j4-uGa">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Top menu" translatesAutoresizingMaskIntoConstraints="NO" id="vAi-j4-uGa">
                                 <rect key="frame" x="-19.666666666666515" y="-24" width="432.33333333333348" height="140"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="432.32999999999998" id="9jC-qT-Oxv"/>
-                                    <constraint firstAttribute="height" constant="140" id="JRg-jK-zZ5"/>
-                                </constraints>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Report" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kaM-by-WzW">
                                 <rect key="frame" x="166" y="68" width="61.666666666666657" height="25.333333333333329"/>
@@ -1176,19 +1172,6 @@ Amelia Tjioe</string>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="a3Y-qZ-Fan"/>
                         <color key="backgroundColor" red="0.49803921579999999" green="0.73333334920000004" blue="0.58431375029999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                        <constraints>
-                            <constraint firstItem="dZJ-c6-8ZE" firstAttribute="centerX" secondItem="hFT-FU-lrb" secondAttribute="centerX" id="Daa-Gq-r3z"/>
-                            <constraint firstItem="EP2-Qk-llN" firstAttribute="leading" secondItem="a3Y-qZ-Fan" secondAttribute="leading" id="SMO-ux-lDa"/>
-                            <constraint firstItem="dZJ-c6-8ZE" firstAttribute="centerX" secondItem="EP2-Qk-llN" secondAttribute="centerX" id="Uyd-YE-qui"/>
-                            <constraint firstItem="sry-5c-fvY" firstAttribute="bottom" secondItem="a3Y-qZ-Fan" secondAttribute="bottom" id="csp-Vn-n3S"/>
-                            <constraint firstItem="vAi-j4-uGa" firstAttribute="centerX" secondItem="hFT-FU-lrb" secondAttribute="centerX" id="gPF-vf-P2S"/>
-                            <constraint firstItem="dZJ-c6-8ZE" firstAttribute="top" secondItem="hFT-FU-lrb" secondAttribute="top" constant="571" id="hBV-Wd-qXR"/>
-                            <constraint firstItem="dZJ-c6-8ZE" firstAttribute="leading" secondItem="a3Y-qZ-Fan" secondAttribute="leading" constant="58.333333333333343" id="lhM-xE-rAq"/>
-                            <constraint firstItem="sry-5c-fvY" firstAttribute="leading" secondItem="a3Y-qZ-Fan" secondAttribute="leading" constant="40" id="rS3-dc-qXv"/>
-                            <constraint firstItem="dZJ-c6-8ZE" firstAttribute="centerX" secondItem="sry-5c-fvY" secondAttribute="centerX" constant="-1.0000000000000284" id="sLR-kX-d4Y"/>
-                            <constraint firstItem="dZJ-c6-8ZE" firstAttribute="top" secondItem="EP2-Qk-llN" secondAttribute="bottom" constant="53" id="tl6-rK-LId"/>
-                            <constraint firstItem="EP2-Qk-llN" firstAttribute="top" secondItem="a3Y-qZ-Fan" secondAttribute="top" constant="53" id="zID-fv-2GZ"/>
-                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="OA5-Vx-9o3"/>
                     <connections>
@@ -3446,6 +3429,9 @@ Algae Blooms</string>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain"/>
+                                <connections>
+                                    <segue destination="Ygp-2C-0MF" kind="show" animates="NO" id="mSN-Hd-BQZ"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="OSo-kl-GT8"/>
@@ -3469,7 +3455,7 @@ Algae Blooms</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bloom image 1(HD)" translatesAutoresizingMaskIntoConstraints="NO" id="O0Z-Js-a4O">
-                                <rect key="frame" x="-0.66666666666665719" y="103" width="394.33333333333326" height="381"/>
+                                <rect key="frame" x="-0.66666666666665719" y="44" width="394.33333333333326" height="381"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="381" id="eha-Tn-kdt"/>
                                     <constraint firstAttribute="width" constant="394.32999999999998" id="h6R-yP-Njh"/>
@@ -3487,7 +3473,7 @@ Algae Blooms</string>
                                 </buttonConfiguration>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="Arrow" translatesAutoresizingMaskIntoConstraints="NO" id="05A-WB-2U4">
-                                <rect key="frame" x="26" y="73" width="13" height="24"/>
+                                <rect key="frame" x="26" y="14" width="13" height="24"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Create Account" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tAg-ql-pX3">
                                 <rect key="frame" x="134.33333333333337" y="135" width="139.66666666666663" height="0.0"/>
@@ -3497,7 +3483,7 @@ Algae Blooms</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Report" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lBD-TB-Bj3">
-                                <rect key="frame" x="170.66666666666666" y="74" width="52" height="21"/>
+                                <rect key="frame" x="170.66666666666666" y="15" width="52" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -3556,7 +3542,7 @@ Algae Blooms</string>
                                     <color key="titleColor" red="0.0039215686269999999" green="0.29411764709999999" blue="0.36078431370000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="ZO2-m4-qZi" kind="presentation" animates="NO" id="mWi-dH-4JQ"/>
+                                    <segue destination="ZO2-m4-qZi" kind="show" animates="NO" id="brI-YB-eRU"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vlh-pT-Ut5">
@@ -3815,13 +3801,13 @@ Algae Blooms</string>
         <!--Report-->
         <scene sceneID="mPi-C8-LTg">
             <objects>
-                <viewController id="Ygp-2C-0MF" customClass="ViewController" customModule="AquaBloom2" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="Ygp-2C-0MF" customClass="ViewController" customModule="AquaBloom2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ngu-gv-3N3">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="21" translatesAutoresizingMaskIntoConstraints="NO" id="MmK-rv-wU6">
-                                <rect key="frame" x="28.666666666666657" y="146" width="336" height="125.33333333333331"/>
+                                <rect key="frame" x="28.666666666666657" y="87" width="336" height="125.33333333333331"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Scum" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JuI-Bc-Bj9">
                                         <rect key="frame" x="0.0" y="0.0" width="336" height="25.333333333333332"/>
@@ -3883,20 +3869,23 @@ Algae Blooms</string>
                                 </subviews>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lvv-jI-wS0">
-                                <rect key="frame" x="40.666666666666657" y="688" width="312" height="72"/>
+                                <rect key="frame" x="40.666666666666657" y="722" width="312" height="72"/>
                                 <state key="normal" image="QuestionPageAssets-2"/>
+                                <connections>
+                                    <segue destination="a3z-2d-8qO" kind="show" animates="NO" id="xMn-Yd-Gmt"/>
+                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="top menu 1" translatesAutoresizingMaskIntoConstraints="NO" id="zzb-wA-v0V">
-                                <rect key="frame" x="-19.666666666666657" y="-19" width="432.33333333333326" height="157"/>
+                                <rect key="frame" x="-19.666666666666657" y="-78" width="432.33333333333326" height="157"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Report" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JGk-yh-E3F">
-                                <rect key="frame" x="165.66666666666666" y="79" width="61.666666666666657" height="25.333333333333329"/>
+                                <rect key="frame" x="165.66666666666666" y="20" width="61.666666666666657" height="25.333333333333329"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                 <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xME-Nw-Dw6">
-                                <rect key="frame" x="333.33333333333331" y="77" width="48" height="30"/>
+                                <rect key="frame" x="333.33333333333331" y="18" width="48" height="30"/>
                                 <state key="normal" title="Cancel"/>
                             </button>
                         </subviews>
@@ -3930,13 +3919,13 @@ Algae Blooms</string>
         <!--Report-->
         <scene sceneID="2Wq-Tm-i1R">
             <objects>
-                <viewController id="a3z-2d-8qO" customClass="ViewController" customModule="AquaBloom2" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="a3z-2d-8qO" customClass="ViewController" customModule="AquaBloom2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="mrm-HR-4Zp">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="21" translatesAutoresizingMaskIntoConstraints="NO" id="KFp-WG-KB6">
-                                <rect key="frame" x="28.666666666666657" y="146" width="336" height="150.33333333333337"/>
+                                <rect key="frame" x="28.666666666666657" y="87.000000000000014" width="336" height="150.33333333333337"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Clarity" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Pa-TH-oDs">
                                         <rect key="frame" x="0.0" y="0.0" width="336" height="25.333333333333332"/>
@@ -3962,7 +3951,7 @@ Algae Blooms</string>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="34" translatesAutoresizingMaskIntoConstraints="NO" id="Lld-g9-yxS">
-                                        <rect key="frame" x="0.0" y="110.33333333333331" width="336" height="40"/>
+                                        <rect key="frame" x="0.0" y="110.33333333333334" width="336" height="40"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TBH-JE-gNM">
                                                 <rect key="frame" x="0.0" y="0.0" width="40" height="40"/>
@@ -4009,14 +3998,17 @@ Algae Blooms</string>
                                 </subviews>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="omb-Cn-fsW">
-                                <rect key="frame" x="40.666666666666657" y="688" width="312" height="72"/>
+                                <rect key="frame" x="40.666666666666657" y="722" width="312" height="72"/>
                                 <state key="normal" image="QuestionPageAssets-2"/>
+                                <connections>
+                                    <segue destination="TVx-dj-JdQ" kind="show" animates="NO" id="Ky2-4A-y9h"/>
+                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="top menu 1" translatesAutoresizingMaskIntoConstraints="NO" id="nXO-iK-LE7">
-                                <rect key="frame" x="-19.666666666666657" y="-19" width="432.33333333333326" height="157"/>
+                                <rect key="frame" x="-19.666666666666657" y="-78" width="432.33333333333326" height="157"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Report" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ioo-3b-RtV">
-                                <rect key="frame" x="165.66666666666666" y="79" width="61.666666666666657" height="25.333333333333329"/>
+                                <rect key="frame" x="165.66666666666666" y="20" width="61.666666666666657" height="25.333333333333329"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                 <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -4050,13 +4042,13 @@ Algae Blooms</string>
         <!--Report-->
         <scene sceneID="cMN-nY-JUy">
             <objects>
-                <viewController id="TVx-dj-JdQ" customClass="ViewController" customModule="AquaBloom2" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="TVx-dj-JdQ" customClass="ViewController" customModule="AquaBloom2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fXq-4G-dBj">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="21" translatesAutoresizingMaskIntoConstraints="NO" id="YRG-de-jD9">
-                                <rect key="frame" x="29.666666666666657" y="146" width="334" height="160.33333333333337"/>
+                                <rect key="frame" x="29.666666666666657" y="87.000000000000014" width="334" height="160.33333333333337"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dead Fish" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ovq-7A-pqM">
                                         <rect key="frame" x="0.0" y="0.0" width="334" height="25.333333333333332"/>
@@ -4082,7 +4074,7 @@ Algae Blooms</string>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="34" translatesAutoresizingMaskIntoConstraints="NO" id="GP9-T4-0Qe">
-                                        <rect key="frame" x="0.0" y="110.33333333333331" width="334" height="50"/>
+                                        <rect key="frame" x="0.0" y="110.33333333333334" width="334" height="50"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IeB-CE-iaF">
                                                 <rect key="frame" x="0.0" y="0.0" width="150" height="50"/>
@@ -4105,14 +4097,17 @@ Algae Blooms</string>
                                 </subviews>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cah-jr-6rz">
-                                <rect key="frame" x="40.666666666666657" y="688" width="312" height="72"/>
+                                <rect key="frame" x="40.666666666666657" y="722" width="312" height="72"/>
                                 <state key="normal" image="QuestionPageAssets-2"/>
+                                <connections>
+                                    <segue destination="BCe-hR-MeO" kind="show" animates="NO" id="Vc7-zI-yxa"/>
+                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="top menu 1" translatesAutoresizingMaskIntoConstraints="NO" id="3Fc-l6-wDw">
-                                <rect key="frame" x="-19.666666666666657" y="-19" width="432.33333333333326" height="157"/>
+                                <rect key="frame" x="-19.666666666666657" y="-78" width="432.33333333333326" height="157"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Report" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vd5-hS-FzR">
-                                <rect key="frame" x="165.66666666666666" y="79" width="61.666666666666657" height="25.333333333333329"/>
+                                <rect key="frame" x="165.66666666666666" y="20" width="61.666666666666657" height="25.333333333333329"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                 <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -4146,13 +4141,13 @@ Algae Blooms</string>
         <!--Report-->
         <scene sceneID="5gt-p0-VSL">
             <objects>
-                <viewController id="BCe-hR-MeO" customClass="ViewController" customModule="AquaBloom2" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="BCe-hR-MeO" customClass="ViewController" customModule="AquaBloom2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Mbu-DJ-C0Q">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="21" translatesAutoresizingMaskIntoConstraints="NO" id="Il3-VZ-zm3">
-                                <rect key="frame" x="28.666666666666657" y="146" width="336" height="185.66666666666663"/>
+                                <rect key="frame" x="28.666666666666657" y="86.999999999999986" width="336" height="185.66666666666663"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Clarity" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yZ6-XM-pgO">
                                         <rect key="frame" x="0.0" y="0.0" width="336" height="25.333333333333332"/>
@@ -4178,7 +4173,7 @@ Algae Blooms</string>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="34" translatesAutoresizingMaskIntoConstraints="NO" id="dyF-Ne-VzU">
-                                        <rect key="frame" x="0.0" y="110.33333333333331" width="336" height="40"/>
+                                        <rect key="frame" x="0.0" y="110.33333333333334" width="336" height="40"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FgR-YX-8LJ">
                                                 <rect key="frame" x="0.0" y="0.0" width="40" height="40"/>
@@ -4252,14 +4247,17 @@ Algae Blooms</string>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Report" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pEM-BL-CNg">
-                                <rect key="frame" x="165.66666666666666" y="79" width="61.666666666666657" height="25.333333333333329"/>
+                                <rect key="frame" x="165.66666666666666" y="20" width="61.666666666666657" height="25.333333333333329"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                 <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZgY-P7-g11">
-                                <rect key="frame" x="40.666666666666657" y="688" width="312" height="72"/>
+                                <rect key="frame" x="40.666666666666657" y="722" width="312" height="72"/>
                                 <state key="normal" image="QuestionPageAssets-2"/>
+                                <connections>
+                                    <segue destination="MA4-uf-PQ7" kind="show" id="jje-Ar-gJ9"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="TzA-aR-fLo"/>
@@ -4287,6 +4285,7 @@ Algae Blooms</string>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="9Rz-N1-0bT"/>
         <segue reference="P3N-h0-lz0"/>
         <segue reference="ScJ-BA-9aT"/>
         <segue reference="en7-g9-rnM"/>
