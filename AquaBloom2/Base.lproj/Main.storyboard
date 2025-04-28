@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23727" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="1D0-eu-jtB">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23727" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="4Hf-eQ-fxD">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23721"/>
@@ -192,7 +192,7 @@
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" distribution="fillProportionally" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="ldh-Yc-x5T">
-                                <rect key="frame" x="17.666666666666657" y="371.00000000000006" width="358" height="284.33333333333331"/>
+                                <rect key="frame" x="17.666666666666657" y="371.00000000000011" width="358" height="284.33333333333337"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tips for Taking a Good Photo:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bg5-9X-TZy">
                                         <rect key="frame" x="0.0" y="0.0" width="224.66666666666666" height="20.333333333333332"/>
@@ -1438,13 +1438,26 @@ to complete your account.</string>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="19E-Op-KXh">
+                                <rect key="frame" x="327" y="630" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="8VI-5a-8Qn"/>
+                                    <constraint firstAttribute="height" constant="50" id="Lhf-Bl-V74"/>
+                                </constraints>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Button" image="map save marker icon"/>
+                                <connections>
+                                    <segue destination="DwG-4r-9Zb" kind="popoverPresentation" popoverAnchorView="19E-Op-KXh" id="EI0-x6-RH2">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5C5-46-cnI" userLabel="Saved">
-                                <rect key="frame" x="327" y="719" width="50" height="50"/>
+                                <rect key="frame" x="327" y="688" width="50" height="50"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="HrX-1e-5T5"/>
-                                    <constraint firstAttribute="width" constant="50" id="PSN-ro-VnG"/>
-                                    <constraint firstAttribute="height" constant="50" id="bcf-LC-qxk"/>
+                                    <constraint firstAttribute="width" constant="50" id="6Ty-MY-MoC"/>
+                                    <constraint firstAttribute="height" constant="50" id="Uuv-PD-o19"/>
                                 </constraints>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -1452,36 +1465,26 @@ to complete your account.</string>
                                     <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="YW9-2g-jHH" kind="show" id="7K6-cR-fH7"/>
+                                    <segue destination="FuT-wi-Y32" kind="popoverPresentation" popoverAnchorView="5C5-46-cnI" id="g13-Gt-xlU">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
                                 </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="19E-Op-KXh">
-                                <rect key="frame" x="327" y="656" width="50" height="50"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="JoP-lj-qlw"/>
-                                    <constraint firstAttribute="height" constant="50" id="KtV-6v-7tT"/>
-                                    <constraint firstAttribute="width" constant="50" id="ZDL-bm-ppg"/>
-                                </constraints>
-                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" title="Button" image="map save marker icon"/>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="nCb-7V-2Wh"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="19E-Op-KXh" firstAttribute="leading" secondItem="5C5-46-cnI" secondAttribute="leading" id="2Pc-AB-Yor"/>
                             <constraint firstItem="0ED-rU-c5N" firstAttribute="leading" secondItem="nCb-7V-2Wh" secondAttribute="leading" id="3OC-eo-SfV"/>
                             <constraint firstAttribute="bottomMargin" secondItem="0ED-rU-c5N" secondAttribute="bottom" constant="-83" id="6bj-tY-vEo"/>
-                            <constraint firstItem="5C5-46-cnI" firstAttribute="top" secondItem="19E-Op-KXh" secondAttribute="bottom" constant="13" id="98U-hE-o7P"/>
+                            <constraint firstItem="nCb-7V-2Wh" firstAttribute="trailing" secondItem="19E-Op-KXh" secondAttribute="trailing" constant="16" id="7Vj-Sn-aMi"/>
                             <constraint firstItem="AHA-tD-dRb" firstAttribute="top" secondItem="0ED-rU-c5N" secondAttribute="top" id="Sht-Ps-gvt"/>
                             <constraint firstItem="AHA-tD-dRb" firstAttribute="trailing" secondItem="0ED-rU-c5N" secondAttribute="trailing" id="XA9-md-Qcx"/>
-                            <constraint firstItem="5C5-46-cnI" firstAttribute="bottom" secondItem="nCb-7V-2Wh" secondAttribute="bottom" id="XLh-1e-pYa"/>
-                            <constraint firstItem="19E-Op-KXh" firstAttribute="leading" secondItem="nCb-7V-2Wh" secondAttribute="leading" constant="327" id="bha-U7-PQr"/>
+                            <constraint firstItem="5C5-46-cnI" firstAttribute="top" secondItem="0ED-rU-c5N" secondAttribute="bottom" constant="-164" id="ceo-5V-9ta"/>
+                            <constraint firstItem="5C5-46-cnI" firstAttribute="top" secondItem="19E-Op-KXh" secondAttribute="bottom" constant="8" symbolic="YES" id="sBB-XH-Pas"/>
+                            <constraint firstItem="nCb-7V-2Wh" firstAttribute="trailing" secondItem="5C5-46-cnI" secondAttribute="trailing" constant="16" id="t6d-Od-ijF"/>
                             <constraint firstItem="AHA-tD-dRb" firstAttribute="top" secondItem="YTn-OL-Wdo" secondAttribute="topMargin" constant="-44" id="tsj-gK-4xM"/>
                             <constraint firstItem="AHA-tD-dRb" firstAttribute="centerX" secondItem="YTn-OL-Wdo" secondAttribute="centerX" id="wL8-9e-0Br"/>
-                            <constraint firstItem="19E-Op-KXh" firstAttribute="trailing" secondItem="YTn-OL-Wdo" secondAttribute="trailingMargin" id="yCa-WX-SDV"/>
                             <constraint firstItem="AHA-tD-dRb" firstAttribute="leading" secondItem="0ED-rU-c5N" secondAttribute="leading" id="yGv-Iu-ICC"/>
-                            <constraint firstItem="19E-Op-KXh" firstAttribute="trailing" secondItem="5C5-46-cnI" secondAttribute="trailing" id="zmr-IS-b8C"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="6cl-Oh-Ay1"/>
@@ -2489,7 +2492,7 @@ Algae Blooms</string>
             <objects>
                 <viewController modalPresentationStyle="fullScreen" id="DwG-4r-9Zb" userLabel="Map Search" customClass="MapSearchViewController" customModule="AquaBloom2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="whE-kp-L2D">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <searchBar contentMode="redraw" barStyle="blackTranslucent" searchBarStyle="minimal" text="Search here" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="56K-jN-Mk1">
@@ -2682,7 +2685,7 @@ Algae Blooms</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lake Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dUs-IX-PpI">
-                                <rect key="frame" x="16" y="274" width="77" height="18"/>
+                                <rect key="frame" x="16" y="289" width="77" height="18"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="77" id="HsV-xl-jss"/>
                                     <constraint firstAttribute="height" constant="18" id="ls2-2V-L9K"/>
@@ -2692,7 +2695,7 @@ Algae Blooms</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2401 N DuSable Lake Shore Dr" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3zK-Bv-yZ0">
-                                <rect key="frame" x="16" y="299" width="174" height="15"/>
+                                <rect key="frame" x="16" y="314" width="174" height="15"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="15" id="Ey0-rt-a3a"/>
                                     <constraint firstAttribute="width" constant="174" id="eKH-yO-qZL"/>
@@ -2702,7 +2705,7 @@ Algae Blooms</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.06 mi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fVI-uW-P3I">
-                                <rect key="frame" x="16" y="320" width="43" height="15"/>
+                                <rect key="frame" x="16" y="335" width="43" height="15"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="43" id="DYS-v4-dYm"/>
                                     <constraint firstAttribute="height" constant="15" id="urL-0M-w0Z"/>
@@ -2715,7 +2718,7 @@ Algae Blooms</string>
                                 <rect key="frame" x="251" y="480" width="201" height="201"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="map danger icon" translatesAutoresizingMaskIntoConstraints="NO" id="n4u-vw-7GM">
-                                <rect key="frame" x="327" y="281" width="50" height="50"/>
+                                <rect key="frame" x="327" y="296" width="50" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="50" id="7f0-SS-1y8"/>
                                     <constraint firstAttribute="height" constant="50" id="Alo-Ed-zr6"/>
@@ -2725,7 +2728,7 @@ Algae Blooms</string>
                                 <rect key="frame" x="251" y="229" width="201" height="201"/>
                             </imageView>
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Omw-Z9-Ry2">
-                                <rect key="frame" x="0.0" y="103" width="393" height="0.0"/>
+                                <rect key="frame" x="0.0" y="118" width="393" height="0.0"/>
                                 <color key="barTintColor" red="0.058823529409999999" green="0.1686274707" blue="0.25098040700000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <textAttributes key="titleTextAttributes">
                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -2799,38 +2802,35 @@ Algae Blooms</string>
         <!--Lake Map-->
         <scene sceneID="1JU-Zi-CEM">
             <objects>
-                <viewController modalTransitionStyle="crossDissolve" modalPresentationStyle="fullScreen" id="FuT-wi-Y32" userLabel="Lake Map" sceneMemberID="viewController">
+                <viewController id="FuT-wi-Y32" userLabel="Lake Map" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="orU-ug-aUL">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WnB-EW-usK">
-                                <rect key="frame" x="0.0" y="118" width="393" height="44"/>
+                                <rect key="frame" x="0.0" y="59" width="393" height="44"/>
                                 <color key="barTintColor" red="0.058823529409999999" green="0.1686274707" blue="0.25098040700000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <textAttributes key="titleTextAttributes">
                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </textAttributes>
                                 <items>
                                     <navigationItem title="Title" id="UDh-kB-6Lw">
-                                        <barButtonItem key="leftBarButtonItem" title="Item" image="chevron.backward" catalog="system" id="Vdi-En-zt6"/>
-                                        <barButtonItem key="rightBarButtonItem" title="Item" image="map search icon" id="qiq-6Y-0Yz"/>
+                                        <barButtonItem key="rightBarButtonItem" title="Item" image="map search icon" id="qiq-6Y-0Yz">
+                                            <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </barButtonItem>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Yht-qv-Hyl">
-                                <rect key="frame" x="0.0" y="162" width="393" height="587"/>
+                                <rect key="frame" x="0.0" y="103" width="393" height="655"/>
                                 <standardMapConfiguration key="preferredConfiguration"/>
                             </mapView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GZj-Tf-jY6">
-                                <rect key="frame" x="0.0" y="628" width="393" height="183"/>
+                                <rect key="frame" x="0.0" y="569" width="393" height="183"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KWi-vj-Vs8">
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KWi-vj-Vs8">
                                         <rect key="frame" x="28" y="118" width="106" height="34"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="34" id="5Jm-d2-mde"/>
-                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="106" id="TDs-4j-X8d"/>
-                                            <constraint firstAttribute="width" constant="106" id="hqn-Al-aWz"/>
-                                        </constraints>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled" image="map directions" title="Directions" imagePadding="5" cornerStyle="capsule">
                                             <fontDescription key="titleFontDescription" type="system" pointSize="12"/>
@@ -2838,12 +2838,9 @@ Algae Blooms</string>
                                             <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </buttonConfiguration>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LO4-lB-nT7">
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LO4-lB-nT7">
                                         <rect key="frame" x="140" y="118" width="71" height="34"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="34" id="DWI-Ve-tfo"/>
-                                            <constraint firstAttribute="width" constant="71" id="Gx4-qS-XZd"/>
-                                        </constraints>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled" image="map add icon" title="Add" imagePadding="5" cornerStyle="capsule">
                                             <fontDescription key="titleFontDescription" type="system" pointSize="12"/>
@@ -2851,13 +2848,9 @@ Algae Blooms</string>
                                             <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </buttonConfiguration>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="59g-bh-CEw">
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="59g-bh-CEw">
                                         <rect key="frame" x="219" y="118" width="75" height="34"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="34" id="APp-kR-zya"/>
-                                            <constraint firstAttribute="width" constant="75" id="iOV-xa-Haf"/>
-                                            <constraint firstAttribute="height" constant="34" id="xoa-sB-Y2S"/>
-                                        </constraints>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled" image="map bouy icon" imagePlacement="leading" title="Buoy" imagePadding="5" cornerStyle="capsule">
                                             <fontDescription key="titleFontDescription" type="system" pointSize="12"/>
@@ -2865,89 +2858,36 @@ Algae Blooms</string>
                                             <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </buttonConfiguration>
                                     </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lake Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="prn-sm-fR4">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Lake Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="prn-sm-fR4">
                                         <rect key="frame" x="28" y="32" width="77" height="18"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="77" id="2cW-qt-U3c"/>
-                                            <constraint firstAttribute="height" constant="18" id="aqC-s1-vDn"/>
-                                        </constraints>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2401 N DuSable Lake Shore Dr" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nMp-aR-HUM">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2401 N DuSable Lake Shore Dr" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nMp-aR-HUM">
                                         <rect key="frame" x="28" y="57" width="174" height="14"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="174" id="3HM-UG-Ssp"/>
-                                            <constraint firstAttribute="height" constant="14" id="cRH-O0-JZv"/>
-                                        </constraints>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.06 mi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XRd-nT-fB2">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0.06 mi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XRd-nT-fB2">
                                         <rect key="frame" x="28" y="77" width="43" height="16"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="43" id="Kzi-Uw-hhl"/>
-                                            <constraint firstAttribute="height" constant="16" id="wCd-iG-wB4"/>
-                                        </constraints>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="map safe icon" translatesAutoresizingMaskIntoConstraints="NO" id="pOF-q7-YRA">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="map safe icon" translatesAutoresizingMaskIntoConstraints="NO" id="pOF-q7-YRA">
                                         <rect key="frame" x="313" y="39" width="64" height="50"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="64" id="4IS-Pi-06T"/>
-                                            <constraint firstAttribute="height" constant="50" id="61y-Vt-EUV"/>
-                                            <constraint firstAttribute="width" constant="64" id="eb4-6o-Gaf"/>
-                                        </constraints>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                 </subviews>
                                 <color key="backgroundColor" red="0.058823529409999999" green="0.1686274707" blue="0.25098040700000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
-                                    <constraint firstItem="KWi-vj-Vs8" firstAttribute="firstBaseline" secondItem="LO4-lB-nT7" secondAttribute="baseline" id="3d8-Yy-zBE"/>
-                                    <constraint firstItem="LO4-lB-nT7" firstAttribute="top" secondItem="nMp-aR-HUM" secondAttribute="bottom" constant="47" id="8Ny-cW-nir"/>
-                                    <constraint firstItem="XRd-nT-fB2" firstAttribute="top" secondItem="nMp-aR-HUM" secondAttribute="bottom" constant="6" id="8p8-5h-fXI"/>
-                                    <constraint firstItem="59g-bh-CEw" firstAttribute="leading" secondItem="LO4-lB-nT7" secondAttribute="trailing" constant="8" symbolic="YES" id="94v-97-2n6"/>
-                                    <constraint firstAttribute="bottom" secondItem="59g-bh-CEw" secondAttribute="bottom" constant="31" id="AOv-90-qyb"/>
-                                    <constraint firstItem="prn-sm-fR4" firstAttribute="leading" secondItem="XRd-nT-fB2" secondAttribute="leading" id="E1p-cl-qJl"/>
-                                    <constraint firstItem="KWi-vj-Vs8" firstAttribute="baseline" secondItem="59g-bh-CEw" secondAttribute="baseline" id="Jcq-pa-cfD"/>
-                                    <constraint firstItem="XRd-nT-fB2" firstAttribute="leading" secondItem="GZj-Tf-jY6" secondAttribute="leading" constant="28" id="Jec-YG-HT7"/>
                                     <constraint firstAttribute="height" constant="183" id="MDk-D6-AsU"/>
-                                    <constraint firstItem="nMp-aR-HUM" firstAttribute="centerY" secondItem="pOF-q7-YRA" secondAttribute="centerY" id="NJ5-Td-pmp"/>
-                                    <constraint firstItem="pOF-q7-YRA" firstAttribute="top" secondItem="GZj-Tf-jY6" secondAttribute="top" constant="39" id="Ogc-gJ-k10"/>
-                                    <constraint firstItem="XRd-nT-fB2" firstAttribute="top" secondItem="nMp-aR-HUM" secondAttribute="bottom" constant="6" id="PFO-fh-sqi"/>
-                                    <constraint firstItem="nMp-aR-HUM" firstAttribute="top" secondItem="GZj-Tf-jY6" secondAttribute="top" constant="57" id="Qmh-5D-vGS"/>
-                                    <constraint firstItem="LO4-lB-nT7" firstAttribute="leading" secondItem="KWi-vj-Vs8" secondAttribute="trailing" constant="6" id="RRD-HS-2rH"/>
-                                    <constraint firstItem="pOF-q7-YRA" firstAttribute="leading" secondItem="XRd-nT-fB2" secondAttribute="trailing" constant="242" id="Sie-Yg-Sey"/>
-                                    <constraint firstItem="KWi-vj-Vs8" firstAttribute="baseline" secondItem="LO4-lB-nT7" secondAttribute="baseline" id="U5b-jH-CNK"/>
-                                    <constraint firstItem="prn-sm-fR4" firstAttribute="leading" secondItem="GZj-Tf-jY6" secondAttribute="leading" constant="28" id="VO8-ig-pMC"/>
                                     <constraint firstAttribute="width" constant="393" id="VRh-Gx-gXm"/>
-                                    <constraint firstAttribute="trailing" secondItem="59g-bh-CEw" secondAttribute="trailing" constant="99" id="XP6-SZ-Ucr"/>
-                                    <constraint firstItem="nMp-aR-HUM" firstAttribute="top" secondItem="prn-sm-fR4" secondAttribute="bottom" constant="7" id="ZPd-ox-dGJ"/>
-                                    <constraint firstItem="59g-bh-CEw" firstAttribute="top" secondItem="GZj-Tf-jY6" secondAttribute="top" constant="118" id="e4b-Wy-PeF"/>
-                                    <constraint firstAttribute="bottom" secondItem="LO4-lB-nT7" secondAttribute="bottom" constant="31" id="fVo-HK-LBr"/>
-                                    <constraint firstAttribute="bottom" secondItem="KWi-vj-Vs8" secondAttribute="bottom" constant="31" id="fq5-Jc-fON"/>
-                                    <constraint firstItem="59g-bh-CEw" firstAttribute="leading" secondItem="LO4-lB-nT7" secondAttribute="trailing" constant="8" symbolic="YES" id="htw-bG-C5m"/>
-                                    <constraint firstItem="nMp-aR-HUM" firstAttribute="leading" secondItem="GZj-Tf-jY6" secondAttribute="leading" constant="28" id="iU6-6t-QuH"/>
-                                    <constraint firstItem="KWi-vj-Vs8" firstAttribute="top" secondItem="XRd-nT-fB2" secondAttribute="bottom" constant="25" id="irm-gi-CgJ"/>
-                                    <constraint firstItem="nMp-aR-HUM" firstAttribute="leading" secondItem="XRd-nT-fB2" secondAttribute="leading" id="jKM-L8-m4Z"/>
-                                    <constraint firstItem="KWi-vj-Vs8" firstAttribute="leading" secondItem="GZj-Tf-jY6" secondAttribute="leading" constant="28" id="kNd-nz-s6e"/>
-                                    <constraint firstItem="prn-sm-fR4" firstAttribute="top" secondItem="GZj-Tf-jY6" secondAttribute="top" constant="32" id="kcs-Hy-dzL"/>
-                                    <constraint firstItem="pOF-q7-YRA" firstAttribute="leading" secondItem="prn-sm-fR4" secondAttribute="trailing" constant="208" id="krT-gL-TpQ"/>
-                                    <constraint firstItem="nMp-aR-HUM" firstAttribute="top" secondItem="prn-sm-fR4" secondAttribute="bottom" constant="7" id="nk4-Ei-Oxp"/>
-                                    <constraint firstItem="nMp-aR-HUM" firstAttribute="leading" secondItem="GZj-Tf-jY6" secondAttribute="leading" constant="28" id="pGs-Un-mT8"/>
-                                    <constraint firstAttribute="bottom" secondItem="KWi-vj-Vs8" secondAttribute="bottom" constant="31" id="pdR-gY-JTp"/>
-                                    <constraint firstItem="pOF-q7-YRA" firstAttribute="leading" secondItem="nMp-aR-HUM" secondAttribute="trailing" constant="111" id="poR-Z1-CCQ"/>
-                                    <constraint firstAttribute="bottom" secondItem="pOF-q7-YRA" secondAttribute="bottom" constant="94" id="qxX-gU-Afv"/>
-                                    <constraint firstItem="KWi-vj-Vs8" firstAttribute="top" secondItem="XRd-nT-fB2" secondAttribute="bottom" constant="25" id="r9s-Fa-mRF"/>
-                                    <constraint firstAttribute="trailing" secondItem="pOF-q7-YRA" secondAttribute="trailing" constant="16" id="ste-76-DcF"/>
-                                    <constraint firstAttribute="trailing" secondItem="pOF-q7-YRA" secondAttribute="trailing" constant="16" id="tS3-iG-7X9"/>
-                                    <constraint firstAttribute="bottom" secondItem="pOF-q7-YRA" secondAttribute="bottom" constant="94" id="v1A-Qz-NyN"/>
-                                    <constraint firstItem="pOF-q7-YRA" firstAttribute="top" secondItem="GZj-Tf-jY6" secondAttribute="top" constant="39" id="xtP-9K-ri3"/>
-                                    <constraint firstItem="LO4-lB-nT7" firstAttribute="leading" secondItem="KWi-vj-Vs8" secondAttribute="trailing" constant="6" id="yF7-rQ-wH6"/>
-                                    <constraint firstItem="nMp-aR-HUM" firstAttribute="leading" secondItem="KWi-vj-Vs8" secondAttribute="leading" id="ygj-nt-WBS"/>
                                 </constraints>
                             </view>
                         </subviews>
