@@ -192,7 +192,7 @@
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" distribution="fillProportionally" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="ldh-Yc-x5T">
-                                <rect key="frame" x="17.666666666666657" y="371.00000000000006" width="358" height="284.33333333333331"/>
+                                <rect key="frame" x="17.666666666666657" y="371.00000000000011" width="358" height="284.33333333333337"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tips for Taking a Good Photo:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bg5-9X-TZy">
                                         <rect key="frame" x="0.0" y="0.0" width="224.66666666666666" height="20.333333333333332"/>
@@ -1036,6 +1036,9 @@ Amelia Tjioe</string>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="Arrow"/>
+                                <connections>
+                                    <segue destination="wii-ZP-UK4" kind="showDetail" id="ipK-h1-X5p"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="zch-PG-x8C"/>
@@ -1077,7 +1080,7 @@ Amelia Tjioe</string>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="EP2-Qk-llN">
-                                <rect key="frame" x="0.0" y="156" width="393" height="362"/>
+                                <rect key="frame" x="0.0" y="215" width="393" height="303"/>
                                 <color key="backgroundColor" red="0.0039215686269999999" green="0.29411764709999999" blue="0.36078431370000003" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sry-5c-fvY">
@@ -1431,11 +1434,11 @@ to complete your account.</string>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <mapView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" showsUserLocation="YES" showsScale="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0ED-rU-c5N">
-                                <rect key="frame" x="0.0" y="59" width="393" height="793"/>
+                                <rect key="frame" x="0.0" y="118" width="393" height="700"/>
                                 <standardMapConfiguration key="preferredConfiguration" emphasisStyle="muted"/>
                             </mapView>
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AHA-tD-dRb">
-                                <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                                <rect key="frame" x="0.0" y="118" width="393" height="44"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="barTintColor" red="0.05882352591" green="0.1686274707" blue="0.25098040700000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <textAttributes key="titleTextAttributes">
@@ -1448,7 +1451,7 @@ to complete your account.</string>
                                 </items>
                             </navigationBar>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="19E-Op-KXh">
-                                <rect key="frame" x="327" y="630" width="50" height="50"/>
+                                <rect key="frame" x="327" y="596" width="50" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="50" id="8VI-5a-8Qn"/>
                                     <constraint firstAttribute="height" constant="50" id="Lhf-Bl-V74"/>
@@ -1462,7 +1465,7 @@ to complete your account.</string>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5C5-46-cnI" userLabel="Saved">
-                                <rect key="frame" x="327" y="688" width="50" height="50"/>
+                                <rect key="frame" x="327" y="654" width="50" height="50"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="50" id="6Ty-MY-MoC"/>
@@ -1743,10 +1746,10 @@ Algae Blooms</string>
                                 </constraints>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="Aquarium Background" translatesAutoresizingMaskIntoConstraints="NO" id="YrF-XO-SKg">
-                                <rect key="frame" x="0.0" y="145" width="393" height="568"/>
+                                <rect key="frame" x="0.0" y="145" width="393" height="534"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CC2-YK-q0l">
-                                <rect key="frame" x="0.0" y="743" width="393" height="109"/>
+                                <rect key="frame" x="0.0" y="743" width="393" height="75"/>
                                 <color key="backgroundColor" red="0.0039215686269999999" green="0.29411764709999999" blue="0.36078431370000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dt4-F8-pXM">
@@ -1763,7 +1766,7 @@ Algae Blooms</string>
                                 <buttonConfiguration key="configuration" style="plain" image="Fish R"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mne-WR-dPi">
-                                <rect key="frame" x="243" y="388.66666666666669" width="134" height="81"/>
+                                <rect key="frame" x="243" y="371.66666666666669" width="134" height="81"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="Fish L"/>
                             </button>
@@ -3705,6 +3708,98 @@ Algae Blooms</string>
             </objects>
             <point key="canvasLocation" x="-2996" y="568"/>
         </scene>
+        <!--Settings-->
+        <scene sceneID="Bw4-pY-MYt">
+            <objects>
+                <viewController wantsFullScreenLayout="YES" modalTransitionStyle="crossDissolve" modalPresentationStyle="overFullScreen" id="wii-ZP-UK4" userLabel="Settings" customClass="SettingsViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fK1-Yf-J90">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hSc-lK-ZfK">
+                                <rect key="frame" x="0.0" y="557" width="393" height="377"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Popup" translatesAutoresizingMaskIntoConstraints="NO" id="KlF-b7-1EQ">
+                                        <rect key="frame" x="0.0" y="-65" width="393" height="478"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="478" id="5ur-u8-fMV"/>
+                                        </constraints>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AqZ-Eo-Fqq">
+                                        <rect key="frame" x="76" y="105" width="240" height="118"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain"/>
+                                        <connections>
+                                            <action selector="getStarted:" destination="qiC-uI-1n5" eventType="touchUpInside" id="SNW-sh-iQM"/>
+                                        </connections>
+                                    </button>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="WelcomePopupButton" translatesAutoresizingMaskIntoConstraints="NO" id="znd-Vi-jzb">
+                                        <rect key="frame" x="76" y="105" width="240" height="128"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JmC-hw-leK">
+                                        <rect key="frame" x="159" y="-13" width="75" height="22"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="kxE-Qu-Ys2">
+                                        <rect key="frame" x="29" y="21" width="335" height="74"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="74" id="y0G-cW-w0U"/>
+                                        </constraints>
+                                        <string key="text">This app takes information via photo submission by user's as well as data collected by bouys to inform the public on harmful algae bloom that may reside in your waters.</string>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0039215686269999999" green="0.29411764709999999" blue="0.36078431370000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="JmC-hw-leK" firstAttribute="centerX" secondItem="kxE-Qu-Ys2" secondAttribute="centerX" id="1ox-PV-02U"/>
+                                    <constraint firstItem="kxE-Qu-Ys2" firstAttribute="top" secondItem="JmC-hw-leK" secondAttribute="bottom" constant="12" id="7aE-KG-uSm"/>
+                                    <constraint firstItem="kxE-Qu-Ys2" firstAttribute="centerX" secondItem="AqZ-Eo-Fqq" secondAttribute="centerX" id="AMZ-Uc-mhb"/>
+                                    <constraint firstItem="AqZ-Eo-Fqq" firstAttribute="leading" secondItem="hSc-lK-ZfK" secondAttribute="leading" constant="76" id="Guq-SR-gU8"/>
+                                    <constraint firstItem="kxE-Qu-Ys2" firstAttribute="leading" secondItem="hSc-lK-ZfK" secondAttribute="leading" constant="29" id="HC4-gM-d2W"/>
+                                    <constraint firstItem="KlF-b7-1EQ" firstAttribute="top" secondItem="hSc-lK-ZfK" secondAttribute="top" constant="-65" id="XOE-kX-Xyl"/>
+                                    <constraint firstItem="znd-Vi-jzb" firstAttribute="centerX" secondItem="hSc-lK-ZfK" secondAttribute="centerX" id="bWZ-BR-Dgg"/>
+                                    <constraint firstAttribute="bottom" secondItem="znd-Vi-jzb" secondAttribute="bottom" constant="144" id="cNT-ck-BF6"/>
+                                    <constraint firstItem="AqZ-Eo-Fqq" firstAttribute="top" secondItem="kxE-Qu-Ys2" secondAttribute="bottom" constant="10" id="cwH-XL-bM2"/>
+                                    <constraint firstItem="AqZ-Eo-Fqq" firstAttribute="leading" secondItem="znd-Vi-jzb" secondAttribute="leading" id="kcb-o7-liy"/>
+                                    <constraint firstItem="znd-Vi-jzb" firstAttribute="top" secondItem="AqZ-Eo-Fqq" secondAttribute="top" id="lCo-mH-4W3"/>
+                                    <constraint firstAttribute="bottom" secondItem="AqZ-Eo-Fqq" secondAttribute="bottom" constant="154" id="lYe-xk-dIa"/>
+                                    <constraint firstItem="KlF-b7-1EQ" firstAttribute="centerX" secondItem="JmC-hw-leK" secondAttribute="centerX" id="q0D-3T-QhK"/>
+                                    <constraint firstItem="JmC-hw-leK" firstAttribute="top" secondItem="hSc-lK-ZfK" secondAttribute="top" constant="-13" id="sBS-8h-Mh7"/>
+                                    <constraint firstItem="znd-Vi-jzb" firstAttribute="trailing" secondItem="AqZ-Eo-Fqq" secondAttribute="trailing" id="uDe-GN-BvK"/>
+                                    <constraint firstItem="KlF-b7-1EQ" firstAttribute="leading" secondItem="hSc-lK-ZfK" secondAttribute="leading" id="xCE-NA-w0n"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="chR-1R-Qv6"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="hSc-lK-ZfK" firstAttribute="leading" secondItem="chR-1R-Qv6" secondAttribute="leading" id="38G-Wl-d75"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="hSc-lK-ZfK" secondAttribute="bottom" constant="-116" id="IIr-sh-1Pk"/>
+                            <constraint firstItem="hSc-lK-ZfK" firstAttribute="top" secondItem="chR-1R-Qv6" secondAttribute="top" constant="498" id="Nk3-wx-wfL"/>
+                            <constraint firstItem="hSc-lK-ZfK" firstAttribute="centerX" secondItem="fK1-Yf-J90" secondAttribute="centerX" id="skP-DD-eSC"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="CfX-Eg-q4s" appends="YES" id="9xN-7G-zzf"/>
+                        </connections>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="ZoI-oj-SWe"/>
+                    <navigationItem key="navigationItem" id="AJH-bT-XJX"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XVx-k1-96T" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="CfX-Eg-q4s">
+                    <connections>
+                        <segue destination="4Hf-eQ-fxD" kind="presentation" id="JGb-zX-a0u"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="-5309.160305343511" y="567.6056338028169"/>
+        </scene>
         <!--Welcome Popup-->
         <scene sceneID="Z9I-Ce-Mdd">
             <objects>
@@ -3813,7 +3908,7 @@ Algae Blooms</string>
                     <navigationItem key="navigationItem" id="xSS-Zt-6yH"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="r4d-ga-T3E">
-                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <rect key="frame" x="0.0" y="118" width="393" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -3831,7 +3926,7 @@ Algae Blooms</string>
                     <tabBarItem key="tabBarItem" title="Aquarium" image="Fish" selectedImage="Fish" id="G15-gz-7Ne"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="ueZ-xh-eLt">
-                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <rect key="frame" x="0.0" y="118" width="393" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -3867,7 +3962,7 @@ Algae Blooms</string>
                     <tabBarItem key="tabBarItem" title="Map" image="Map Icon" selectedImage="Map Icon" id="5d8-Nm-Jfy"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="08M-Qn-NaB">
-                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <rect key="frame" x="0.0" y="118" width="393" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -3888,7 +3983,7 @@ Algae Blooms</string>
                     <navigationItem key="navigationItem" id="gzC-Qv-uxB"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="jy3-PP-gYQ">
-                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <rect key="frame" x="0.0" y="118" width="393" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -4000,6 +4095,7 @@ Algae Blooms</string>
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="2Dm-w3-eWV"/>
+        <segue reference="JGb-zX-a0u"/>
         <segue reference="1XU-sw-yKN"/>
         <segue reference="Mgq-JJ-qFi"/>
         <segue reference="JdK-k2-UGU"/>
