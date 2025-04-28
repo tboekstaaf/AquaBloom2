@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="xam-me-X9x">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23727" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="1D0-eu-jtB">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23721"/>
         <capability name="Map view configurations" minToolsVersion="14.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -192,7 +192,7 @@
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" distribution="fillProportionally" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="ldh-Yc-x5T">
-                                <rect key="frame" x="17.666666666666657" y="371.00000000000011" width="358" height="284.33333333333337"/>
+                                <rect key="frame" x="17.666666666666657" y="371.00000000000006" width="358" height="284.33333333333331"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tips for Taking a Good Photo:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bg5-9X-TZy">
                                         <rect key="frame" x="0.0" y="0.0" width="224.66666666666666" height="20.333333333333332"/>
@@ -330,7 +330,7 @@ Get as close to the water as possible without compromising your safety.</string>
                                 </constraints>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qoL-ok-lzB">
-                                <rect key="frame" x="44" y="736" width="319" height="59"/>
+                                <rect key="frame" x="44" y="702" width="319" height="59"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="44" id="D5p-Zc-lF7"/>
                                     <constraint firstAttribute="height" constant="59" id="xD1-8g-zuP"/>
@@ -398,10 +398,10 @@ Get as close to the water as possible without compromising your safety.</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FaZ-Mp-Mx2">
-                                <rect key="frame" x="0.0" y="124" width="393" height="728"/>
+                                <rect key="frame" x="0.0" y="124" width="393" height="694"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xfk-92-Ocj">
-                                        <rect key="frame" x="-0.66666666666665719" y="0.0" width="394" height="1200"/>
+                                        <rect key="frame" x="-0.66666666666665719" y="0.0" width="394" height="1144"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="About box" translatesAutoresizingMaskIntoConstraints="NO" id="Zg8-lA-6hV">
                                                 <rect key="frame" x="4" y="-2" width="384" height="618"/>
@@ -460,11 +460,7 @@ Amelia Tjioe</string>
                                 </constraints>
                             </scrollView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="Top menu" translatesAutoresizingMaskIntoConstraints="NO" id="jFA-Mb-J9a">
-                                <rect key="frame" x="-20" y="-15" width="433" height="140"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Arrow" translatesAutoresizingMaskIntoConstraints="NO" id="GW1-rl-SkL">
-                                <rect key="frame" x="16" y="69" width="13" height="28"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <rect key="frame" x="-20" y="-49" width="433" height="140"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="About AquaBloom" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tnD-Jy-fbJ">
                                 <rect key="frame" x="108" y="65" width="176" height="36"/>
@@ -472,6 +468,14 @@ Amelia Tjioe</string>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oui-Ah-EOs">
+                                <rect key="frame" x="8" y="64" width="37" height="38"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="37" id="PS9-0m-tso"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="Arrow"/>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="9CD-Db-413"/>
                         <color key="backgroundColor" red="0.090196078430000007" green="0.57254901960000004" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -481,10 +485,14 @@ Amelia Tjioe</string>
                             <constraint firstItem="FaZ-Mp-Mx2" firstAttribute="bottom" secondItem="9CD-Db-413" secondAttribute="bottom" id="9j6-CV-4NM"/>
                             <constraint firstItem="FaZ-Mp-Mx2" firstAttribute="centerX" secondItem="jFA-Mb-J9a" secondAttribute="centerX" id="Bjg-ph-ojX"/>
                             <constraint firstItem="FaZ-Mp-Mx2" firstAttribute="top" secondItem="Rdv-CW-Jbz" secondAttribute="top" constant="124" id="Ecn-h7-qa1"/>
+                            <constraint firstItem="FaZ-Mp-Mx2" firstAttribute="top" secondItem="oui-Ah-EOs" secondAttribute="bottom" constant="22" id="Kxh-cX-NTB"/>
+                            <constraint firstItem="tnD-Jy-fbJ" firstAttribute="leading" secondItem="oui-Ah-EOs" secondAttribute="trailing" constant="63" id="Tmu-OO-yOi"/>
                             <constraint firstItem="FaZ-Mp-Mx2" firstAttribute="leading" secondItem="9CD-Db-413" secondAttribute="leading" id="XSQ-3E-zml"/>
                             <constraint firstItem="FaZ-Mp-Mx2" firstAttribute="top" secondItem="tnD-Jy-fbJ" secondAttribute="bottom" constant="23" id="Y9W-LJ-IpP"/>
+                            <constraint firstItem="oui-Ah-EOs" firstAttribute="leading" secondItem="9CD-Db-413" secondAttribute="leading" constant="8" id="eAT-UB-ItF"/>
                             <constraint firstItem="FaZ-Mp-Mx2" firstAttribute="centerX" secondItem="tnD-Jy-fbJ" secondAttribute="centerX" id="iHw-yz-Y3p"/>
                             <constraint firstItem="jFA-Mb-J9a" firstAttribute="leading" secondItem="Rdv-CW-Jbz" secondAttribute="leadingMargin" constant="-36" id="u47-FP-Zvc"/>
+                            <constraint firstItem="oui-Ah-EOs" firstAttribute="centerY" secondItem="tnD-Jy-fbJ" secondAttribute="centerY" id="vEp-su-ZFx"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="j0N-hA-a2H"/>
@@ -961,18 +969,30 @@ Amelia Tjioe</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AquaBloom" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fIP-gK-BRQ">
-                                <rect key="frame" x="146" y="63" width="101" height="24"/>
+                                <rect key="frame" x="141.33333333333334" y="119.33333333333331" width="101" height="24"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CoG-Ys-bD9">
-                                <rect key="frame" x="329" y="60" width="48" height="30"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="Top menu" translatesAutoresizingMaskIntoConstraints="NO" id="GfQ-EC-yKl">
+                                <rect key="frame" x="-20" y="-7" width="423.33333333333331" height="140"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AquaBloom" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="USi-zW-UPb">
+                                <rect key="frame" x="148" y="85" width="87.333333333333314" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZrM-lj-NbL">
+                                <rect key="frame" x="316" y="80.333333333333329" width="44.333333333333314" height="30.333333333333329"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="Settings"/>
+                                <connections>
+                                    <segue destination="uEr-XW-8Kh" kind="showDetail" id="7gN-zm-56j"/>
+                                </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="top" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="kEF-Kh-rii">
-                                <rect key="frame" x="15" y="198.99999999999994" width="378" height="889.66666666666652"/>
+                                <rect key="frame" x="21.666666666666657" y="162.99999999999994" width="340" height="889.66666666666652"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hi, Sara!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1AF-WG-Irw">
                                         <rect key="frame" x="0.0" y="0.0" width="73.333333333333329" height="24"/>
@@ -987,12 +1007,9 @@ Amelia Tjioe</string>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="STs-Ji-AZs">
-                                        <rect key="frame" x="0.0" y="93.333333333333314" width="378" height="146"/>
+                                        <rect key="frame" x="0.0" y="93.333333333333314" width="340" height="146"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" image="Buoy Box"/>
-                                        <connections>
-                                            <segue destination="12O-WD-3Wh" kind="custom" id="GzW-QV-KeH"/>
-                                        </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Maps" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SRQ-Q9-DfZ">
                                         <rect key="frame" x="0.0" y="264.33333333333331" width="42" height="20.333333333333314"/>
@@ -1001,49 +1018,35 @@ Amelia Tjioe</string>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="Maps" translatesAutoresizingMaskIntoConstraints="NO" id="tKO-Bg-OuZ">
-                                        <rect key="frame" x="0.0" y="309.66666666666674" width="342" height="580"/>
+                                        <rect key="frame" x="0.0" y="309.66666666666674" width="340" height="580"/>
                                     </imageView>
                                 </subviews>
-                            </stackView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="Top menu" translatesAutoresizingMaskIntoConstraints="NO" id="GfQ-EC-yKl">
-                                <rect key="frame" x="-20" y="-7" width="433" height="140"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="AquaBloom" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="USi-zW-UPb">
-                                <rect key="frame" x="152" y="85" width="88" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZrM-lj-NbL">
-                                <rect key="frame" x="321" y="34" width="49" height="35.666666666666657"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="49" id="Fqh-hZ-7JZ"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="340" id="XhZ-4t-Day"/>
+                                    <constraint firstAttribute="width" constant="340" id="cU2-ee-bks"/>
                                 </constraints>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" image="Settings"/>
-                                <connections>
-                                    <segue destination="uEr-XW-8Kh" kind="presentation" id="z9u-kp-0IB"/>
-                                </connections>
-                            </button>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="zch-PG-x8C"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="fIP-gK-BRQ" firstAttribute="centerX" secondItem="Kv6-7v-A2V" secondAttribute="centerX" id="1U0-6C-fYw"/>
-                            <constraint firstItem="GfQ-EC-yKl" firstAttribute="centerX" secondItem="fIP-gK-BRQ" secondAttribute="centerX" id="2uj-pA-e4P"/>
-                            <constraint firstItem="CoG-Ys-bD9" firstAttribute="trailing" secondItem="Kv6-7v-A2V" secondAttribute="trailingMargin" id="6Ek-mA-YWE"/>
-                            <constraint firstItem="CoG-Ys-bD9" firstAttribute="trailing" secondItem="kEF-Kh-rii" secondAttribute="trailing" constant="-16" id="Cia-K5-Bff"/>
-                            <constraint firstItem="fIP-gK-BRQ" firstAttribute="top" secondItem="USi-zW-UPb" secondAttribute="bottom" constant="1" id="MUV-9U-ZmF"/>
-                            <constraint firstItem="USi-zW-UPb" firstAttribute="centerY" secondItem="ZrM-lj-NbL" secondAttribute="centerY" id="Ohj-SG-7Bg"/>
-                            <constraint firstItem="kEF-Kh-rii" firstAttribute="top" secondItem="CoG-Ys-bD9" secondAttribute="bottom" constant="109" id="Zog-aj-mcS"/>
-                            <constraint firstItem="ZrM-lj-NbL" firstAttribute="top" secondItem="Kv6-7v-A2V" secondAttribute="topMargin" constant="-25" id="fgo-QV-apg"/>
-                            <constraint firstItem="zch-PG-x8C" firstAttribute="trailing" secondItem="ZrM-lj-NbL" secondAttribute="trailing" constant="23" id="hl6-Zc-VaF"/>
-                            <constraint firstItem="GfQ-EC-yKl" firstAttribute="leading" secondItem="Kv6-7v-A2V" secondAttribute="leadingMargin" constant="-36" id="jbQ-Qy-bKl"/>
-                            <constraint firstItem="ZrM-lj-NbL" firstAttribute="leading" secondItem="USi-zW-UPb" secondAttribute="trailing" constant="81" id="pOg-xy-jZY"/>
-                            <constraint firstItem="CoG-Ys-bD9" firstAttribute="top" secondItem="zch-PG-x8C" secondAttribute="top" constant="1" id="r0O-6d-PeL"/>
-                            <constraint firstItem="USi-zW-UPb" firstAttribute="centerX" secondItem="fIP-gK-BRQ" secondAttribute="centerX" id="rQD-rz-Dee"/>
-                            <constraint firstItem="GfQ-EC-yKl" firstAttribute="top" secondItem="Kv6-7v-A2V" secondAttribute="top" constant="-7" id="wQT-Aq-wO4"/>
-                            <constraint firstItem="fIP-gK-BRQ" firstAttribute="centerY" secondItem="CoG-Ys-bD9" secondAttribute="centerY" id="xbS-cf-b5l"/>
+                            <constraint firstItem="GfQ-EC-yKl" firstAttribute="top" secondItem="Kv6-7v-A2V" secondAttribute="top" constant="-7" id="63Z-HO-tWX"/>
+                            <constraint firstItem="USi-zW-UPb" firstAttribute="centerX" secondItem="Kv6-7v-A2V" secondAttribute="centerX" id="BiA-R5-1ai"/>
+                            <constraint firstItem="USi-zW-UPb" firstAttribute="top" secondItem="Kv6-7v-A2V" secondAttribute="topMargin" constant="-18" id="EaR-GN-PIy"/>
+                            <constraint firstItem="kEF-Kh-rii" firstAttribute="top" secondItem="fIP-gK-BRQ" secondAttribute="bottom" constant="19.666666666666686" id="G2w-MV-yS0"/>
+                            <constraint firstItem="fIP-gK-BRQ" firstAttribute="top" secondItem="USi-zW-UPb" secondAttribute="bottom" constant="13.333333333333314" id="IHS-fl-oHF"/>
+                            <constraint firstItem="kEF-Kh-rii" firstAttribute="top" secondItem="ZrM-lj-NbL" secondAttribute="bottom" constant="52.333333333333329" id="TI6-w3-Shx"/>
+                            <constraint firstItem="kEF-Kh-rii" firstAttribute="top" secondItem="GfQ-EC-yKl" secondAttribute="bottom" constant="30" id="aDm-tY-kSH"/>
+                            <constraint firstItem="USi-zW-UPb" firstAttribute="centerX" secondItem="fIP-gK-BRQ" secondAttribute="centerX" id="aIT-O7-iFa"/>
+                            <constraint firstItem="kEF-Kh-rii" firstAttribute="centerX" secondItem="Kv6-7v-A2V" secondAttribute="centerX" id="bvw-WR-ZHP"/>
+                            <constraint firstItem="GfQ-EC-yKl" firstAttribute="centerX" secondItem="USi-zW-UPb" secondAttribute="centerX" id="dex-M5-muh"/>
+                            <constraint firstItem="zch-PG-x8C" firstAttribute="trailing" secondItem="ZrM-lj-NbL" secondAttribute="trailing" constant="23" id="gp2-xy-I5M"/>
+                            <constraint firstItem="kEF-Kh-rii" firstAttribute="leading" secondItem="zch-PG-x8C" secondAttribute="leading" constant="21.666666666666657" id="grH-Ho-76c"/>
+                            <constraint firstItem="ZrM-lj-NbL" firstAttribute="leading" secondItem="USi-zW-UPb" secondAttribute="trailing" constant="80.666666666666686" id="kMh-Em-YAH"/>
+                            <constraint firstItem="GfQ-EC-yKl" firstAttribute="leading" secondItem="Kv6-7v-A2V" secondAttribute="leadingMargin" constant="-36" id="oAa-Ei-UCu"/>
+                            <constraint firstItem="fIP-gK-BRQ" firstAttribute="centerX" secondItem="kEF-Kh-rii" secondAttribute="centerX" id="pHn-uB-yeA"/>
+                            <constraint firstItem="USi-zW-UPb" firstAttribute="top" secondItem="Kv6-7v-A2V" secondAttribute="top" constant="85" id="tdI-hk-hXC"/>
+                            <constraint firstItem="USi-zW-UPb" firstAttribute="centerY" secondItem="ZrM-lj-NbL" secondAttribute="centerY" id="uPz-q0-pzE"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="K22-bJ-tkr"/>
@@ -1065,7 +1068,7 @@ Amelia Tjioe</string>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="EP2-Qk-llN">
-                                <rect key="frame" x="0.0" y="97" width="393" height="421"/>
+                                <rect key="frame" x="0.0" y="156" width="393" height="362"/>
                                 <color key="backgroundColor" red="0.0039215686269999999" green="0.29411764709999999" blue="0.36078431370000003" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sry-5c-fvY">
@@ -1091,10 +1094,10 @@ Amelia Tjioe</string>
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="88" translatesAutoresizingMaskIntoConstraints="NO" id="dZJ-c6-8ZE">
-                                <rect key="frame" x="58.333333333333343" y="571" width="276.33333333333326" height="28"/>
+                                <rect key="frame" x="58.333333333333343" y="571" width="276.33333333333326" height="30.666666666666629"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ney-2R-uNi">
-                                        <rect key="frame" x="0.0" y="0.0" width="94.333333333333329" height="28"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="94.333333333333329" height="30.666666666666668"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled" cornerStyle="capsule">
                                             <attributedString key="attributedTitle">
@@ -1112,7 +1115,7 @@ Amelia Tjioe</string>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mrh-n5-y0s">
-                                        <rect key="frame" x="182.33333333333331" y="0.0" width="94" height="28"/>
+                                        <rect key="frame" x="182.33333333333331" y="0.0" width="94" height="30.666666666666668"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled" cornerStyle="capsule">
                                             <attributedString key="attributedTitle">
@@ -1147,6 +1150,7 @@ Amelia Tjioe</string>
                             <constraint firstItem="EP2-Qk-llN" firstAttribute="top" secondItem="a3Y-qZ-Fan" secondAttribute="top" constant="53" id="zID-fv-2GZ"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="OA5-Vx-9o3"/>
                     <connections>
                         <outlet property="removeImageButton" destination="Mrh-n5-y0s" id="F3z-lN-BIW"/>
                         <outlet property="selectImageButton" destination="ney-2R-uNi" id="C1d-37-ocM"/>
@@ -1181,14 +1185,14 @@ Amelia Tjioe</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Icon" translatesAutoresizingMaskIntoConstraints="NO" id="qn5-um-fId">
-                                <rect key="frame" x="110" y="281" width="173" height="170"/>
+                                <rect key="frame" x="110" y="340" width="173" height="170"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="173" id="NHl-Uu-6kw"/>
                                     <constraint firstAttribute="height" constant="170" id="wfs-bc-8ke"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wpe-o5-nib">
-                                <rect key="frame" x="333" y="59" width="28" height="17"/>
+                                <rect key="frame" x="333" y="118" width="27.333333333333314" height="17"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="17" id="9J0-7n-fxf"/>
                                 </constraints>
@@ -1203,20 +1207,20 @@ Amelia Tjioe</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="Social Media" translatesAutoresizingMaskIntoConstraints="NO" id="OpE-ho-76P">
-                                <rect key="frame" x="57.333333333333343" y="577" width="278.33333333333326" height="76"/>
+                                <rect key="frame" x="57.333333333333343" y="636" width="278.33333333333326" height="76"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="76" id="Eof-0d-MKj"/>
                                 </constraints>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="752" image="or" translatesAutoresizingMaskIntoConstraints="NO" id="leg-SE-1E5">
-                                <rect key="frame" x="144" y="541" width="105" height="16"/>
+                                <rect key="frame" x="144" y="600" width="105" height="16"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="16" id="h3A-iO-ivM"/>
                                     <constraint firstAttribute="width" constant="105" id="tai-s1-Og9"/>
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dFP-nA-SzU">
-                                <rect key="frame" x="54" y="708" width="285" height="29"/>
+                                <rect key="frame" x="54" y="767" width="285" height="29"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Don't have an account? Create an account">
                                     <fontDescription key="titleFontDescription" type="system" pointSize="12"/>
@@ -1226,7 +1230,7 @@ Amelia Tjioe</string>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="751" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pwq-ct-Mot">
-                                <rect key="frame" x="37" y="461" width="319" height="60"/>
+                                <rect key="frame" x="37.666666666666657" y="520" width="317.66666666666674" height="60"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="VZK-gg-rxN"/>
                                 </constraints>
@@ -1284,7 +1288,7 @@ Amelia Tjioe</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dl9-ld-JP5">
-                                <rect key="frame" x="44" y="736" width="319" height="59"/>
+                                <rect key="frame" x="44" y="702" width="319" height="59"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="59" id="4CO-3O-mfn"/>
                                 </constraints>
@@ -1352,7 +1356,7 @@ to complete your account.</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FUA-Ux-FVv">
-                                <rect key="frame" x="44" y="736" width="319" height="59"/>
+                                <rect key="frame" x="44" y="702" width="319" height="59"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="59" id="xUB-Mh-IZ3"/>
                                 </constraints>
@@ -1418,11 +1422,11 @@ to complete your account.</string>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <mapView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" showsUserLocation="YES" showsScale="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0ED-rU-c5N">
-                                <rect key="frame" x="0.0" y="0.0" width="393" height="886"/>
+                                <rect key="frame" x="0.0" y="59" width="393" height="793"/>
                                 <standardMapConfiguration key="preferredConfiguration" emphasisStyle="muted"/>
                             </mapView>
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AHA-tD-dRb">
-                                <rect key="frame" x="0.0" y="0.0" width="393" height="44"/>
+                                <rect key="frame" x="0.0" y="59" width="393" height="44"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="barTintColor" red="0.05882352591" green="0.1686274707" blue="0.25098040700000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <textAttributes key="titleTextAttributes">
@@ -1435,7 +1439,7 @@ to complete your account.</string>
                                 </items>
                             </navigationBar>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5C5-46-cnI" userLabel="Saved">
-                                <rect key="frame" x="327" y="753" width="50" height="50"/>
+                                <rect key="frame" x="327" y="719" width="50" height="50"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="HrX-1e-5T5"/>
@@ -1452,7 +1456,7 @@ to complete your account.</string>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="19E-Op-KXh">
-                                <rect key="frame" x="327" y="690" width="50" height="50"/>
+                                <rect key="frame" x="327" y="656" width="50" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="JoP-lj-qlw"/>
                                     <constraint firstAttribute="height" constant="50" id="KtV-6v-7tT"/>
@@ -1723,10 +1727,10 @@ Algae Blooms</string>
                                 </constraints>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="Aquarium Background" translatesAutoresizingMaskIntoConstraints="NO" id="YrF-XO-SKg">
-                                <rect key="frame" x="0.0" y="130" width="393" height="617"/>
+                                <rect key="frame" x="0.0" y="145" width="393" height="617"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CC2-YK-q0l">
-                                <rect key="frame" x="0.0" y="743" width="393" height="94"/>
+                                <rect key="frame" x="0.0" y="743" width="393" height="109"/>
                                 <color key="backgroundColor" red="0.0039215686269999999" green="0.29411764709999999" blue="0.36078431370000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kRG-ER-0PZ">
@@ -1751,7 +1755,7 @@ Algae Blooms</string>
                                 <buttonConfiguration key="configuration" style="plain" image="Fish R"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mne-WR-dPi">
-                                <rect key="frame" x="243" y="398" width="134" height="81"/>
+                                <rect key="frame" x="243" y="413" width="134" height="81"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="Fish L"/>
                             </button>
@@ -1807,6 +1811,9 @@ Algae Blooms</string>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" image="Collected Fish"/>
+                                        <connections>
+                                            <segue destination="I04-ZI-bcL" kind="presentation" id="k8U-9g-g8M"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.59607843140000005" green="0.78039215689999997" blue="0.8980392157" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -1833,28 +1840,46 @@ Algae Blooms</string>
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Top menu" translatesAutoresizingMaskIntoConstraints="NO" id="MV9-Ie-AMS">
-                                <rect key="frame" x="-20" y="-9" width="432.33333333333326" height="140"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="Top menu" translatesAutoresizingMaskIntoConstraints="NO" id="MV9-Ie-AMS">
+                                <rect key="frame" x="-19.666666666666657" y="-9" width="432.33333333333326" height="140"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="432.32999999999998" id="0QM-PH-dRv"/>
+                                    <constraint firstAttribute="height" constant="140" id="dq0-Pn-jUw"/>
+                                </constraints>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Arrow" translatesAutoresizingMaskIntoConstraints="NO" id="vdK-Uy-Rai">
                                 <rect key="frame" x="16" y="31" width="12.999999999999996" height="114"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translucent="NO" backIndicatorImage="Arrow" translatesAutoresizingMaskIntoConstraints="NO" id="aau-pL-K2M">
+                            <navigationBar contentMode="scaleToFill" ambiguous="YES" translucent="NO" backIndicatorImage="Arrow" translatesAutoresizingMaskIntoConstraints="NO" id="aau-pL-K2M">
                                 <rect key="frame" x="0.0" y="66" width="393" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="Kkq-bH-HbO"/>
+                                    <constraint firstAttribute="width" constant="393" id="ynX-Ks-bEy"/>
+                                </constraints>
                                 <color key="barTintColor" red="0.0039215686269999999" green="0.29411764709999999" blue="0.36078431370000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <textAttributes key="titleTextAttributes">
                                     <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
                                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </textAttributes>
                                 <items>
-                                    <navigationItem title="FAQ's" id="XzE-MD-rGy"/>
+                                    <navigationItem title="FAQ's" id="XzE-MD-rGy">
+                                        <barButtonItem key="leftBarButtonItem" style="plain" id="3PG-mX-feA">
+                                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="mEg-XT-oN4">
+                                                <rect key="frame" x="16" y="3" width="37" height="38"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="37" id="HC1-bl-C5e"/>
+                                                </constraints>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="Arrow"/>
+                                            </button>
+                                        </barButtonItem>
+                                    </navigationItem>
                                 </items>
                             </navigationBar>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" alignment="top" spacing="38" translatesAutoresizingMaskIntoConstraints="NO" id="TmU-MX-vxm">
-                                <rect key="frame" x="16" y="153" width="1627.3333333333333" height="546.33333333333337"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="TmU-MX-vxm">
+                                <rect key="frame" x="21.666666666666657" y="153" width="350" height="537"/>
                                 <subviews>
                                     <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c9r-wz-wsi">
                                         <rect key="frame" x="0.0" y="0.0" width="247" height="34.333333333333336"/>
@@ -1865,7 +1890,7 @@ Algae Blooms</string>
                                         </buttonConfiguration>
                                     </button>
                                     <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iGH-3d-i8e">
-                                        <rect key="frame" x="0.0" y="72.333333333333329" width="1627.3333333333333" height="31"/>
+                                        <rect key="frame" x="0.0" y="54.333333333333336" width="348.66666666666669" height="114.33333333333331"/>
                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain">
@@ -1874,7 +1899,7 @@ Algae Blooms</string>
                                         </buttonConfiguration>
                                     </button>
                                     <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SnY-8G-MHw">
-                                        <rect key="frame" x="0.0" y="141.33333333333334" width="145.33333333333334" height="34.333333333333343"/>
+                                        <rect key="frame" x="0.0" y="188.66666666666669" width="145.33333333333334" height="34.333333333333343"/>
                                         <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="What is a Buoy?">
@@ -1882,7 +1907,7 @@ Algae Blooms</string>
                                         </buttonConfiguration>
                                     </button>
                                     <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w73-J2-AX1">
-                                        <rect key="frame" x="0.0" y="213.66666666666666" width="412.66666666666669" height="31"/>
+                                        <rect key="frame" x="0.0" y="242.99999999999997" width="280.33333333333331" height="47.666666666666657"/>
                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="A buoy is a floating device that collects oceanographic data.">
@@ -1890,7 +1915,7 @@ Algae Blooms</string>
                                         </buttonConfiguration>
                                     </button>
                                     <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ev9-7P-Jb6">
-                                        <rect key="frame" x="0.0" y="282.66666666666669" width="271.66666666666669" height="34.333333333333314"/>
+                                        <rect key="frame" x="0.0" y="310.66666666666669" width="271.66666666666669" height="34.333333333333314"/>
                                         <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Who is providing data on Buoys?">
@@ -1898,7 +1923,7 @@ Algae Blooms</string>
                                         </buttonConfiguration>
                                     </button>
                                     <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K1J-fG-Cov">
-                                        <rect key="frame" x="0.0" y="355" width="384.33333333333331" height="50"/>
+                                        <rect key="frame" x="0.0" y="365" width="281.33333333333331" height="50"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="djp-lz-ecm"/>
                                         </constraints>
@@ -1909,7 +1934,7 @@ Algae Blooms</string>
                                         </buttonConfiguration>
                                     </button>
                                     <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O7D-u7-1MU">
-                                        <rect key="frame" x="0.0" y="443" width="206" height="34.333333333333314"/>
+                                        <rect key="frame" x="0.0" y="435" width="206" height="34.333333333333314"/>
                                         <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="What is citizen science?">
@@ -1917,7 +1942,7 @@ Algae Blooms</string>
                                         </buttonConfiguration>
                                     </button>
                                     <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1ub-do-efx">
-                                        <rect key="frame" x="0.0" y="515.33333333333337" width="464.33333333333331" height="31"/>
+                                        <rect key="frame" x="0.0" y="489.33333333333343" width="292.33333333333331" height="47.666666666666686"/>
                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Citizen science is research conducted by nonprofessional scientists.">
@@ -1925,10 +1950,21 @@ Algae Blooms</string>
                                         </buttonConfiguration>
                                     </button>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="350" id="1y4-fO-fOE"/>
+                                </constraints>
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Vd8-ze-XiP"/>
                         <color key="backgroundColor" red="0.090196078430000007" green="0.57254901960000004" blue="0.81960784310000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="aau-pL-K2M" firstAttribute="top" secondItem="MV9-Ie-AMS" secondAttribute="bottom" constant="-65" id="BvJ-Si-JIw"/>
+                            <constraint firstItem="TmU-MX-vxm" firstAttribute="top" secondItem="MV9-Ie-AMS" secondAttribute="bottom" constant="22" id="NQQ-L8-3i1"/>
+                            <constraint firstItem="TmU-MX-vxm" firstAttribute="centerX" secondItem="V8c-9F-kCy" secondAttribute="centerX" id="TgL-c7-qnV"/>
+                            <constraint firstItem="MV9-Ie-AMS" firstAttribute="top" secondItem="V8c-9F-kCy" secondAttribute="top" constant="-9" id="Z5d-6G-FxK"/>
+                            <constraint firstItem="Vd8-ze-XiP" firstAttribute="bottom" secondItem="TmU-MX-vxm" secondAttribute="bottom" constant="128" id="aWw-y9-79G"/>
+                            <constraint firstItem="MV9-Ie-AMS" firstAttribute="centerX" secondItem="V8c-9F-kCy" secondAttribute="centerX" id="zsS-o8-6eT"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Title" id="QZ3-gU-m5R"/>
                 </viewController>
@@ -1945,13 +1981,13 @@ Algae Blooms</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="j13-hN-zhi">
-                                <rect key="frame" x="0.0" y="0.0" width="407" height="889"/>
+                                <rect key="frame" x="0.0" y="0.0" width="407" height="855"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pWF-cP-RKx">
-                                        <rect key="frame" x="-47" y="0.0" width="482" height="123.33333333333333"/>
+                                        <rect key="frame" x="-47" y="0.0" width="482" height="127.33333333333333"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Daily Quests" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZPi-JQ-7cv">
-                                                <rect key="frame" x="184.66666666666666" y="84" width="112.66666666666666" height="23.333333333333329"/>
+                                                <rect key="frame" x="181.66666666666666" y="84" width="118.66666666666666" height="27.333333333333329"/>
                                                 <fontDescription key="fontDescription" name="Nunito-Bold" family="Nunito" pointSize="20"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1972,7 +2008,7 @@ Algae Blooms</string>
                                         </constraints>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Goj-yS-uQf">
-                                        <rect key="frame" x="61" y="775" width="271" height="55"/>
+                                        <rect key="frame" x="61" y="741" width="271" height="55"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="55" id="LkS-38-hDx"/>
                                         </constraints>
@@ -2018,7 +2054,7 @@ Algae Blooms</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xdT-mW-XfK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1495" y="3337"/>
+            <point key="canvasLocation" x="-727" y="3337"/>
         </scene>
         <!--Awarded Fish-->
         <scene sceneID="Ffl-Dc-aIc">
@@ -2029,13 +2065,13 @@ Algae Blooms</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="76a-BB-0Y6">
-                                <rect key="frame" x="0.0" y="0.0" width="407" height="855"/>
+                                <rect key="frame" x="0.0" y="59" width="407" height="762"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ayZ-zs-G0j">
-                                        <rect key="frame" x="0.0" y="0.0" width="407" height="123.33333333333333"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="407" height="127.33333333333333"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Awarded Fish" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BAz-ls-eZU">
-                                                <rect key="frame" x="142.66666666666666" y="92" width="121.99999999999997" height="23.333333333333329"/>
+                                                <rect key="frame" x="142.66666666666666" y="92" width="121.99999999999997" height="27.333333333333329"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="122" id="pyT-79-xeg"/>
                                                 </constraints>
@@ -2140,7 +2176,7 @@ Algae Blooms</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You earned one fish by submitting a report!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R3H-xd-5XW">
-                                <rect key="frame" x="106" y="354" width="181" height="63"/>
+                                <rect key="frame" x="106" y="413" width="181" height="63"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="63" id="UsP-BU-tJA"/>
                                 </constraints>
@@ -2149,13 +2185,13 @@ Algae Blooms</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="FishGet!" translatesAutoresizingMaskIntoConstraints="NO" id="h3O-eK-inb">
-                                <rect key="frame" x="80" y="177" width="240" height="128"/>
+                                <rect key="frame" x="80" y="236" width="240" height="128"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="128" id="fHs-5X-0os"/>
                                 </constraints>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Date Box" translatesAutoresizingMaskIntoConstraints="NO" id="wAc-7J-NpH">
-                                <rect key="frame" x="136" y="313" width="126" height="42"/>
+                                <rect key="frame" x="136" y="372" width="126" height="42"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="42" id="J48-TJ-9ae"/>
                                 </constraints>
@@ -2184,7 +2220,7 @@ Algae Blooms</string>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dQi-B8-fx4">
-                                <rect key="frame" x="28" y="735" width="342" height="60"/>
+                                <rect key="frame" x="28" y="701" width="342" height="60"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="rxX-Hb-meR"/>
                                 </constraints>
@@ -2203,7 +2239,7 @@ Algae Blooms</string>
                                     </attributedString>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="cYf-ET-XZL" kind="presentation" id="okY-ZL-TVE"/>
+                                    <segue destination="KYe-Il-hjV" kind="presentation" id="GLC-tu-b6l"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -2326,12 +2362,6 @@ Algae Blooms</string>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o6j-CG-WuR">
-                                <rect key="frame" x="329" y="60" width="48" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" image="Settings"/>
-                            </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Arrow" translatesAutoresizingMaskIntoConstraints="NO" id="nam-JS-dkt">
                                 <rect key="frame" x="22" y="64" width="10" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -2365,55 +2395,94 @@ Algae Blooms</string>
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pYF-Mv-SQD">
-                                <rect key="frame" x="0.0" y="-72" width="393" height="188"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pYF-Mv-SQD">
+                                <rect key="frame" x="-3.3333333333333428" y="-72" width="400" height="188"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="400" id="In1-bj-1Wu"/>
+                                    <constraint firstAttribute="height" constant="188" id="a4p-Zc-fZS"/>
+                                </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" cornerStyle="small">
                                     <color key="baseBackgroundColor" red="0.0039215686269999999" green="0.29411764709999999" blue="0.36078431370000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Bouy" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q8d-M4-yn3">
-                                <rect key="frame" x="174.33333333333334" y="63" width="44.666666666666657" height="24"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bouy" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q8d-M4-yn3">
+                                <rect key="frame" x="163.66666666666666" y="63" width="66" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="66" id="SPD-88-bRI"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="66" id="fpi-uN-UVW"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v8g-23-JtL">
-                                <rect key="frame" x="329" y="60" width="48" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" image="Settings"/>
-                            </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bouy info placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="cNp-Qy-98w">
-                                <rect key="frame" x="22" y="156" width="355" height="461"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bouy info placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="cNp-Qy-98w">
+                                <rect key="frame" x="16.666666666666657" y="156" width="360" height="461"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="360" id="Rk7-2V-Bl3"/>
+                                    <constraint firstAttribute="height" constant="461" id="eUv-WX-aKf"/>
+                                </constraints>
                             </imageView>
-                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MKR-zz-pnJ">
-                                <rect key="frame" x="8" y="678" width="377" height="174"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MKR-zz-pnJ">
+                                <rect key="frame" x="8.3333333333333428" y="678" width="377" height="174"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="174" id="Z51-Ci-cKT"/>
+                                    <constraint firstAttribute="width" constant="377" id="c6f-rz-DbW"/>
+                                </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" cornerStyle="medium">
                                     <color key="baseBackgroundColor" red="0.1686274707" green="0.34901961679999999" blue="0.40392160420000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Satellite" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="owa-ye-tHd">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Satellite" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="owa-ye-tHd">
                                 <rect key="frame" x="31" y="649" width="68" height="23"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="23" id="12x-vc-WZz"/>
+                                    <constraint firstAttribute="width" constant="68" id="8Ri-Jy-tCn"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QQk-gv-fZE">
+                                <rect key="frame" x="22" y="56" width="37" height="38"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="37" id="3A0-8u-naz"/>
+                                    <constraint firstAttribute="width" constant="37" id="5r1-3O-4Hu"/>
+                                    <constraint firstAttribute="height" constant="38" id="fTx-Yu-VJC"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="Arrow"/>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Gbm-kJ-ALy"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="MKR-zz-pnJ" firstAttribute="top" secondItem="owa-ye-tHd" secondAttribute="bottom" constant="6" id="2jI-oZ-8ha"/>
+                            <constraint firstItem="QQk-gv-fZE" firstAttribute="leading" secondItem="Gbm-kJ-ALy" secondAttribute="leading" constant="22" id="2xi-bq-ffA"/>
+                            <constraint firstItem="pYF-Mv-SQD" firstAttribute="top" secondItem="yve-mu-gb8" secondAttribute="top" constant="-72" id="3c7-jc-nLM"/>
+                            <constraint firstItem="cNp-Qy-98w" firstAttribute="top" secondItem="QQk-gv-fZE" secondAttribute="bottom" constant="62" id="6a9-cA-JDn"/>
+                            <constraint firstItem="cNp-Qy-98w" firstAttribute="centerX" secondItem="yve-mu-gb8" secondAttribute="centerX" id="9Xa-Hg-3G7"/>
+                            <constraint firstItem="Q8d-M4-yn3" firstAttribute="centerX" secondItem="yve-mu-gb8" secondAttribute="centerX" id="AoU-7i-pCG"/>
+                            <constraint firstItem="MKR-zz-pnJ" firstAttribute="centerX" secondItem="yve-mu-gb8" secondAttribute="centerX" id="F3i-o0-3B0"/>
+                            <constraint firstItem="MKR-zz-pnJ" firstAttribute="centerX" secondItem="yve-mu-gb8" secondAttribute="centerX" id="H10-C8-5Od"/>
+                            <constraint firstItem="cNp-Qy-98w" firstAttribute="top" secondItem="pYF-Mv-SQD" secondAttribute="bottom" constant="40" id="IMe-ba-q5a"/>
+                            <constraint firstItem="MKR-zz-pnJ" firstAttribute="centerX" secondItem="yve-mu-gb8" secondAttribute="centerX" id="VjZ-N8-o7O"/>
+                            <constraint firstItem="Q8d-M4-yn3" firstAttribute="leading" secondItem="QQk-gv-fZE" secondAttribute="trailing" constant="104.66666666666666" id="bHR-l5-uUf"/>
+                            <constraint firstItem="Q8d-M4-yn3" firstAttribute="top" secondItem="yve-mu-gb8" secondAttribute="top" constant="63" id="biw-8t-a8l"/>
+                            <constraint firstItem="Q8d-M4-yn3" firstAttribute="centerX" secondItem="yve-mu-gb8" secondAttribute="centerX" id="jgD-ht-NI2"/>
+                            <constraint firstItem="pYF-Mv-SQD" firstAttribute="centerX" secondItem="yve-mu-gb8" secondAttribute="centerX" id="ouC-uD-Aod"/>
+                            <constraint firstItem="owa-ye-tHd" firstAttribute="top" secondItem="cNp-Qy-98w" secondAttribute="bottom" constant="32" id="sO4-4g-eVb"/>
+                            <constraint firstItem="owa-ye-tHd" firstAttribute="leading" secondItem="Gbm-kJ-ALy" secondAttribute="leading" constant="31" id="wGZ-jb-7CE"/>
+                        </constraints>
                     </view>
+                    <toolbarItems/>
                     <navigationItem key="navigationItem" id="P0u-ii-l5M"/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WmF-H1-zq7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="874" y="568"/>
+            <point key="canvasLocation" x="872.51908396946567" y="567.6056338028169"/>
         </scene>
         <!--Map Search-->
         <scene sceneID="F4v-Sv-OWm">
@@ -2464,40 +2533,40 @@ Algae Blooms</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2401 N DuSable Lake Shore Dr" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="01a-s8-mOz">
-                                <rect key="frame" x="16" y="244" width="174" height="15"/>
+                                <rect key="frame" x="16" y="395" width="174" height="15"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.06 mi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nhn-aQ-VFz">
-                                <rect key="frame" x="16" y="265" width="43" height="15"/>
+                                <rect key="frame" x="16" y="416" width="43" height="15"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lake Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iU8-0M-99C">
-                                <rect key="frame" x="16" y="323" width="77" height="18"/>
+                                <rect key="frame" x="16" y="474" width="77" height="18"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2401 N DuSable Lake Shore Dr" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cql-wC-jsx">
-                                <rect key="frame" x="16" y="348" width="174" height="14"/>
+                                <rect key="frame" x="16" y="499" width="174" height="14"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.06 mi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F1T-7t-R28">
-                                <rect key="frame" x="16" y="368" width="43" height="15"/>
+                                <rect key="frame" x="16" y="519" width="43" height="15"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="map neutral icon" translatesAutoresizingMaskIntoConstraints="NO" id="eGa-5b-abw">
-                                <rect key="frame" x="327" y="226" width="50" height="50"/>
+                                <rect key="frame" x="327" y="226" width="50" height="201"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="map danger icon" translatesAutoresizingMaskIntoConstraints="NO" id="94S-Dt-cz0">
-                                <rect key="frame" x="327" y="330" width="50" height="50"/>
+                                <rect key="frame" x="327" y="481" width="50" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="EdT-yR-EZ4"/>
                                     <constraint firstAttribute="width" constant="50" id="IQe-4x-cYl"/>
@@ -2576,44 +2645,44 @@ Algae Blooms</string>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lake Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cIx-B5-Qj6">
-                                <rect key="frame" x="16" y="104" width="77" height="18"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Lake Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cIx-B5-Qj6">
+                                <rect key="frame" x="16" y="222" width="77" height="93"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2401 N DuSable Lake Shore Dr" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CkC-L9-EdT">
-                                <rect key="frame" x="16" y="129" width="174" height="15"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="2401 N DuSable Lake Shore Dr" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CkC-L9-EdT">
+                                <rect key="frame" x="16" y="322" width="174" height="15"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.06 mi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v7Y-er-VFK">
-                                <rect key="frame" x="16" y="150" width="43" height="15"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="0.06 mi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v7Y-er-VFK">
+                                <rect key="frame" x="16" y="343" width="43" height="15"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lake Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tc0-ce-k7N">
-                                <rect key="frame" x="16" y="204" width="77" height="18"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Lake Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tc0-ce-k7N">
+                                <rect key="frame" x="16" y="548" width="77" height="18"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2401 N DuSable Lake Shore Dr" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ii6-40-dNO">
-                                <rect key="frame" x="16" y="229" width="174" height="15"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="2401 N DuSable Lake Shore Dr" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ii6-40-dNO">
+                                <rect key="frame" x="16" y="573" width="174" height="15"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.06 mi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PJM-fa-1y6">
-                                <rect key="frame" x="16" y="250" width="43" height="15"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="0.06 mi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PJM-fa-1y6">
+                                <rect key="frame" x="16" y="594" width="43" height="242"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lake Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dUs-IX-PpI">
-                                <rect key="frame" x="16" y="308" width="77" height="18"/>
+                                <rect key="frame" x="16" y="274" width="77" height="18"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="77" id="HsV-xl-jss"/>
                                     <constraint firstAttribute="height" constant="18" id="ls2-2V-L9K"/>
@@ -2623,7 +2692,7 @@ Algae Blooms</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2401 N DuSable Lake Shore Dr" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3zK-Bv-yZ0">
-                                <rect key="frame" x="16" y="333" width="174" height="15"/>
+                                <rect key="frame" x="16" y="299" width="174" height="15"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="15" id="Ey0-rt-a3a"/>
                                     <constraint firstAttribute="width" constant="174" id="eKH-yO-qZL"/>
@@ -2633,7 +2702,7 @@ Algae Blooms</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.06 mi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fVI-uW-P3I">
-                                <rect key="frame" x="16" y="354" width="43" height="15"/>
+                                <rect key="frame" x="16" y="320" width="43" height="15"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="43" id="DYS-v4-dYm"/>
                                     <constraint firstAttribute="height" constant="15" id="urL-0M-w0Z"/>
@@ -2642,21 +2711,21 @@ Algae Blooms</string>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="map neutral icon" translatesAutoresizingMaskIntoConstraints="NO" id="iHu-UX-Cfg">
-                                <rect key="frame" x="251" y="212" width="201" height="49"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="map neutral icon" translatesAutoresizingMaskIntoConstraints="NO" id="iHu-UX-Cfg">
+                                <rect key="frame" x="251" y="480" width="201" height="201"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="map danger icon" translatesAutoresizingMaskIntoConstraints="NO" id="n4u-vw-7GM">
-                                <rect key="frame" x="327" y="315" width="50" height="50"/>
+                                <rect key="frame" x="327" y="281" width="50" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="50" id="7f0-SS-1y8"/>
                                     <constraint firstAttribute="height" constant="50" id="Alo-Ed-zr6"/>
                                 </constraints>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="map safe icon" translatesAutoresizingMaskIntoConstraints="NO" id="mcR-k6-Oyt">
-                                <rect key="frame" x="251" y="111" width="201" height="51"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="map safe icon" translatesAutoresizingMaskIntoConstraints="NO" id="mcR-k6-Oyt">
+                                <rect key="frame" x="251" y="229" width="201" height="201"/>
                             </imageView>
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Omw-Z9-Ry2">
-                                <rect key="frame" x="0.0" y="44" width="393" height="44"/>
+                                <rect key="frame" x="0.0" y="103" width="393" height="0.0"/>
                                 <color key="barTintColor" red="0.058823529409999999" green="0.1686274707" blue="0.25098040700000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <textAttributes key="titleTextAttributes">
                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -2736,7 +2805,7 @@ Algae Blooms</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WnB-EW-usK">
-                                <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                                <rect key="frame" x="0.0" y="118" width="393" height="44"/>
                                 <color key="barTintColor" red="0.058823529409999999" green="0.1686274707" blue="0.25098040700000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <textAttributes key="titleTextAttributes">
                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -2749,11 +2818,11 @@ Algae Blooms</string>
                                 </items>
                             </navigationBar>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Yht-qv-Hyl">
-                                <rect key="frame" x="0.0" y="103" width="393" height="621"/>
+                                <rect key="frame" x="0.0" y="162" width="393" height="587"/>
                                 <standardMapConfiguration key="preferredConfiguration"/>
                             </mapView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GZj-Tf-jY6">
-                                <rect key="frame" x="0.0" y="569" width="393" height="183"/>
+                                <rect key="frame" x="0.0" y="628" width="393" height="183"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KWi-vj-Vs8">
                                         <rect key="frame" x="28" y="118" width="106" height="34"/>
@@ -2912,21 +2981,6 @@ Algae Blooms</string>
             </objects>
             <point key="canvasLocation" x="-1416" y="1272"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="psf-bn-KWU">
-            <objects>
-                <viewController id="n2y-5s-vn6" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="6IL-Ea-Lyx">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="uuV-GS-6tS"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="oLY-sI-6kX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-590" y="1092"/>
-        </scene>
         <!--Scum-->
         <scene sceneID="bJQ-I4-T2a">
             <objects>
@@ -2936,7 +2990,7 @@ Algae Blooms</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="21" translatesAutoresizingMaskIntoConstraints="NO" id="xwV-Ql-xxG">
-                                <rect key="frame" x="28.666666666666657" y="131" width="336" height="125.33333333333331"/>
+                                <rect key="frame" x="28.666666666666657" y="190" width="336" height="125.33333333333331"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Scum" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VJ7-aJ-MwL">
                                         <rect key="frame" x="0.0" y="0.0" width="336" height="25.333333333333332"/>
@@ -2951,7 +3005,7 @@ Algae Blooms</string>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="34" translatesAutoresizingMaskIntoConstraints="NO" id="9IB-2E-qqZ">
-                                        <rect key="frame" x="0.0" y="85.333333333333343" width="336" height="40"/>
+                                        <rect key="frame" x="0.0" y="85.333333333333314" width="336" height="40"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wfr-Qo-HKw">
                                                 <rect key="frame" x="0.0" y="0.0" width="40" height="40"/>
@@ -2998,7 +3052,7 @@ Algae Blooms</string>
                                 </subviews>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gzi-rn-hQy">
-                                <rect key="frame" x="22.666666666666657" y="730" width="348" height="64"/>
+                                <rect key="frame" x="22.666666666666657" y="696" width="348" height="64"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Next" backgroundImage="Quiz box white">
                                     <color key="titleColor" red="0.0039215686269999999" green="0.29411764709999999" blue="0.36078431370000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -3032,7 +3086,7 @@ Algae Blooms</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="21" translatesAutoresizingMaskIntoConstraints="NO" id="sK5-VU-A1r">
-                                <rect key="frame" x="28.666666666666657" y="131" width="336" height="150.33333333333337"/>
+                                <rect key="frame" x="28.666666666666657" y="190" width="336" height="150.33333333333337"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Clarity" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uEB-s8-S0w">
                                         <rect key="frame" x="0.0" y="0.0" width="336" height="25.333333333333332"/>
@@ -3050,7 +3104,7 @@ Algae Blooms</string>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="the bottom or at least 3 ft deep?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pio-f3-J0Z">
-                                                <rect key="frame" x="0.0" y="25" width="336" height="18"/>
+                                                <rect key="frame" x="0.0" y="24.999999999999972" width="336" height="18"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                 <color key="textColor" red="0.1174021885" green="0.28876510259999999" blue="0.35295093059999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <nil key="highlightedColor"/>
@@ -3058,7 +3112,7 @@ Algae Blooms</string>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="34" translatesAutoresizingMaskIntoConstraints="NO" id="8fA-GE-E8Z">
-                                        <rect key="frame" x="0.0" y="110.33333333333334" width="336" height="40"/>
+                                        <rect key="frame" x="0.0" y="110.33333333333331" width="336" height="40"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1DV-rS-TDG">
                                                 <rect key="frame" x="0.0" y="0.0" width="40" height="40"/>
@@ -3105,7 +3159,7 @@ Algae Blooms</string>
                                 </subviews>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CXD-aW-kqO">
-                                <rect key="frame" x="22.666666666666657" y="730" width="348" height="64"/>
+                                <rect key="frame" x="22.666666666666657" y="696" width="348" height="64"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Next" backgroundImage="Quiz box white">
                                     <color key="titleColor" red="0.0039215686269999999" green="0.29411764709999999" blue="0.36078431370000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -3136,7 +3190,7 @@ Algae Blooms</string>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" modalTransitionStyle="crossDissolve" modalPresentationStyle="fullScreen" id="QeQ-jG-PWP" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="chH-Rm-wfM">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="44"/>
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" red="0.0039215686269999999" green="0.29411764709999999" blue="0.36078431370000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <textAttributes key="titleTextAttributes">
@@ -3164,7 +3218,7 @@ Algae Blooms</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="21" translatesAutoresizingMaskIntoConstraints="NO" id="W7H-42-5hR">
-                                <rect key="frame" x="43.333333333333343" y="131" width="306.66666666666663" height="155.33333333333337"/>
+                                <rect key="frame" x="43.333333333333343" y="190" width="306.66666666666663" height="155.33333333333337"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dead Fish" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Hq-3o-KIJ">
                                         <rect key="frame" x="0.0" y="0.0" width="306.66666666666669" height="25.333333333333332"/>
@@ -3182,7 +3236,7 @@ Algae Blooms</string>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="are reporting?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bZX-t4-fAs">
-                                                <rect key="frame" x="0.0" y="25" width="306.66666666666669" height="18"/>
+                                                <rect key="frame" x="0.0" y="24.999999999999972" width="306.66666666666669" height="18"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                 <color key="textColor" red="0.1174021885" green="0.28876510259999999" blue="0.35295093059999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <nil key="highlightedColor"/>
@@ -3190,7 +3244,7 @@ Algae Blooms</string>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="34" translatesAutoresizingMaskIntoConstraints="NO" id="mom-zW-8UM">
-                                        <rect key="frame" x="0.0" y="110.33333333333334" width="306.66666666666669" height="45"/>
+                                        <rect key="frame" x="0.0" y="110.33333333333331" width="306.66666666666669" height="45"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Trj-lk-vuz">
                                                 <rect key="frame" x="0.0" y="0.0" width="136.33333333333334" height="45"/>
@@ -3235,7 +3289,7 @@ Algae Blooms</string>
                                 </subviews>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AGA-U8-ed6">
-                                <rect key="frame" x="22.666666666666657" y="730" width="348" height="64"/>
+                                <rect key="frame" x="22.666666666666657" y="696" width="348" height="64"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Next" backgroundImage="Quiz box white">
                                     <color key="titleColor" red="0.0039215686269999999" green="0.29411764709999999" blue="0.36078431370000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -3269,7 +3323,7 @@ Algae Blooms</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="21" translatesAutoresizingMaskIntoConstraints="NO" id="a7u-w2-PXk">
-                                <rect key="frame" x="28.666666666666657" y="131" width="336" height="185.66666666666663"/>
+                                <rect key="frame" x="28.666666666666657" y="190" width="336" height="185.66666666666663"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Odor" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n9B-oP-ZW4">
                                         <rect key="frame" x="0.0" y="0.0" width="336" height="25.333333333333332"/>
@@ -3287,7 +3341,7 @@ Algae Blooms</string>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="water body?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bro-Z6-1SO">
-                                                <rect key="frame" x="0.0" y="25" width="336" height="18"/>
+                                                <rect key="frame" x="0.0" y="24.999999999999972" width="336" height="18"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                 <color key="textColor" red="0.1174021885" green="0.28876510259999999" blue="0.35295093059999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <nil key="highlightedColor"/>
@@ -3295,7 +3349,7 @@ Algae Blooms</string>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="34" translatesAutoresizingMaskIntoConstraints="NO" id="Tdb-ys-HKK">
-                                        <rect key="frame" x="0.0" y="110.33333333333334" width="336" height="40"/>
+                                        <rect key="frame" x="0.0" y="110.33333333333331" width="336" height="40"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7M8-uG-4V2">
                                                 <rect key="frame" x="0.0" y="0.0" width="40" height="40"/>
@@ -3365,7 +3419,7 @@ Algae Blooms</string>
                                 </subviews>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LLM-ne-BCE">
-                                <rect key="frame" x="22.666666666666657" y="730" width="348" height="64"/>
+                                <rect key="frame" x="22.666666666666657" y="696" width="348" height="64"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Next" backgroundImage="Quiz box white">
                                     <color key="titleColor" red="0.0039215686269999999" green="0.29411764709999999" blue="0.36078431370000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -3397,7 +3451,7 @@ Algae Blooms</string>
                     <toolbarItems/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="IGa-33-oW8">
-                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <rect key="frame" x="0.0" y="118" width="393" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" red="0.16298654679999999" green="0.28494909410000002" blue="0.34510698909999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <textAttributes key="titleTextAttributes">
@@ -3420,7 +3474,7 @@ Algae Blooms</string>
                     <toolbarItems/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="aOm-g3-V8D">
-                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <rect key="frame" x="0.0" y="118" width="393" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" red="0.16298654679999999" green="0.28494909410000002" blue="0.34510698909999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <textAttributes key="titleTextAttributes">
@@ -3436,21 +3490,18 @@ Algae Blooms</string>
         <!--Settings-->
         <scene sceneID="f0F-0H-pxF">
             <objects>
-                <viewController wantsFullScreenLayout="YES" modalTransitionStyle="crossDissolve" modalPresentationStyle="fullScreen" id="uEr-XW-8Kh" userLabel="Settings" customClass="SettingsViewController" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="u42-bk-IUx">
+                <viewController wantsFullScreenLayout="YES" modalTransitionStyle="crossDissolve" modalPresentationStyle="overFullScreen" id="uEr-XW-8Kh" userLabel="Settings" customClass="SettingsViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="u42-bk-IUx">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QsS-Rh-PmK">
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QsS-Rh-PmK">
                                 <rect key="frame" x="104" y="-16" width="289" height="885"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K9F-nN-pVr">
                                         <rect key="frame" x="211" y="107" width="48" height="38"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" image="Close Sidebar"/>
-                                        <connections>
-                                            <segue destination="DIa-CW-lmn" kind="custom" id="uZn-Ib-zPZ"/>
-                                        </connections>
                                     </button>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="pmJ-bO-JuM">
                                         <rect key="frame" x="35" y="156" width="173" height="60"/>
@@ -3499,10 +3550,10 @@ Algae Blooms</string>
                                         </buttonConfiguration>
                                     </button>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="qfb-pa-Try">
-                                        <rect key="frame" x="22" y="234" width="171.33333333333334" height="242"/>
+                                        <rect key="frame" x="22" y="234" width="171.33333333333334" height="174"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NIq-Ed-SWU">
-                                                <rect key="frame" x="0.0" y="0.0" width="171.33333333333334" height="103"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="171.33333333333334" height="69"/>
                                                 <color key="tintColor" red="0.42352941179999998" green="0.74117647060000003" blue="0.56862745100000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="Account">
@@ -3510,7 +3561,7 @@ Algae Blooms</string>
                                                 </buttonConfiguration>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NPB-wk-bnc">
-                                                <rect key="frame" x="0.0" y="104" width="171.33333333333334" height="34.333333333333343"/>
+                                                <rect key="frame" x="0.0" y="70" width="171.33333333333334" height="34.333333333333343"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="34.333333333333329" id="qKv-Ig-CWh"/>
                                                 </constraints>
@@ -3520,11 +3571,11 @@ Algae Blooms</string>
                                                     <fontDescription key="titleFontDescription" type="boldSystem" pointSize="17"/>
                                                 </buttonConfiguration>
                                                 <connections>
-                                                    <segue destination="LUE-xN-0vr" kind="presentation" id="2ig-H4-bKW"/>
+                                                    <segue destination="LUE-xN-0vr" kind="show" id="dtl-je-u0i"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sux-dh-gKe">
-                                                <rect key="frame" x="0.0" y="139.33333333333331" width="171.33333333333334" height="102.66666666666669"/>
+                                                <rect key="frame" x="0.0" y="105.33333333333331" width="171.33333333333334" height="68.666666666666686"/>
                                                 <color key="tintColor" red="0.42352941179999998" green="0.74117647060000003" blue="0.56862745100000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="FAQs">
@@ -3537,6 +3588,8 @@ Algae Blooms</string>
                                         </subviews>
                                         <constraints>
                                             <constraint firstItem="NPB-wk-bnc" firstAttribute="centerY" secondItem="qfb-pa-Try" secondAttribute="centerY" id="5QE-0L-O06"/>
+                                            <constraint firstAttribute="width" constant="171.33000000000001" id="TOk-2D-aHi"/>
+                                            <constraint firstAttribute="height" constant="174" id="Td5-bI-NKU"/>
                                         </constraints>
                                     </stackView>
                                 </subviews>
@@ -3546,10 +3599,12 @@ Algae Blooms</string>
                                     <constraint firstItem="pmJ-bO-JuM" firstAttribute="leading" secondItem="D7c-dy-K56" secondAttribute="leading" id="Jzl-wE-Jnq"/>
                                     <constraint firstItem="K9F-nN-pVr" firstAttribute="top" secondItem="QsS-Rh-PmK" secondAttribute="top" constant="107" id="KIO-uu-OFV"/>
                                     <constraint firstAttribute="trailing" secondItem="K9F-nN-pVr" secondAttribute="trailing" constant="30" id="LwA-0g-MzO"/>
-                                    <constraint firstItem="D7c-dy-K56" firstAttribute="bottom" secondItem="QsS-Rh-PmK" secondAttribute="bottomMargin" id="N0h-1y-gnI"/>
+                                    <constraint firstItem="D7c-dy-K56" firstAttribute="bottom" secondItem="QsS-Rh-PmK" secondAttribute="bottomMargin" constant="-34" id="N0h-1y-gnI"/>
                                     <constraint firstItem="qfb-pa-Try" firstAttribute="top" secondItem="pmJ-bO-JuM" secondAttribute="bottom" constant="18.000000000000057" id="NWH-GB-cUJ"/>
-                                    <constraint firstAttribute="bottom" secondItem="qfb-pa-Try" secondAttribute="bottom" constant="546" id="dgd-oS-QJt"/>
+                                    <constraint firstAttribute="width" constant="289" id="c2y-5g-mHX"/>
+                                    <constraint firstAttribute="bottom" secondItem="qfb-pa-Try" secondAttribute="bottom" constant="477" id="dgd-oS-QJt"/>
                                     <constraint firstItem="pmJ-bO-JuM" firstAttribute="top" secondItem="QsS-Rh-PmK" secondAttribute="top" constant="156" id="nHF-jt-VKa"/>
+                                    <constraint firstAttribute="height" constant="885" id="v9z-bu-Za3"/>
                                     <constraint firstItem="qfb-pa-Try" firstAttribute="leading" secondItem="QsS-Rh-PmK" secondAttribute="leading" constant="22" id="zGE-Cu-kig"/>
                                 </constraints>
                             </view>
@@ -3562,7 +3617,7 @@ Algae Blooms</string>
                             <constraint firstItem="QsS-Rh-PmK" firstAttribute="leading" secondItem="Fvl-cB-xaO" secondAttribute="leading" constant="104" id="2CE-5W-egi"/>
                             <constraint firstItem="QsS-Rh-PmK" firstAttribute="trailing" secondItem="Fvl-cB-xaO" secondAttribute="trailing" id="OBp-mc-f4n"/>
                             <constraint firstItem="QsS-Rh-PmK" firstAttribute="centerY" secondItem="u42-bk-IUx" secondAttribute="centerY" id="r3J-Xl-9Iu"/>
-                            <constraint firstAttribute="bottomMargin" secondItem="QsS-Rh-PmK" secondAttribute="bottom" constant="-85" id="tdW-sA-t8M"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="QsS-Rh-PmK" secondAttribute="bottom" constant="-51" id="tdW-sA-t8M"/>
                         </constraints>
                         <connections>
                             <outletCollection property="gestureRecognizers" destination="V1u-f3-8l2" appends="YES" id="2gW-UR-RGM"/>
@@ -3585,7 +3640,7 @@ Algae Blooms</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CAF-YI-Eh4">
-                                <rect key="frame" x="0.0" y="467" width="393" height="419"/>
+                                <rect key="frame" x="0.0" y="526" width="393" height="326"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="WelcomePopupButton" translatesAutoresizingMaskIntoConstraints="NO" id="zY1-UU-69J">
                                         <rect key="frame" x="76" y="150" width="240" height="128"/>
@@ -3654,7 +3709,7 @@ Algae Blooms</string>
         <!--Tab Bar Controller-->
         <scene sceneID="FDb-ja-3wr">
             <objects>
-                <tabBarController modalTransitionStyle="crossDissolve" modalPresentationStyle="fullScreen" id="4Hf-eQ-fxD" sceneMemberID="viewController">
+                <tabBarController modalTransitionStyle="crossDissolve" modalPresentationStyle="overFullScreen" id="4Hf-eQ-fxD" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" largeTitleDisplayMode="never" id="ye9-41-3CO"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="GcD-hy-7BX">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="49"/>
@@ -3682,7 +3737,7 @@ Algae Blooms</string>
                     <navigationItem key="navigationItem" id="xSS-Zt-6yH"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="r4d-ga-T3E">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="44"/>
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -3700,7 +3755,7 @@ Algae Blooms</string>
                     <tabBarItem key="tabBarItem" title="Aquarium" image="Fish" selectedImage="Fish" id="G15-gz-7Ne"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="ueZ-xh-eLt">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="44"/>
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -3718,7 +3773,7 @@ Algae Blooms</string>
                     <tabBarItem key="tabBarItem" title="AlgaeLab" image="Algae Lab Icon" selectedImage="Algae Lab Icon" id="My3-ns-SBa"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="RUC-cE-88x">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="44"/>
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -3736,7 +3791,7 @@ Algae Blooms</string>
                     <tabBarItem key="tabBarItem" title="Map" image="Map Icon" selectedImage="Map Icon" id="5d8-Nm-Jfy"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="08M-Qn-NaB">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="44"/>
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -3757,7 +3812,7 @@ Algae Blooms</string>
                     <navigationItem key="navigationItem" id="gzC-Qv-uxB"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="jy3-PP-gYQ">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="44"/>
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -3768,11 +3823,81 @@ Algae Blooms</string>
             </objects>
             <point key="canvasLocation" x="-2321" y="-125"/>
         </scene>
+        <!--Title-->
+        <scene sceneID="XZ8-Oz-H47">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="1D0-eu-jtB" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0gn-uH-kUz">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="Top menu" translatesAutoresizingMaskIntoConstraints="NO" id="Bzj-XF-pHd">
+                                <rect key="frame" x="-19.666666666666657" y="-9" width="432.33333333333326" height="140"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="140" id="dmP-e2-y9P"/>
+                                    <constraint firstAttribute="width" constant="432.32999999999998" id="ipE-v6-GQn"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Arrow" translatesAutoresizingMaskIntoConstraints="NO" id="G0S-SY-ccV">
+                                <rect key="frame" x="16" y="31" width="12.999999999999996" height="114"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <navigationBar contentMode="scaleToFill" ambiguous="YES" translucent="NO" backIndicatorImage="Arrow" translatesAutoresizingMaskIntoConstraints="NO" id="J1M-y5-lc6">
+                                <rect key="frame" x="0.0" y="66" width="393" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="Ljf-58-IGi"/>
+                                    <constraint firstAttribute="width" constant="393" id="iAE-8d-6Pp"/>
+                                </constraints>
+                                <color key="barTintColor" red="0.0039215686269999999" green="0.29411764709999999" blue="0.36078431370000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <textAttributes key="titleTextAttributes">
+                                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </textAttributes>
+                                <items>
+                                    <navigationItem title="Account" id="WAF-OW-2C9">
+                                        <barButtonItem key="leftBarButtonItem" style="plain" id="G8b-Vv-8ma">
+                                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="Wbl-Je-ndK">
+                                                <rect key="frame" x="16" y="3" width="37" height="38"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="37" id="PxX-qm-esZ"/>
+                                                </constraints>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="Arrow"/>
+                                            </button>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="account buttons" translatesAutoresizingMaskIntoConstraints="NO" id="3rO-Hv-dWz">
+                                <rect key="frame" x="25.666666666666657" y="139" width="342" height="387"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="387" id="2Ua-2d-Vqu"/>
+                                    <constraint firstAttribute="width" constant="342" id="rks-aO-A6D"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="IOd-lv-LlF"/>
+                        <color key="backgroundColor" red="0.090196078430000007" green="0.57254901960000004" blue="0.81960784310000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="3rO-Hv-dWz" firstAttribute="top" secondItem="J1M-y5-lc6" secondAttribute="bottom" constant="29" id="1Zn-2P-StL"/>
+                            <constraint firstItem="3rO-Hv-dWz" firstAttribute="centerX" secondItem="0gn-uH-kUz" secondAttribute="centerX" id="c8u-Ef-Ujk"/>
+                            <constraint firstItem="J1M-y5-lc6" firstAttribute="top" secondItem="Bzj-XF-pHd" secondAttribute="bottom" constant="-65" id="f5d-3J-SOK"/>
+                            <constraint firstItem="Bzj-XF-pHd" firstAttribute="top" secondItem="0gn-uH-kUz" secondAttribute="top" constant="-9" id="o6d-ZU-6am"/>
+                            <constraint firstItem="Bzj-XF-pHd" firstAttribute="centerX" secondItem="0gn-uH-kUz" secondAttribute="centerX" id="xVm-l5-GhT"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Title" id="w2Q-dC-iCu"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="80q-20-tdg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-677.0992366412213" y="568.30985915492965"/>
+        </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="1XU-sw-yKN"/>
+        <segue reference="2Dm-w3-eWV"/>
+        <segue reference="en7-g9-rnM"/>
         <segue reference="Mgq-JJ-qFi"/>
-        <segue reference="uZn-Ib-zPZ"/>
         <segue reference="JdK-k2-UGU"/>
         <segue reference="IMc-n4-ksr"/>
         <segue reference="Ehw-Gg-lCS"/>
@@ -3823,6 +3948,7 @@ Algae Blooms</string>
         <image name="Top menu" width="432" height="140"/>
         <image name="Unfilled" width="48" height="48"/>
         <image name="WelcomePopupButton" width="1092" height="485"/>
+        <image name="account buttons" width="357" height="319"/>
         <image name="bouy icon" width="173" height="173"/>
         <image name="bouy info placeholder" width="802" height="1082"/>
         <image name="chevron.backward" catalog="system" width="97" height="128"/>
