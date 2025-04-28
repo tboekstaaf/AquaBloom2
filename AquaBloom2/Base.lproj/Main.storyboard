@@ -393,27 +393,33 @@ Get as close to the water as possible without compromising your safety.</string>
         <scene sceneID="Ctd-v8-c7T">
             <objects>
                 <viewController modalPresentationStyle="fullScreen" id="LUE-xN-0vr" customClass="AboutViewController" customModule="AquaBloom2" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="Rdv-CW-Jbz">
+                    <view key="view" contentMode="scaleToFill" id="Rdv-CW-Jbz">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FaZ-Mp-Mx2">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FaZ-Mp-Mx2">
                                 <rect key="frame" x="0.0" y="124" width="393" height="728"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Xfk-92-Ocj">
-                                        <rect key="frame" x="0.0" y="0.0" width="393" height="1200"/>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xfk-92-Ocj">
+                                        <rect key="frame" x="-0.66666666666665719" y="0.0" width="394.33333333333326" height="1200"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="About box" translatesAutoresizingMaskIntoConstraints="NO" id="Zg8-lA-6hV">
-                                                <rect key="frame" x="4" y="-32" width="384" height="663"/>
+                                                <rect key="frame" x="4" y="-2" width="384" height="618"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="40" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sNd-w5-DIl">
-                                                <rect key="frame" x="11" y="616" width="373" height="408"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="373" id="B6l-aD-lLU"/>
-                                                    <constraint firstAttribute="height" constant="408" id="d2X-Zn-IRK"/>
-                                                </constraints>
-                                                <mutableString key="text">Project collaborators
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="45" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gkf-pl-UJ5">
+                                                <rect key="frame" x="24" y="18" width="360" height="560"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">This Autonomous Biomonitoring Mobile App is a citizen science project designed to monitor water quality using Auto-X real-time water evaluation technology and AI tools. Climate change and extreme weather conditions are causing the warming of lake waters, which results in harmful algal blooms (HABs), fish kills, habitat alteration, and food poisoning, all of which threaten human and animal health and well-being. This is often caused by nutrient runoff from agriculture, exacerbated by increasingly intense rainfall events due to climate change, resulting in nutrient overload and low oxygen levels in affected water bodies. Once lakes experience low oxygen levels, it becomes a challenge to restore them to a healthy state. HABs, caused by toxic cyanobacteria, can pose significant health risks to humans, ranging from skin rashes to cancer associated with long-term exposure. The toxins released by these algae into the water can affect public health, causing symptoms from rashes and numbness to more severe issues, including cancer over prolonged exposure. The Germany-based startup Hydroguard UG, supported by funding from Federal Ministry of Education and Research (BMBF: DATIpilot Project 03DPS1068A AUTO-X) has developed innovative bio-monitors capable of assessing water quality in real time using custom sensor technologies. Our interdisciplinary citizen science app additionally engages the public in water preservation and protection by offering free tools to estimate algal growth in local waters using Auto-X sensor technology, report water conditions, and learn about toxic algal blooms. Together, we can ensure that our natural water resources remain safe, clean, and accessible for generations to come.
+</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="40" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sNd-w5-DIl">
+                                                <rect key="frame" x="11" y="627" width="373" height="408"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">Project collaborators
 Ostfalia University Germany
 University of Wisconsin Parkside
 University of Illinois Chicago (UIC)
@@ -434,67 +440,51 @@ Tanisha Boekstaaf
 Kristina Campbell
 Anna Chiaradonna
 Alexandra Costello
-Amelia Tjioe</mutableString>
+Amelia Tjioe</string>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" lineBreakMode="tailTruncation" numberOfLines="45" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gkf-pl-UJ5">
-                                                <rect key="frame" x="24" y="13" width="360" height="560"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="360" id="33W-Q4-mgp"/>
-                                                    <constraint firstAttribute="height" constant="558" id="l5q-Mz-MlS"/>
-                                                </constraints>
-                                                <string key="text">This Autonomous Biomonitoring Mobile App is a citizen science project designed to monitor water quality using Auto-X real-time water evaluation technology and AI tools. Climate change and extreme weather conditions are causing the warming of lake waters, which results in harmful algal blooms (HABs), fish kills, habitat alteration, and food poisoning, all of which threaten human and animal health and well-being. This is often caused by nutrient runoff from agriculture, exacerbated by increasingly intense rainfall events due to climate change, resulting in nutrient overload and low oxygen levels in affected water bodies. Once lakes experience low oxygen levels, it becomes a challenge to restore them to a healthy state. HABs, caused by toxic cyanobacteria, can pose significant health risks to humans, ranging from skin rashes to cancer associated with long-term exposure. The toxins released by these algae into the water can affect public health, causing symptoms from rashes and numbness to more severe issues, including cancer over prolonged exposure. The Germany-based startup Hydroguard UG, supported by funding from Federal Ministry of Education and Research (BMBF: DATIpilot Project 03DPS1068A AUTO-X) has developed innovative bio-monitors capable of assessing water quality in real time using custom sensor technologies. Our interdisciplinary citizen science app additionally engages the public in water preservation and protection by offering free tools to estimate algal growth in local waters using Auto-X sensor technology, report water conditions, and learn about toxic algal blooms. Together, we can ensure that our natural water resources remain safe, clean, and accessible for generations to come.
-</string>
-                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
                                         </subviews>
                                         <color key="backgroundColor" red="0.090196078430000007" green="0.57254901960000004" blue="0.81960784310000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="bottom" secondItem="Gkf-pl-UJ5" secondAttribute="bottom" constant="481" id="MNb-ud-qxX"/>
-                                            <constraint firstItem="Gkf-pl-UJ5" firstAttribute="centerX" secondItem="Xfk-92-Ocj" secondAttribute="centerX" id="OGO-vq-AKA"/>
-                                            <constraint firstAttribute="height" constant="1200" id="PIm-BJ-eDJ"/>
-                                            <constraint firstItem="sNd-w5-DIl" firstAttribute="centerX" secondItem="Xfk-92-Ocj" secondAttribute="centerX" id="VH1-mR-6Tm"/>
-                                            <constraint firstItem="Gkf-pl-UJ5" firstAttribute="trailing" secondItem="Xfk-92-Ocj" secondAttribute="trailingMargin" constant="-9" id="awa-hW-hKL"/>
-                                        </constraints>
                                     </view>
                                 </subviews>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstItem="Xfk-92-Ocj" firstAttribute="top" secondItem="FaZ-Mp-Mx2" secondAttribute="top" id="CiC-zF-uJM"/>
-                                    <constraint firstItem="Xfk-92-Ocj" firstAttribute="leading" secondItem="FaZ-Mp-Mx2" secondAttribute="leading" id="Gjt-Oy-jQg"/>
-                                    <constraint firstAttribute="bottom" secondItem="Xfk-92-Ocj" secondAttribute="bottom" id="ZdF-B7-SC9"/>
-                                    <constraint firstAttribute="trailing" secondItem="Xfk-92-Ocj" secondAttribute="trailing" id="dSp-4H-iml"/>
+                                    <constraint firstItem="Xfk-92-Ocj" firstAttribute="width" secondItem="FaZ-Mp-Mx2" secondAttribute="width" multiplier="1.00254" id="JqB-dt-BGX"/>
+                                    <constraint firstItem="Xfk-92-Ocj" firstAttribute="top" secondItem="FaZ-Mp-Mx2" secondAttribute="top" id="VyM-w1-l0W"/>
+                                    <constraint firstAttribute="bottom" secondItem="Xfk-92-Ocj" secondAttribute="bottom" constant="-472" id="Yjk-Cz-y3w"/>
+                                    <constraint firstItem="Xfk-92-Ocj" firstAttribute="centerX" secondItem="FaZ-Mp-Mx2" secondAttribute="centerX" id="dpu-EP-kOA"/>
+                                    <constraint firstItem="Xfk-92-Ocj" firstAttribute="height" secondItem="FaZ-Mp-Mx2" secondAttribute="height" multiplier="1.64835" id="hgZ-Mc-qbH"/>
+                                    <constraint firstAttribute="trailing" secondItem="Xfk-92-Ocj" secondAttribute="trailing" constant="-1" id="z0F-6q-zKa"/>
                                 </constraints>
                             </scrollView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Top menu" translatesAutoresizingMaskIntoConstraints="NO" id="jFA-Mb-J9a">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="Top menu" translatesAutoresizingMaskIntoConstraints="NO" id="jFA-Mb-J9a">
                                 <rect key="frame" x="-20" y="-15" width="432.33333333333326" height="140"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="About AquaBloom" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tnD-Jy-fbJ">
-                                <rect key="frame" x="124" y="69" width="137.33333333333337" height="28"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Arrow" translatesAutoresizingMaskIntoConstraints="NO" id="GW1-rl-SkL">
                                 <rect key="frame" x="16" y="69" width="13" height="28"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="About AquaBloom" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tnD-Jy-fbJ">
+                                <rect key="frame" x="108" y="65" width="176" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="9CD-Db-413"/>
                         <color key="backgroundColor" red="0.090196078430000007" green="0.57254901960000004" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="FaZ-Mp-Mx2" firstAttribute="leading" secondItem="9CD-Db-413" secondAttribute="leading" id="3hs-Fc-IPC"/>
-                            <constraint firstItem="FaZ-Mp-Mx2" firstAttribute="top" secondItem="9CD-Db-413" secondAttribute="top" id="HB1-l6-zuC"/>
-                            <constraint firstItem="FaZ-Mp-Mx2" firstAttribute="trailing" secondItem="9CD-Db-413" secondAttribute="trailing" id="MhT-rt-t1a"/>
-                            <constraint firstItem="Xfk-92-Ocj" firstAttribute="height" secondItem="Rdv-CW-Jbz" secondAttribute="height" multiplier="1.40845" id="PhB-2S-q9V"/>
-                            <constraint firstItem="FaZ-Mp-Mx2" firstAttribute="bottom" secondItem="9CD-Db-413" secondAttribute="bottom" id="SGh-0N-8JE"/>
-                            <constraint firstItem="Xfk-92-Ocj" firstAttribute="width" secondItem="Rdv-CW-Jbz" secondAttribute="width" id="Yll-Sj-45z"/>
+                            <constraint firstItem="FaZ-Mp-Mx2" firstAttribute="trailing" secondItem="9CD-Db-413" secondAttribute="trailing" id="1cj-tv-akH"/>
+                            <constraint firstItem="9CD-Db-413" firstAttribute="bottom" secondItem="jFA-Mb-J9a" secondAttribute="bottom" constant="727" id="7yR-BA-Yyj"/>
+                            <constraint firstItem="FaZ-Mp-Mx2" firstAttribute="bottom" secondItem="9CD-Db-413" secondAttribute="bottom" id="9j6-CV-4NM"/>
+                            <constraint firstItem="FaZ-Mp-Mx2" firstAttribute="centerX" secondItem="jFA-Mb-J9a" secondAttribute="centerX" id="Bjg-ph-ojX"/>
+                            <constraint firstItem="FaZ-Mp-Mx2" firstAttribute="top" secondItem="Rdv-CW-Jbz" secondAttribute="top" constant="124" id="Ecn-h7-qa1"/>
+                            <constraint firstItem="FaZ-Mp-Mx2" firstAttribute="leading" secondItem="9CD-Db-413" secondAttribute="leading" id="XSQ-3E-zml"/>
+                            <constraint firstItem="FaZ-Mp-Mx2" firstAttribute="top" secondItem="tnD-Jy-fbJ" secondAttribute="bottom" constant="23" id="Y9W-LJ-IpP"/>
+                            <constraint firstItem="FaZ-Mp-Mx2" firstAttribute="centerX" secondItem="tnD-Jy-fbJ" secondAttribute="centerX" id="iHw-yz-Y3p"/>
+                            <constraint firstItem="jFA-Mb-J9a" firstAttribute="leading" secondItem="Rdv-CW-Jbz" secondAttribute="leadingMargin" constant="-36" id="u47-FP-Zvc"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="j0N-hA-a2H"/>
