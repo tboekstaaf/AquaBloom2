@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="hei-sW-g14">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="avA-u6-J5a">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
@@ -31,14 +31,109 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zO4-Ys-fPW">
+                                <rect key="frame" x="145" y="152" width="343" height="201"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="201" id="nef-B7-sXb"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">The report is designed to gather critical information on water quality from users. By submitting photos and answering a few questions, users help us track and monitor conditions such as harmful algae blooms, pollution, and other environmental concerns. The data collected contributes to improving the safety of water bodies and helps inform communities about potential risks, making it easier to take timely action.</string>
+                                        <attributes>
+                                            <font key="NSFont" size="16" name="Nunito-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="ldh-Yc-x5T">
+                                <rect key="frame" x="79" y="475" width="358" height="284.33333333333326"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tips for Taking a Good Photo:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bg5-9X-TZy">
+                                        <rect key="frame" x="0.0" y="0.0" width="224.66666666666666" height="20.333333333333332"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="VL5-B7-nhB">
+                                        <rect key="frame" x="0.0" y="20.333333333333314" width="358" height="66"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Clear water" translatesAutoresizingMaskIntoConstraints="NO" id="6oa-i7-SHn">
+                                                <rect key="frame" x="0.0" y="11.666666666666682" width="48" height="42.666666666666657"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" placeholderIntrinsicWidth="300" placeholderIntrinsicHeight="66" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sf0-NT-fxh">
+                                                <rect key="frame" x="58" y="0.0" width="300" height="66"/>
+                                                <string key="text">Clear Water Surface
+Avoid taking pictures with excessive reflections, shadows, or glare from the sun.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="bgd-bS-CA4">
+                                        <rect key="frame" x="0.0" y="86.333333333333371" width="358" height="66"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Proper light" translatesAutoresizingMaskIntoConstraints="NO" id="SbJ-H7-gWx">
+                                                <rect key="frame" x="0.0" y="9" width="48" height="48"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" placeholderIntrinsicWidth="300" placeholderIntrinsicHeight="66" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7rc-Ph-Kha">
+                                                <rect key="frame" x="58" y="0.0" width="300" height="66"/>
+                                                <string key="text">Proper Lighting
+Take photos during daylight hours for the best visibility, and avoid low-light or nighttime images.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="YpL-bi-Ucj">
+                                        <rect key="frame" x="0.0" y="152.33333333333337" width="358" height="66"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Focus" translatesAutoresizingMaskIntoConstraints="NO" id="kAA-ya-ZGe">
+                                                <rect key="frame" x="0.0" y="9" width="48" height="48"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" placeholderIntrinsicWidth="300" placeholderIntrinsicHeight="66" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pap-zJ-mi2">
+                                                <rect key="frame" x="58" y="0.0" width="300" height="66"/>
+                                                <string key="text">Focus on the Water
+Ensure that the water is the primary subject of the photo.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleAspectFit" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Z2o-IC-GgN">
+                                        <rect key="frame" x="0.0" y="218.33333333333337" width="358" height="66"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Close to water" translatesAutoresizingMaskIntoConstraints="NO" id="yMS-nZ-pNI">
+                                                <rect key="frame" x="0.0" y="0.0" width="48" height="66"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" placeholderIntrinsicWidth="300" placeholderIntrinsicHeight="66" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CSY-eW-vfg">
+                                                <rect key="frame" x="58" y="0.0" width="300" height="66"/>
+                                                <string key="text">Close to the Water
+Get as close to the water as possible without compromising your safety.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="ldh-Yc-x5T" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="61.5" id="Slx-2N-ayY"/>
+                            <constraint firstItem="ldh-Yc-x5T" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="475" id="nvW-eG-NoE"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3615" y="-868"/>
+            <point key="canvasLocation" x="-5306" y="1937"/>
         </scene>
         <!--Login Controller-->
         <scene sceneID="6xa-5r-lyn">
@@ -142,99 +237,27 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zO4-Ys-fPW">
-                                <rect key="frame" x="25" y="188" width="343" height="201"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="201" id="nef-B7-sXb"/>
-                                </constraints>
-                                <attributedString key="attributedText">
-                                    <fragment>
-                                        <string key="content">The report is designed to gather critical information on water quality from users. By submitting photos and answering a few questions, users help us track and monitor conditions such as harmful algae blooms, pollution, and other environmental concerns. The data collected contributes to improving the safety of water bodies and helps inform communities about potential risks, making it easier to take timely action.</string>
-                                        <attributes>
-                                            <font key="NSFont" size="16" name="Nunito-Regular"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Top menu" translatesAutoresizingMaskIntoConstraints="NO" id="XuB-SH-ETm">
+                                <rect key="frame" x="-19.666666666666657" y="-17" width="432.33333333333326" height="140"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Report" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e6o-ja-CR5">
+                                <rect key="frame" x="166" y="72" width="61.666666666666657" height="25.333333333333329"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="ldh-Yc-x5T">
-                                <rect key="frame" x="17" y="421" width="359" height="284.33333333333326"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tips for Taking a Good Photo:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bg5-9X-TZy">
-                                        <rect key="frame" x="0.0" y="0.0" width="224.66666666666666" height="20.333333333333332"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="VL5-B7-nhB">
-                                        <rect key="frame" x="0.0" y="20.333333333333314" width="358" height="66"/>
-                                        <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Clear water" translatesAutoresizingMaskIntoConstraints="NO" id="6oa-i7-SHn">
-                                                <rect key="frame" x="0.0" y="11.666666666666682" width="48" height="42.666666666666657"/>
-                                            </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" placeholderIntrinsicWidth="300" placeholderIntrinsicHeight="66" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sf0-NT-fxh">
-                                                <rect key="frame" x="58" y="0.0" width="300" height="66"/>
-                                                <string key="text">Clear Water Surface
-Avoid taking pictures with excessive reflections, shadows, or glare from the sun.</string>
-                                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                        </subviews>
-                                    </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="bgd-bS-CA4">
-                                        <rect key="frame" x="0.0" y="86.333333333333314" width="358" height="66"/>
-                                        <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Proper light" translatesAutoresizingMaskIntoConstraints="NO" id="SbJ-H7-gWx">
-                                                <rect key="frame" x="0.0" y="9.0000000000000568" width="48" height="48"/>
-                                            </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" placeholderIntrinsicWidth="300" placeholderIntrinsicHeight="66" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7rc-Ph-Kha">
-                                                <rect key="frame" x="58" y="0.0" width="300" height="66"/>
-                                                <string key="text">Proper Lighting
-Take photos during daylight hours for the best visibility, and avoid low-light or nighttime images.</string>
-                                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                        </subviews>
-                                    </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="YpL-bi-Ucj">
-                                        <rect key="frame" x="0.0" y="152.33333333333337" width="358" height="66"/>
-                                        <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Focus" translatesAutoresizingMaskIntoConstraints="NO" id="kAA-ya-ZGe">
-                                                <rect key="frame" x="0.0" y="9" width="48" height="48"/>
-                                            </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" placeholderIntrinsicWidth="300" placeholderIntrinsicHeight="66" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pap-zJ-mi2">
-                                                <rect key="frame" x="58" y="0.0" width="300" height="66"/>
-                                                <string key="text">Focus on the Water
-Ensure that the water is the primary subject of the photo.</string>
-                                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                        </subviews>
-                                    </stackView>
-                                    <stackView opaque="NO" contentMode="scaleAspectFit" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Z2o-IC-GgN">
-                                        <rect key="frame" x="0.0" y="218.33333333333337" width="358" height="66"/>
-                                        <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Close to water" translatesAutoresizingMaskIntoConstraints="NO" id="yMS-nZ-pNI">
-                                                <rect key="frame" x="0.0" y="0.0" width="48" height="66"/>
-                                            </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" placeholderIntrinsicWidth="300" placeholderIntrinsicHeight="66" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CSY-eW-vfg">
-                                                <rect key="frame" x="58" y="0.0" width="300" height="66"/>
-                                                <string key="text">Close to the Water
-Get as close to the water as possible without compromising your safety.</string>
-                                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                        </subviews>
-                                    </stackView>
-                                </subviews>
-                            </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vD6-xf-VE8">
-                                <rect key="frame" x="40" y="748" width="313" height="55"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="report" translatesAutoresizingMaskIntoConstraints="NO" id="pN9-4M-L5o">
+                                <rect key="frame" x="0.0" y="121.66666666666669" width="393" height="609"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="609" id="H6a-tU-1JP"/>
+                                    <constraint firstAttribute="width" constant="393" id="cRi-rE-RsX"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vD6-xf-VE8">
+                                <rect key="frame" x="40" y="723" width="313" height="55"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain">
                                     <backgroundConfiguration key="background" image="FAQS box"/>
@@ -252,30 +275,12 @@ Get as close to the water as possible without compromising your safety.</string>
                                     <segue destination="7wE-3C-En6" kind="presentation" animates="NO" id="9Rz-N1-0bT"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="Top menu" translatesAutoresizingMaskIntoConstraints="NO" id="XuB-SH-ETm">
-                                <rect key="frame" x="-19.666666666666657" y="-17" width="432.33333333333326" height="140"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Report" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e6o-ja-CR5">
-                                <rect key="frame" x="166" y="72" width="61.666666666666657" height="25.333333333333329"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="X6a-2I-ZxV"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="ldh-Yc-x5T" firstAttribute="centerX" secondItem="e6o-ja-CR5" secondAttribute="centerX" id="37o-rs-XgB"/>
-                            <constraint firstItem="ldh-Yc-x5T" firstAttribute="top" secondItem="uPW-FG-eME" secondAttribute="top" constant="421.00000000000006" id="9AD-5K-nFI"/>
-                            <constraint firstItem="ldh-Yc-x5T" firstAttribute="centerX" secondItem="zO4-Ys-fPW" secondAttribute="centerX" id="LOb-2D-mrH"/>
-                            <constraint firstItem="ldh-Yc-x5T" firstAttribute="centerX" secondItem="uPW-FG-eME" secondAttribute="centerX" id="Pn2-SI-NFs"/>
-                            <constraint firstItem="zO4-Ys-fPW" firstAttribute="top" secondItem="XuB-SH-ETm" secondAttribute="bottom" constant="65" id="SPO-Lf-ydW"/>
-                            <constraint firstItem="zO4-Ys-fPW" firstAttribute="leading" secondItem="X6a-2I-ZxV" secondAttribute="leading" constant="25" id="UmZ-xg-I2b"/>
-                            <constraint firstItem="ldh-Yc-x5T" firstAttribute="top" secondItem="zO4-Ys-fPW" secondAttribute="bottom" constant="32" id="tjS-vd-pwF"/>
-                            <constraint firstItem="ldh-Yc-x5T" firstAttribute="leading" secondItem="X6a-2I-ZxV" secondAttribute="leading" constant="17" id="wlf-1r-N1O"/>
-                            <constraint firstItem="vD6-xf-VE8" firstAttribute="top" secondItem="ldh-Yc-x5T" secondAttribute="bottom" constant="42.666666666666515" id="wvI-aI-Tyx"/>
-                            <constraint firstItem="ldh-Yc-x5T" firstAttribute="centerX" secondItem="XuB-SH-ETm" secondAttribute="centerX" id="xT0-G6-cju"/>
-                            <constraint firstItem="ldh-Yc-x5T" firstAttribute="centerX" secondItem="vD6-xf-VE8" secondAttribute="centerX" id="ycZ-Xh-vEM"/>
+                            <constraint firstItem="pN9-4M-L5o" firstAttribute="centerY" secondItem="uPW-FG-eME" secondAttribute="centerY" id="PJo-8N-6bf"/>
+                            <constraint firstItem="pN9-4M-L5o" firstAttribute="centerX" secondItem="uPW-FG-eME" secondAttribute="centerX" id="zgh-q2-PB8"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="gp2-mr-F2z"/>
@@ -735,7 +740,7 @@ Amelia Tjioe</string>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7iT-4N-4U0">
-                                <rect key="frame" x="112" y="75" width="169" height="24"/>
+                                <rect key="frame" x="30" y="75" width="337" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Identifiying Algaes ">
@@ -784,15 +789,15 @@ Amelia Tjioe</string>
                                 <rect key="frame" x="47" y="758" width="13" height="16"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IOG-x8-liY">
-                                <rect key="frame" x="114" y="424" width="164" height="79"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IOG-x8-liY">
+                                <rect key="frame" x="55" y="424" width="283" height="79"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment content="What color are algae blooms?">
                                         <attributes>
                                             <color key="NSColor" red="0.0039215686269999999" green="0.29411764709999999" blue="0.36078431370000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <font key="NSFont" size="24" name="Nunito-SemiBold"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
                                 </attributedString>
@@ -806,7 +811,7 @@ Amelia Tjioe</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wP6-fF-vC8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3065" y="3337"/>
+            <point key="canvasLocation" x="-3066.4122137404579" y="3336.6197183098593"/>
         </scene>
         <!--Quiz Menu-->
         <scene sceneID="Ad3-Rc-ftR">
@@ -1088,18 +1093,21 @@ Amelia Tjioe</string>
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Photo" translatesAutoresizingMaskIntoConstraints="NO" id="fmP-pq-F6x">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" ambiguous="YES" misplaced="YES" image="Photo" translatesAutoresizingMaskIntoConstraints="NO" id="fmP-pq-F6x">
                                 <rect key="frame" x="124" y="235" width="145" height="145"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EP2-Qk-llN">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="EP2-Qk-llN">
                                 <rect key="frame" x="0.0" y="53" width="393" height="465"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.0039215686269999999" green="0.29411764709999999" blue="0.36078431370000003" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="465" id="FkU-pb-wQ2"/>
+                                </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sry-5c-fvY">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sry-5c-fvY">
                                 <rect key="frame" x="40" y="750" width="315" height="55"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="55" id="jhx-2l-71m"/>
+                                </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain">
                                     <backgroundConfiguration key="background" image="Quiz box white"/>
@@ -1117,11 +1125,20 @@ Amelia Tjioe</string>
                                     <segue destination="5OB-p4-g8c" kind="showDetail" id="ZAd-Mo-Zxm"/>
                                 </connections>
                             </button>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" spacing="88" translatesAutoresizingMaskIntoConstraints="NO" id="dZJ-c6-8ZE">
-                                <rect key="frame" x="58.333333333333343" y="571" width="276.66666666666663" height="28"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" ambiguous="YES" misplaced="YES" image="Top menu" translatesAutoresizingMaskIntoConstraints="NO" id="vAi-j4-uGa">
+                                <rect key="frame" x="-19.666666666666515" y="-24" width="432.33333333333348" height="140"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Report" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kaM-by-WzW">
+                                <rect key="frame" x="167" y="64" width="61.666666666666657" height="25.333333333333329"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="88" translatesAutoresizingMaskIntoConstraints="NO" id="dZJ-c6-8ZE">
+                                <rect key="frame" x="59" y="583" width="275" height="42"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ney-2R-uNi">
-                                        <rect key="frame" x="0.0" y="0.0" width="94.333333333333329" height="28"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="93.666666666666671" height="42"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled" cornerStyle="capsule">
                                             <attributedString key="attributedTitle">
@@ -1139,7 +1156,7 @@ Amelia Tjioe</string>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mrh-n5-y0s">
-                                        <rect key="frame" x="182.33333333333334" y="0.0" width="94.333333333333343" height="28"/>
+                                        <rect key="frame" x="181.66666666666666" y="0.0" width="93.333333333333343" height="42"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled" cornerStyle="capsule">
                                             <attributedString key="attributedTitle">
@@ -1158,20 +1175,24 @@ Amelia Tjioe</string>
                                     </button>
                                 </subviews>
                             </stackView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Top menu" translatesAutoresizingMaskIntoConstraints="NO" id="vAi-j4-uGa">
-                                <rect key="frame" x="-19.666666666666515" y="-24" width="432.33333333333348" height="140"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Report" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kaM-by-WzW">
-                                <rect key="frame" x="166" y="68" width="61.666666666666657" height="25.333333333333329"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="a3Y-qZ-Fan"/>
                         <color key="backgroundColor" red="0.49803921579999999" green="0.73333334920000004" blue="0.58431375029999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="EP2-Qk-llN" secondAttribute="trailing" id="3eB-YX-LjJ"/>
+                            <constraint firstItem="kaM-by-WzW" firstAttribute="top" secondItem="a3Y-qZ-Fan" secondAttribute="top" constant="63.999999999999993" id="7HX-kg-r4J"/>
+                            <constraint firstItem="EP2-Qk-llN" firstAttribute="centerX" secondItem="fmP-pq-F6x" secondAttribute="centerX" id="8oh-Jz-n9F"/>
+                            <constraint firstItem="EP2-Qk-llN" firstAttribute="centerX" secondItem="vAi-j4-uGa" secondAttribute="centerX" id="9PT-bv-iTg"/>
+                            <constraint firstItem="sry-5c-fvY" firstAttribute="leading" secondItem="a3Y-qZ-Fan" secondAttribute="leading" constant="40" id="AEC-4V-zHL"/>
+                            <constraint firstItem="dZJ-c6-8ZE" firstAttribute="centerX" secondItem="kaM-by-WzW" secondAttribute="centerX" constant="-1.3333333333333144" id="EiE-ed-546"/>
+                            <constraint firstItem="dZJ-c6-8ZE" firstAttribute="top" secondItem="EP2-Qk-llN" secondAttribute="bottom" constant="65" id="Kqq-cc-a4i"/>
+                            <constraint firstItem="EP2-Qk-llN" firstAttribute="leading" secondItem="hFT-FU-lrb" secondAttribute="leading" id="XSw-Xj-cEL"/>
+                            <constraint firstItem="dZJ-c6-8ZE" firstAttribute="centerX" secondItem="fmP-pq-F6x" secondAttribute="centerX" id="gSN-LH-DAd"/>
+                            <constraint firstItem="dZJ-c6-8ZE" firstAttribute="centerX" secondItem="sry-5c-fvY" secondAttribute="centerX" id="kkx-ZA-G7L"/>
+                            <constraint firstItem="a3Y-qZ-Fan" firstAttribute="bottom" secondItem="sry-5c-fvY" secondAttribute="bottom" constant="47" id="rUU-WT-DSG"/>
+                            <constraint firstItem="dZJ-c6-8ZE" firstAttribute="leading" secondItem="a3Y-qZ-Fan" secondAttribute="leading" constant="59" id="uTH-2W-IAa"/>
+                            <constraint firstItem="EP2-Qk-llN" firstAttribute="top" secondItem="a3Y-qZ-Fan" secondAttribute="top" constant="53" id="xcf-g9-ELe"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="OA5-Vx-9o3"/>
                     <connections>
@@ -2240,6 +2261,15 @@ Algae Blooms</string>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain"/>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G4M-V8-Puk">
+                                <rect key="frame" x="118" y="454" width="156" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
+                                <connections>
+                                    <segue destination="BCe-hR-MeO" kind="show" animates="NO" id="4pK-BC-sTk"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Wg6-f4-LKP"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -2270,6 +2300,15 @@ Algae Blooms</string>
                                     <constraint firstAttribute="width" constant="240" id="zuh-JV-dEt"/>
                                 </constraints>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DYw-1w-ehW">
+                                <rect key="frame" x="66" y="418" width="226" height="72"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
+                                <connections>
+                                    <segue destination="Ygp-2C-0MF" kind="show" animates="NO" id="MJh-qj-pja"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Hwp-YL-GnI"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -2282,7 +2321,7 @@ Algae Blooms</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KqI-Pc-bGu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3106" y="2649"/>
+            <point key="canvasLocation" x="-3106.1068702290077" y="2673.9436619718313"/>
         </scene>
         <!--Fish Get 1-->
         <scene sceneID="OCW-ay-o85">
@@ -2809,7 +2848,7 @@ Algae Blooms</string>
                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </textAttributes>
                                 <items>
-                                    <navigationItem title="Title" id="UDh-kB-6Lw">
+                                    <navigationItem title="Favorites" id="UDh-kB-6Lw">
                                         <barButtonItem key="rightBarButtonItem" title="Item" image="map search icon" id="qiq-6Y-0Yz">
                                             <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         </barButtonItem>
@@ -2853,21 +2892,21 @@ Algae Blooms</string>
                                             <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </buttonConfiguration>
                                     </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Lake Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="prn-sm-fR4">
-                                        <rect key="frame" x="28" y="32" width="77" height="18"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Round Lake" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="prn-sm-fR4">
+                                        <rect key="frame" x="28" y="32" width="81" height="18"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2401 N DuSable Lake Shore Dr" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nMp-aR-HUM">
-                                        <rect key="frame" x="28" y="57" width="174" height="14"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Round Lake Beach, IL" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nMp-aR-HUM">
+                                        <rect key="frame" x="28" y="57" width="122" height="15"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0.06 mi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XRd-nT-fB2">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="51 mi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XRd-nT-fB2">
                                         <rect key="frame" x="28" y="77" width="43" height="16"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
@@ -3592,7 +3631,7 @@ Algae Blooms</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You earned one fish by submitting a report!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9cq-PE-Wzq">
-                                <rect key="frame" x="106" y="542" width="181" height="63"/>
+                                <rect key="frame" x="106" y="354" width="181" height="63"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="63" id="joM-1D-2Un"/>
                                 </constraints>
@@ -3601,61 +3640,19 @@ Algae Blooms</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="FishGet!" translatesAutoresizingMaskIntoConstraints="NO" id="Yl4-y7-xBA">
-                                <rect key="frame" x="80" y="177" width="240" height="316"/>
+                                <rect key="frame" x="80" y="177" width="240" height="128"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="128" id="RKv-Nq-6s0"/>
                                 </constraints>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Date Box" translatesAutoresizingMaskIntoConstraints="NO" id="seH-Er-pT2">
-                                <rect key="frame" x="136" y="501" width="119" height="42"/>
+                                <rect key="frame" x="136" y="313" width="119" height="42"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="42" id="Y7P-Ld-iNF"/>
                                 </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wsz-3E-16t">
-                                <rect key="frame" x="28" y="863" width="342" height="60"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="342" id="IY4-cB-JMx"/>
-                                    <constraint firstAttribute="height" constant="60" id="Y2Y-Ju-ss1"/>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="60" id="meH-U7-SnT"/>
-                                </constraints>
-                                <color key="tintColor" red="0.1176470518" green="0.2901961207" blue="0.35294118520000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain">
-                                    <backgroundConfiguration key="background" cornerRadius="17" image="Button"/>
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Back to Home">
-                                            <attributes>
-                                                <color key="NSColor" red="0.1176470518" green="0.2901961207" blue="0.35294118520000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <font key="NSFont" size="18" name="Helvetica"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                </buttonConfiguration>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AMF-Je-YSu">
-                                <rect key="frame" x="25" y="675" width="342" height="60"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="60" id="2E9-Rm-tOy"/>
-                                </constraints>
-                                <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain">
-                                    <backgroundConfiguration key="background" image="Quiz box blue"/>
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="My Aquarium">
-                                            <attributes>
-                                                <color key="NSColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <font key="NSFont" metaFont="system" size="20"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                </buttonConfiguration>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lb6-aS-zST">
-                                <rect key="frame" x="25" y="743" width="342" height="61"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lb6-aS-zST">
+                                <rect key="frame" x="25" y="729" width="343" height="61"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="61" id="TtO-Q0-aa3"/>
                                 </constraints>
@@ -3683,18 +3680,15 @@ Algae Blooms</string>
                         <constraints>
                             <constraint firstItem="9cq-PE-Wzq" firstAttribute="centerX" secondItem="9KZ-xM-uZK" secondAttribute="centerX" id="17T-x2-MiJ"/>
                             <constraint firstItem="seH-Er-pT2" firstAttribute="leading" secondItem="31l-LA-dkn" secondAttribute="leading" constant="136" id="4bt-3g-uti"/>
-                            <constraint firstItem="AMF-Je-YSu" firstAttribute="leading" secondItem="Lb6-aS-zST" secondAttribute="leading" id="DTI-rp-Nql"/>
-                            <constraint firstItem="AMF-Je-YSu" firstAttribute="trailing" secondItem="Lb6-aS-zST" secondAttribute="trailing" id="Doi-ny-3xT"/>
+                            <constraint firstItem="Lb6-aS-zST" firstAttribute="centerX" secondItem="9cq-PE-Wzq" secondAttribute="centerX" id="FhL-do-vTS"/>
                             <constraint firstItem="31l-LA-dkn" firstAttribute="trailing" secondItem="Yl4-y7-xBA" secondAttribute="trailing" constant="73" id="HYX-Ha-Xa6"/>
+                            <constraint firstItem="Lb6-aS-zST" firstAttribute="leading" secondItem="31l-LA-dkn" secondAttribute="leading" constant="25" id="XYm-uy-LHq"/>
                             <constraint firstItem="seH-Er-pT2" firstAttribute="top" secondItem="Yl4-y7-xBA" secondAttribute="bottom" constant="8" id="Xu4-dE-pil"/>
                             <constraint firstItem="Yl4-y7-xBA" firstAttribute="leading" secondItem="31l-LA-dkn" secondAttribute="leading" constant="80" id="XyD-Wy-iFw"/>
                             <constraint firstItem="Yl4-y7-xBA" firstAttribute="top" secondItem="31l-LA-dkn" secondAttribute="top" constant="177" id="ZU8-ul-xZg"/>
-                            <constraint firstItem="31l-LA-dkn" firstAttribute="bottom" secondItem="wsz-3E-16t" secondAttribute="bottom" constant="24" id="enJ-8d-aMW"/>
-                            <constraint firstItem="wsz-3E-16t" firstAttribute="leading" secondItem="31l-LA-dkn" secondAttribute="leading" constant="28" id="m51-gK-zY0"/>
                             <constraint firstItem="9cq-PE-Wzq" firstAttribute="top" secondItem="Yl4-y7-xBA" secondAttribute="bottom" constant="49" id="xtC-Zy-Zk9"/>
                             <constraint firstItem="9cq-PE-Wzq" firstAttribute="leading" secondItem="31l-LA-dkn" secondAttribute="leading" constant="106" id="yE2-Xa-DcG"/>
-                            <constraint firstItem="wsz-3E-16t" firstAttribute="top" secondItem="9cq-PE-Wzq" secondAttribute="bottom" constant="258" id="yER-jE-uSU"/>
-                            <constraint firstItem="Lb6-aS-zST" firstAttribute="top" secondItem="AMF-Je-YSu" secondAttribute="bottom" constant="8" id="z3V-j4-bgb"/>
+                            <constraint firstItem="31l-LA-dkn" firstAttribute="bottom" secondItem="Lb6-aS-zST" secondAttribute="bottom" constant="62" id="yU2-xC-SCN"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="STP-PL-NaW"/>
@@ -3777,6 +3771,9 @@ Algae Blooms</string>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OIG-Te-Vbb">
                                 <rect key="frame" x="18.333333333333329" y="18" width="34" height="30"/>
                                 <state key="normal" title="Back"/>
+                                <connections>
+                                    <segue destination="4Hf-eQ-fxD" kind="show" id="wv3-0f-44A"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="3eW-y6-62v"/>
@@ -3887,6 +3884,9 @@ Algae Blooms</string>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xME-Nw-Dw6">
                                 <rect key="frame" x="333.33333333333331" y="18" width="48" height="30"/>
                                 <state key="normal" title="Cancel"/>
+                                <connections>
+                                    <segue destination="Tn8-rx-G6V" kind="showDetail" id="3gd-mj-AXS"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="jaU-wN-4sM"/>
@@ -4149,7 +4149,7 @@ Algae Blooms</string>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="21" translatesAutoresizingMaskIntoConstraints="NO" id="Il3-VZ-zm3">
                                 <rect key="frame" x="28.666666666666657" y="86.999999999999986" width="336" height="185.66666666666663"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Clarity" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yZ6-XM-pgO">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Odor" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yZ6-XM-pgO">
                                         <rect key="frame" x="0.0" y="0.0" width="336" height="25.333333333333332"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -4217,23 +4217,23 @@ Algae Blooms</string>
                                             </button>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pIt-Zg-ZZv">
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="pIt-Zg-ZZv">
                                         <rect key="frame" x="0.0" y="171.33333333333331" width="336" height="14.333333333333343"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Disagree" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zN8-e0-Z5f">
-                                                <rect key="frame" x="0.0" y="0.0" width="50.333333333333336" height="14.333333333333334"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Disagree" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zN8-e0-Z5f">
+                                                <rect key="frame" x="0.0" y="0.0" width="112" height="14.333333333333334"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                 <color key="textColor" red="0.16298654679999999" green="0.28494909410000002" blue="0.34510698909999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <color key="highlightedColor" red="0.16298654679999999" green="0.28494909410000002" blue="0.34510698909999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Neutral" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3bQ-VW-DfI">
-                                                <rect key="frame" x="50.333333333333329" y="0.0" width="41.666666666666671" height="14.333333333333334"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Neutral" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3bQ-VW-DfI">
+                                                <rect key="frame" x="112" y="0.0" width="112" height="14.333333333333334"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                 <color key="textColor" red="0.16298654679999999" green="0.28494909410000002" blue="0.34510698909999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Agree" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zOr-X8-UF6">
-                                                <rect key="frame" x="92" y="0.0" width="244" height="14.333333333333334"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Agree" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zOr-X8-UF6">
+                                                <rect key="frame" x="224" y="0.0" width="112" height="14.333333333333334"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                 <color key="textColor" red="0.16298654679999999" green="0.28494909410000002" blue="0.34510698909999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <nil key="highlightedColor"/>
@@ -4242,9 +4242,8 @@ Algae Blooms</string>
                                     </stackView>
                                 </subviews>
                             </stackView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="top menu 1" translatesAutoresizingMaskIntoConstraints="NO" id="a29-iY-AnW">
-                                <rect key="frame" x="-11" y="-45" width="436" height="168"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="top menu 1" translatesAutoresizingMaskIntoConstraints="NO" id="a29-iY-AnW">
+                                <rect key="frame" x="-19.666666666666657" y="-45" width="432.33333333333326" height="168"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Report" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pEM-BL-CNg">
                                 <rect key="frame" x="165.66666666666666" y="20" width="61.666666666666657" height="25.333333333333329"/>
@@ -4259,12 +4258,22 @@ Algae Blooms</string>
                                     <segue destination="MA4-uf-PQ7" kind="show" id="jje-Ar-gJ9"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FhU-vt-Aku">
+                                <rect key="frame" x="315" y="137" width="48" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="Info"/>
+                                <connections>
+                                    <segue destination="qxm-De-GEP" kind="showDetail" id="XrM-nJ-XV4"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="TzA-aR-fLo"/>
                         <color key="backgroundColor" red="0.43194946649999999" green="0.63741868729999995" blue="0.50194352870000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="pEM-BL-CNg" firstAttribute="centerX" secondItem="Mbu-DJ-C0Q" secondAttribute="centerX" id="3Oh-ta-zaH"/>
                             <constraint firstItem="TzA-aR-fLo" firstAttribute="bottom" secondItem="ZgY-P7-g11" secondAttribute="bottom" constant="58" id="4oG-Oh-ID0"/>
+                            <constraint firstItem="a29-iY-AnW" firstAttribute="centerX" secondItem="Mbu-DJ-C0Q" secondAttribute="centerX" id="EZc-Hp-NUb"/>
                             <constraint firstItem="pEM-BL-CNg" firstAttribute="top" secondItem="TzA-aR-fLo" secondAttribute="top" constant="20" id="MTi-nX-1ot"/>
                             <constraint firstItem="Il3-VZ-zm3" firstAttribute="centerX" secondItem="Mbu-DJ-C0Q" secondAttribute="centerX" id="PO9-9o-2KN"/>
                             <constraint firstItem="ZgY-P7-g11" firstAttribute="centerX" secondItem="Mbu-DJ-C0Q" secondAttribute="centerX" id="VXO-iu-q1a"/>
@@ -4285,11 +4294,13 @@ Algae Blooms</string>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="9Rz-N1-0bT"/>
-        <segue reference="P3N-h0-lz0"/>
+        <segue reference="3gd-mj-AXS"/>
+        <segue reference="Vc7-zI-yxa"/>
+        <segue reference="MJh-qj-pja"/>
+        <segue reference="RDe-ee-wkw"/>
         <segue reference="ScJ-BA-9aT"/>
         <segue reference="en7-g9-rnM"/>
-        <segue reference="dp3-B8-LyQ"/>
+        <segue reference="ykD-gV-VHW"/>
         <segue reference="IMc-n4-ksr"/>
         <segue reference="Ehw-Gg-lCS"/>
     </inferredMetricsTieBreakers>
@@ -4319,6 +4330,7 @@ Algae Blooms</string>
         <image name="Focus" width="48" height="48"/>
         <image name="Home" width="29" height="31.666666030883789"/>
         <image name="Icon" width="173" height="170"/>
+        <image name="Info" width="24" height="24"/>
         <image name="Map" width="35.666667938232422" height="34"/>
         <image name="Map Icon" width="36" height="34"/>
         <image name="Maps" width="342" height="580"/>
@@ -4361,6 +4373,7 @@ Algae Blooms</string>
         <image name="mini location logo (popup)" width="13" height="12"/>
         <image name="odor pop-up" width="254" height="144"/>
         <image name="or" width="105" height="16"/>
+        <image name="report" width="510" height="812"/>
         <image name="report pop-up" width="254" height="131"/>
         <image name="top menu 1" width="432" height="157"/>
         <systemColor name="systemBackgroundColor">
